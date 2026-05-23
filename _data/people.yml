@@ -1,0 +1,36 @@
+principal_investigator:
+  - name: "Professor Tang"
+    role: "Principal Investigator"
+    image: "/assets/img/people/profile-placeholder.svg"
+    email: "your.email@whu.edu.cn"
+    website: ""
+    bio: "Professor Tang leads TANG LAB at Wuhan University. Replace this paragraph with the professor's research direction, selected honors, and advising interests."
+
+phd_students:
+  - name: "Student Name"
+    role: "PhD Student"
+    image: "/assets/img/people/profile-placeholder.svg"
+    email: ""
+    website: ""
+    interests: "Research interests"
+
+masters_students:
+  - name: "Student Name"
+    role: "Master's Student"
+    image: "/assets/img/people/profile-placeholder.svg"
+    email: ""
+    website: ""
+    interests: "Research interests"
+
+undergraduates:
+  - name: "Student Name"
+    role: "Undergraduate Researcher"
+    image: "/assets/img/people/profile-placeholder.svg"
+    email: ""
+    website: ""
+    interests: "Research interests"
+
+alumni:
+  - name: "Alumni Name"
+    role: "Alumnus"
+    now: "Current position"

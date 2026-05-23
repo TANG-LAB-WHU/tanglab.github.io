@@ -1,0 +1,23 @@
+- title: "Example Paper Title"
+  authors: "Professor Tang, Student Name"
+  venue: "Conference or Journal Name"
+  year: 2026
+  type: "conference"
+  selected: true
+  links:
+    paper: "#"
+    code: "#"
+    project: "#"
+  abstract: "Replace this with a short paper summary."
+
+- title: "Another Example Publication"
+  authors: "Student Name, Professor Tang"
+  venue: "Journal or Workshop Name"
+  year: 2025
+  type: "journal"
+  selected: true
+  links:
+    paper: "#"
+    code: ""
+    project: ""
+  abstract: "Replace this with a short paper summary."

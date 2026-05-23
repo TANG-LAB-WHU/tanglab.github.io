@@ -1,0 +1,15 @@
+---
+layout: page
+title: News
+subtitle: Lab updates, awards, publications, talks, and opportunities.
+permalink: /news/
+---
+<div class="news-list">
+{% for post in site.posts %}
+  <article class="news-item">
+    <time>{{ post.date | date: "%b %-d, %Y" }}</time>
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    <p>{{ post.excerpt | strip_html | truncate: 220 }}</p>
+  </article>
+{% endfor %}
+</div>

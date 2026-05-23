@@ -1,0 +1,14 @@
+message: >
+  We welcome motivated students interested in our research directions. Before contacting us,
+  please read one recent paper or project description and explain how your background connects
+  to the group.
+openings:
+  - title: "Undergraduate Research Assistant"
+    status: "Open"
+    description: "Ideal for students with programming, data analysis, or research experience."
+  - title: "Master's Students"
+    status: "Open"
+    description: "Best fit for students who can commit to a sustained research project."
+  - title: "PhD Students"
+    status: "Open through department admissions"
+    description: "Applicants should apply through the relevant WHU graduate program and mention the group in their application."

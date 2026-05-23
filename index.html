@@ -1,0 +1,97 @@
+---
+layout: default
+title: Home
+---
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <p class="eyebrow">{{ site.data.site.university }}</p>
+      <h1>{{ site.data.site.group_name }}</h1>
+      <p class="lead">{{ site.data.site.hero_summary }}</p>
+      <div class="hero-actions">
+        <a class="button" href="{{ site.data.site.cta_primary_url | relative_url }}">{{ site.data.site.cta_primary }}</a>
+        <a class="button secondary" href="{{ site.data.site.cta_secondary_url | relative_url }}">{{ site.data.site.cta_secondary }}</a>
+      </div>
+      <div class="keyword-row">
+        {% for keyword in site.data.site.research_keywords %}
+          <span>{{ keyword }}</span>
+        {% endfor %}
+      </div>
+    </div>
+    <aside class="hero-card">
+      <img src="{{ '/assets/img/people/profile-placeholder.svg' | relative_url }}" alt="Professor profile placeholder">
+      <h2>{{ site.data.site.professor_name }}</h2>
+      <p>{{ site.data.site.department }}<br>{{ site.data.site.university }}</p>
+      <p><a href="mailto:{{ site.data.site.email }}">{{ site.data.site.email }}</a></p>
+    </aside>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">Research</p>
+      <h2>Current projects</h2>
+    </div>
+    <div class="card-grid three">
+      {% for project in site.data.projects %}
+      <article class="card">
+        <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
+        <div class="card-body">
+          <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+          <p>{{ project.summary }}</p>
+          <div class="tag-row">
+            {% for tag in project.tags %}
+              <span>{{ tag }}</span>
+            {% endfor %}
+          </div>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">Selected Work</p>
+      <h2>Recent publications</h2>
+    </div>
+    <div class="publication-list">
+      {% assign selected_pubs = site.data.publications | where: "selected", true %}
+      {% for pub in selected_pubs %}
+        <article class="publication">
+          <div class="pub-year">{{ pub.year }}</div>
+          <div>
+            <h3>{{ pub.title }}</h3>
+            <p>{{ pub.authors }}. <em>{{ pub.venue }}</em>.</p>
+            <div class="link-row">
+              {% if pub.links.paper and pub.links.paper != "" %}<a href="{{ pub.links.paper }}">Paper</a>{% endif %}
+              {% if pub.links.code and pub.links.code != "" %}<a href="{{ pub.links.code }}">Code</a>{% endif %}
+              {% if pub.links.project and pub.links.project != "" %}<a href="{{ pub.links.project }}">Project</a>{% endif %}
+            </div>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">News</p>
+      <h2>Latest updates</h2>
+    </div>
+    <div class="news-list">
+      {% for post in site.posts limit:3 %}
+        <article class="news-item">
+          <time>{{ post.date | date: "%b %-d, %Y" }}</time>
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

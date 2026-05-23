@@ -1,0 +1,32 @@
+title: "TANG LAB @ WHU"
+description: "Group website for TANG LAB at Wuhan University."
+url: "https://TANG-LAB-WHU.github.io"
+baseurl: ""
+
+email: "your.email@whu.edu.cn"
+github: "https://github.com/TANG-LAB-WHU"
+google_scholar: ""
+
+markdown: kramdown
+permalink: /news/:year/:month/:day/:title/
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      type: "projects"
+    values:
+      layout: project
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

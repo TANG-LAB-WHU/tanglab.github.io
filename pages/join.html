@@ -1,0 +1,25 @@
+---
+layout: page
+title: Join the Group
+subtitle: Information for prospective students and collaborators.
+permalink: /join/
+---
+<p>{{ site.data.opportunities.message }}</p>
+
+<div class="card-grid two">
+{% for item in site.data.opportunities.openings %}
+  <article class="card text-card">
+    <div class="card-body">
+      <p class="eyebrow">{{ item.status }}</p>
+      <h2>{{ item.title }}</h2>
+      <p>{{ item.description }}</p>
+    </div>
+  </article>
+{% endfor %}
+</div>
+
+<h2>How to email</h2>
+<p>
+Please include your CV, transcript if relevant, 2–3 sentences about your research interest,
+and one specific paper or project from the group that you read.
+</p>

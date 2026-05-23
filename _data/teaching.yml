@@ -1,0 +1,11 @@
+- code: "COURSE 001"
+  title: "Course Title"
+  term: "Spring 2026"
+  url: "#"
+  description: "Replace with course description."
+
+- code: "COURSE 002"
+  title: "Course Title"
+  term: "Fall 2025"
+  url: "#"
+  description: "Replace with course description."

@@ -1,0 +1,17 @@
+- title: "Research Direction One"
+  summary: "Replace this with a concise description of the lab's first major research direction."
+  image: "/assets/img/projects/project-placeholder.svg"
+  url: "/research/#research-direction-one"
+  tags: ["Topic A", "Topic B", "Topic C"]
+
+- title: "Research Direction Two"
+  summary: "Replace this with a concise description of the lab's second major research direction."
+  image: "/assets/img/projects/project-placeholder.svg"
+  url: "/research/#research-direction-two"
+  tags: ["Topic D", "Topic E", "Topic F"]
+
+- title: "Research Direction Three"
+  summary: "Replace this with a concise description of the lab's third major research direction."
+  image: "/assets/img/projects/project-placeholder.svg"
+  url: "/research/#research-direction-three"
+  tags: ["Topic G", "Topic H", "Topic I"]

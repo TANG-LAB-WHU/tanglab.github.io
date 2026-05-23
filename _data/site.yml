@@ -1,0 +1,22 @@
+professor_name: "Professor Tang"
+group_name: "TANG LAB @ WHU"
+university: "Wuhan University"
+department: "Department / School Name"
+location: "Wuhan, Hubei, China"
+email: "your.email@whu.edu.cn"
+office: "Office location"
+tagline: "Research group at Wuhan University."
+hero_summary: >
+  TANG LAB at Wuhan University conducts interdisciplinary research across computing,
+  data-driven modeling, intelligent systems, and domain applications. This website
+  introduces our people, publications, projects, teaching, news, and opportunities.
+cta_primary: "View Publications"
+cta_primary_url: "/publications/"
+cta_secondary: "Join the Group"
+cta_secondary_url: "/join/"
+research_keywords:
+  - Artificial Intelligence
+  - Data Science
+  - Scientific Computing
+  - Intelligent Systems
+  - Interdisciplinary Research

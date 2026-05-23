@@ -1,0 +1,23 @@
+---
+layout: page
+title: Research
+subtitle: Research themes and active projects.
+permalink: /research/
+---
+{% for project in site.data.projects %}
+<section id="{{ project.title | slugify }}" class="research-block">
+  <h2>{{ project.title }}</h2>
+  <p>{{ project.summary }}</p>
+  <div class="tag-row">
+    {% for tag in project.tags %}
+      <span>{{ tag }}</span>
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}
+
+<h2>Research vision</h2>
+<p>
+Replace this section with the lab's long-term research vision, main research questions,
+methodology, collaboration areas, and representative systems or datasets.
+</p>
