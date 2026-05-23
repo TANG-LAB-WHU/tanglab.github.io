@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-label="LCA and TEA uncertainty framework placeholder">
+  <rect width="960" height="540" fill="#f0fdfa"/>
+  <rect x="96" y="96" width="768" height="348" rx="18" fill="#ffffff" stroke="#e5e9f0" stroke-width="8"/>
+  <path d="M172 356h112V222H172zM330 356h112V166H330zM488 356h112V252H488zM646 356h112V130H646z" fill="#0f766e" opacity="0.24"/>
+  <path d="M172 306c70-70 140-102 210-96 97 8 143 88 236 68 50-11 95-52 140-123" fill="none" stroke="#2563eb" stroke-width="9" stroke-linecap="round"/>
+  <g fill="#ffffff" stroke="#2563eb" stroke-width="7">
+    <circle cx="172" cy="306" r="18"/>
+    <circle cx="382" cy="210" r="18"/>
+    <circle cx="618" cy="278" r="18"/>
+    <circle cx="758" cy="155" r="18"/>
+  </g>
+</svg>

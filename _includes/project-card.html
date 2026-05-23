@@ -1,0 +1,20 @@
+<article class="project-card" data-category="{{ project.category | slugify }}">
+  <img src="{{ project.image | relative_url }}" alt="{{ project.title }} project placeholder image">
+  <div class="project-card-body">
+    <div class="project-meta">
+      <span>{{ project.category }}</span>
+      <span>{{ project.language }}</span>
+    </div>
+    <h3>{{ project.title }}</h3>
+    <p>{{ project.short_description }}</p>
+    <div class="tag-row" aria-label="Project tags">
+      {% for tag in project.tags %}
+        <span>{{ tag }}</span>
+      {% endfor %}
+    </div>
+    <div class="card-actions">
+      <a class="button small" href="{{ project.repo_url }}">GitHub</a>
+      <a class="button secondary small" href="{{ '/projects/' | append: '#' | append: project.id | relative_url }}">Learn more</a>
+    </div>
+  </div>
+</article>

@@ -4,21 +4,13 @@ title: Publications
 subtitle: Papers, preprints, software artifacts, and selected talks.
 permalink: /publications/
 ---
+<div class="notice">
+  Publication data shown here should be replaced with the lab's official publication list.
+</div>
+
 {% assign pubs_by_year = site.data.publications | sort: "year" | reverse %}
 <div class="publication-list">
 {% for pub in pubs_by_year %}
-  <article class="publication">
-    <div class="pub-year">{{ pub.year }}</div>
-    <div>
-      <h2>{{ pub.title }}</h2>
-      <p>{{ pub.authors }}. <em>{{ pub.venue }}</em>.</p>
-      {% if pub.abstract %}<p>{{ pub.abstract }}</p>{% endif %}
-      <div class="link-row">
-        {% if pub.links.paper and pub.links.paper != "" %}<a href="{{ pub.links.paper }}">Paper</a>{% endif %}
-        {% if pub.links.code and pub.links.code != "" %}<a href="{{ pub.links.code }}">Code</a>{% endif %}
-        {% if pub.links.project and pub.links.project != "" %}<a href="{{ pub.links.project }}">Project</a>{% endif %}
-      </div>
-    </div>
-  </article>
+  {% include publication-item.html pub=pub %}
 {% endfor %}
 </div>

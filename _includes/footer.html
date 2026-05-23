@@ -1,15 +1,16 @@
 <footer class="site-footer">
   <div class="container footer-grid">
     <div>
-      <strong>{{ site.data.site.group_name }}</strong>
-      <p>{{ site.data.site.department }}<br>{{ site.data.site.university }}</p>
+      <a class="footer-brand" href="{{ '/' | relative_url }}">{{ site.data.site.group_name }}</a>
+      <p>{{ site.data.site.tagline }}</p>
+      <p>{{ site.data.site.university }}<br>{{ site.data.site.location }}</p>
     </div>
     <div>
       <strong>Contact</strong>
       <p>
-        {{ site.data.site.email }}<br>
-        {{ site.data.site.office }}<br>
-        {{ site.data.site.location }}
+        <a href="mailto:{{ site.data.site.email }}">{{ site.data.site.email }}</a><br>
+        <a href="{{ site.data.site.github }}">GitHub: TANG-LAB-WHU</a><br>
+        <a href="{{ site.data.site.site_url }}">{{ site.data.site.site_url }}</a>
       </p>
     </div>
   </div>

@@ -1,22 +1,43 @@
 professor_name: "Professor Tang"
 group_name: "TANG LAB @ WHU"
 university: "Wuhan University"
-department: "Department / School Name"
 location: "Wuhan, Hubei, China"
-email: "your.email@whu.edu.cn"
-office: "Office location"
-tagline: "Research group at Wuhan University."
+email: "itanggroup@gmail.com"
+github: "https://github.com/TANG-LAB-WHU"
+site_url: "https://tanglab.github.io"
+tagline: "AI for sustainable materials, molecular simulation, and circular resource systems."
 hero_summary: >
-  TANG LAB at Wuhan University conducts interdisciplinary research across computing,
-  data-driven modeling, intelligent systems, and domain applications. This website
-  introduces our people, publications, projects, teaching, news, and opportunities.
-cta_primary: "View Publications"
-cta_primary_url: "/publications/"
-cta_secondary: "Join the Group"
-cta_secondary_url: "/join/"
+  TANG LAB at Wuhan University develops AI-driven, simulation-informed, and sustainability-aware
+  methods for materials discovery, waste valorization, molecular systems, and environmental
+  decision-making. Our work connects atomistic simulation, machine learning, molecular dynamics,
+  LCA/TEA, and interpretable modeling to accelerate real-world solutions for carbon mineralization,
+  phosphogypsum upcycling, renewable bioenergy, and circular-economy technologies.
+research_vision: >
+  From atoms to systems, TANG LAB connects molecular-scale simulation with system-level
+  sustainability assessment. We study how materials and molecular processes behave, how
+  machine-learning models can accelerate discovery, and how emerging technologies may perform
+  environmentally, economically, and socially.
 research_keywords:
-  - Artificial Intelligence
-  - Data Science
-  - Scientific Computing
-  - Intelligent Systems
-  - Interdisciplinary Research
+  - "AI for Science"
+  - "AIMD"
+  - "Molecular Dynamics"
+  - "Machine Learning Interatomic Potentials"
+  - "CO₂ Mineralization"
+  - "Phosphogypsum Upcycling"
+  - "LCA / TEA"
+  - "Circular Economy"
+  - "Interpretable DNN"
+  - "Sustainable Materials"
+home_research_cards:
+  - title: "AI-Accelerated CO₂ Mineralization"
+    description: "We combine AIMD, machine learning, and materials modeling to study artificially accelerated CO₂ mineralization on HAP material families."
+  - title: "Phosphogypsum Upcycling"
+    description: "We develop AI-enabled approaches for converting phosphogypsum from a global waste challenge into opportunities for circular resource systems."
+  - title: "Molecular Dynamics and Interatomic Potentials"
+    description: "We build simulation workflows and molecular-dynamics tools that connect atomistic insights with scalable predictive modeling."
+  - title: "LCA/TEA and Decision Support"
+    description: "We integrate life-cycle assessment, techno-economic analysis, uncertainty, and risk modeling for sustainability-oriented technology decisions."
+  - title: "Interpretable AI for Bioenergy"
+    description: "We apply interpretable deep learning to pyrolysis processes and renewable bioenergy feedstock optimization."
+  - title: "Molecular Network Topology"
+    description: "We develop topology-based methods and tools for analyzing hydrogen-bond networks and molecular structures."

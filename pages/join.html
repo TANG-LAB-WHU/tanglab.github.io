@@ -4,10 +4,10 @@ title: Join the Group
 subtitle: Information for prospective students and collaborators.
 permalink: /join/
 ---
-<p>{{ site.data.opportunities.message }}</p>
+<p class="lead-narrow">{{ site.data.opportunities.intro }}</p>
 
 <div class="card-grid two">
-{% for item in site.data.opportunities.openings %}
+{% for item in site.data.opportunities.sections %}
   <article class="card text-card">
     <div class="card-body">
       <p class="eyebrow">{{ item.status }}</p>
@@ -18,8 +18,8 @@ permalink: /join/
 {% endfor %}
 </div>
 
-<h2>How to email</h2>
-<p>
-Please include your CV, transcript if relevant, 2–3 sentences about your research interest,
-and one specific paper or project from the group that you read.
-</p>
+<section class="contact-panel">
+  <h2>{{ site.data.opportunities.contact.title }}</h2>
+  <p>{{ site.data.opportunities.contact.description }}</p>
+  <a class="button" href="mailto:{{ site.data.opportunities.contact.email }}">{{ site.data.opportunities.contact.button_text }}</a>
+</section>

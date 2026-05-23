@@ -4,33 +4,18 @@ title: People
 subtitle: Meet the members of the group.
 permalink: /people/
 ---
-{% assign groups = "principal_investigator,phd_students,masters_students,undergraduates" | split: "," %}
-{% assign labels = "Principal Investigator,PhD Students,Master's Students,Undergraduate Researchers" | split: "," %}
+<div class="notice">
+  Member names and profiles marked as placeholders should be replaced with official lab information.
+</div>
+
+{% assign groups = "principal_investigator,research_staff,phd_students,masters_students,undergraduate_researchers,visiting_students,alumni" | split: "," %}
+{% assign labels = "Principal Investigator,Research Staff,PhD Students,Master's Students,Undergraduate Researchers,Visiting Students,Alumni" | split: "," %}
 
 {% for group in groups %}
   <h2>{{ labels[forloop.index0] }}</h2>
   <div class="people-grid">
     {% for person in site.data.people[group] %}
-      <article class="person-card">
-        <img src="{{ person.image | relative_url }}" alt="{{ person.name }}">
-        <div>
-          <h3>{{ person.name }}</h3>
-          <p class="muted">{{ person.role }}</p>
-          {% if person.bio %}<p>{{ person.bio }}</p>{% endif %}
-          {% if person.interests %}<p>{{ person.interests }}</p>{% endif %}
-          <div class="link-row">
-            {% if person.email and person.email != "" %}<a href="mailto:{{ person.email }}">Email</a>{% endif %}
-            {% if person.website and person.website != "" %}<a href="{{ person.website }}">Website</a>{% endif %}
-          </div>
-        </div>
-      </article>
+      {% include person-card.html person=person %}
     {% endfor %}
   </div>
 {% endfor %}
-
-<h2>Alumni</h2>
-<ul>
-{% for person in site.data.people.alumni %}
-  <li><strong>{{ person.name }}</strong> — {{ person.role }}{% if person.now %}, now {{ person.now }}{% endif %}</li>
-{% endfor %}
-</ul>

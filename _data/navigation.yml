@@ -1,14 +1,9 @@
-- title: Home
-  url: /
-- title: People
-  url: /people/
-- title: Research
-  url: /research/
-- title: Publications
-  url: /publications/
-- title: News
-  url: /news/
-- title: Teaching
-  url: /teaching/
-- title: Join
-  url: /join/
+Home: "/"
+Research: "/research/"
+Projects: "/projects/"
+Publications: "/publications/"
+People: "/people/"
+News: "/news/"
+Teaching: "/teaching/"
+Join: "/join/"
+Contact: "/contact/"

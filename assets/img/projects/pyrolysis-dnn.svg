@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-label="Interpretable DNN pyrolysis placeholder">
+  <rect width="960" height="540" fill="#ffffff"/>
+  <rect x="84" y="92" width="792" height="356" rx="18" fill="#f6f8fb" stroke="#e5e9f0" stroke-width="8"/>
+  <g stroke="#0f766e" stroke-width="6" opacity="0.68">
+    <path d="M216 178h160M216 270h160M216 362h160"/>
+    <path d="M376 178l170 92-170 92M546 270l178-92M546 270l178 92"/>
+  </g>
+  <g fill="#ffffff" stroke="#2563eb" stroke-width="8">
+    <circle cx="216" cy="178" r="26"/>
+    <circle cx="216" cy="270" r="26"/>
+    <circle cx="216" cy="362" r="26"/>
+    <circle cx="376" cy="178" r="28"/>
+    <circle cx="376" cy="362" r="28"/>
+    <circle cx="546" cy="270" r="32"/>
+    <circle cx="724" cy="178" r="28"/>
+    <circle cx="724" cy="362" r="28"/>
+  </g>
+  <path d="M126 420c48-50 80-98 96-144 20-59 2-108-32-152" fill="none" stroke="#b7791f" stroke-width="8" stroke-linecap="round" opacity="0.52"/>
+</svg>

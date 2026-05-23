@@ -1,23 +1,38 @@
-- title: "Example Paper Title"
-  authors: "Professor Tang, Student Name"
-  venue: "Conference or Journal Name"
+- title: "Example publication placeholder — replace with real citation."
+  authors: "Author Placeholder, Professor Tang"
+  venue: "Journal or Conference Placeholder"
   year: 2026
-  type: "conference"
+  type: "placeholder"
   selected: true
   links:
-    paper: "#"
-    code: "#"
-    project: "#"
-  abstract: "Replace this with a short paper summary."
-
-- title: "Another Example Publication"
-  authors: "Student Name, Professor Tang"
-  venue: "Journal or Workshop Name"
-  year: 2025
-  type: "journal"
-  selected: true
-  links:
-    paper: "#"
+    paper: ""
+    doi: ""
     code: ""
     project: ""
-  abstract: "Replace this with a short paper summary."
+  abstract: "Placeholder entry for a future official publication related to AI for Science, molecular simulation, or sustainable materials. Replace with the complete citation, DOI, and links."
+
+- title: "Example publication placeholder — replace with real citation."
+  authors: "Student Placeholder, Collaborator Placeholder, Professor Tang"
+  venue: "Journal or Conference Placeholder"
+  year: 2025
+  type: "placeholder"
+  selected: true
+  links:
+    paper: ""
+    doi: ""
+    code: ""
+    project: ""
+  abstract: "Placeholder entry for a future official publication related to phosphogypsum upcycling, LCA/TEA, uncertainty-aware decision support, or circular resource systems."
+
+- title: "Example publication placeholder — replace with real citation."
+  authors: "Lab Member Placeholder, Professor Tang"
+  venue: "Software, Dataset, or Methods Venue Placeholder"
+  year: 2024
+  type: "placeholder"
+  selected: false
+  links:
+    paper: ""
+    doi: ""
+    code: ""
+    project: ""
+  abstract: "Placeholder entry for a future official software or methods publication. Replace this with the lab's verified citation record."

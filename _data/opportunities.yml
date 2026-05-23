@@ -1,14 +1,39 @@
-message: >
-  We welcome motivated students interested in our research directions. Before contacting us,
-  please read one recent paper or project description and explain how your background connects
-  to the group.
-openings:
-  - title: "Undergraduate Research Assistant"
-    status: "Open"
-    description: "Ideal for students with programming, data analysis, or research experience."
+intro: >
+  TANG LAB welcomes motivated students and collaborators interested in AI for Science,
+  molecular simulation, sustainable materials, circular resource systems, and environmental
+  decision-making. Students with backgrounds in chemistry, materials science, environmental
+  engineering, computer science, data science, applied mathematics, or related fields are
+  encouraged to reach out.
+sections:
+  - title: "Prospective PhD Students"
+    status: "Admissions pathway"
+    description: >
+      Prospective PhD students should apply through the relevant Wuhan University graduate
+      program and mention their interest in TANG LAB in their application materials. Applicants
+      with experience in molecular simulation, AI/ML, scientific computing, sustainability
+      assessment, or environmental systems are especially encouraged to connect their background
+      to specific lab projects.
   - title: "Master's Students"
-    status: "Open"
-    description: "Best fit for students who can commit to a sustained research project."
-  - title: "PhD Students"
-    status: "Open through department admissions"
-    description: "Applicants should apply through the relevant WHU graduate program and mention the group in their application."
+    status: "Research fit encouraged"
+    description: >
+      Master's students interested in sustained research projects are welcome to contact the lab.
+      Strong fits include students interested in AIMD/MD workflows, AI for materials, LCA/TEA,
+      interpretable modeling, or circular-economy technologies.
+  - title: "Undergraduate Researchers"
+    status: "Consistent commitment"
+    description: >
+      Undergraduate students can contribute to literature review, data analysis, visualization,
+      software development, and reproducible research workflows. Students should be ready to
+      commit consistent time and learn research tools.
+  - title: "Visiting Students and Collaborators"
+    status: "Collaboration welcome"
+    description: >
+      The lab welcomes collaborations across materials science, chemistry, environmental
+      engineering, sustainability analysis, AI, and scientific computing.
+contact:
+  title: "How to Contact Us"
+  description: >
+    Please include your CV, transcript if relevant, a short description of your research interests,
+    and one specific TANG LAB project or repository that connects to your background.
+  button_text: "Email the Lab"
+  email: "itanggroup@gmail.com"

@@ -1,24 +1,18 @@
 # TANG LAB @ WHU Website
 
-This is a Jekyll-based research group website designed for deployment through:
+## Overview
+
+This repository contains the public Jekyll website for TANG LAB @ WHU. It is designed for the GitHub organization `TANG-LAB-WHU`, the repository `tanglab.github.io`, and the intended public URL:
 
 ```text
-https://github.com/TANG-LAB-WHU
+https://tanglab.github.io
 ```
 
-Recommended public URL:
+The website presents research themes, public software projects, placeholder publication data, placeholder people profiles, teaching placeholders, news posts, joining information, and contact details for the lab.
 
-```text
-https://TANG-LAB-WHU.github.io
-```
+## Local Preview
 
-To use this URL, create a repository under the organization named exactly:
-
-```text
-TANG-LAB-WHU.github.io
-```
-
-## Local preview
+Use Ruby 3.2 or newer. The deployment workflow uses Ruby 3.2.
 
 ```bash
 bundle install
@@ -31,44 +25,42 @@ Open:
 http://localhost:4000
 ```
 
-## Deploy on GitHub Pages
+## Editing Content
 
-1. Create a public repository under `TANG-LAB-WHU` named `TANG-LAB-WHU.github.io`.
-2. Upload all files in this folder to the repository.
-3. Go to repository `Settings` → `Pages`.
-4. Under `Build and deployment`, choose `GitHub Actions`.
-5. Push to the `main` branch.
-6. The workflow in `.github/workflows/pages.yml` will build and deploy the website.
+Most site content is editable without touching layouts:
 
-## Editing content
+- Edit `_data/site.yml` for lab identity, contact details, homepage summary, and keywords.
+- Edit `_data/people.yml` for members, roles, bios, links, and profile images.
+- Edit `_data/projects.yml` for repositories, project descriptions, categories, tags, languages, and images.
+- Edit `_data/publications.yml` for papers, DOIs, code links, project links, and abstracts.
+- Edit `_data/teaching.yml` for courses.
+- Edit `_data/opportunities.yml` for recruitment and collaboration information.
+- Add Markdown posts to `_posts/` for news.
+- Add images under `assets/img/`, especially `assets/img/people/`, `assets/img/projects/`, and `assets/img/logos/`.
 
-Most updates are in `_data/`:
+## Deployment
 
-- `_data/site.yml` — lab name, professor name, department, intro text
-- `_data/people.yml` — PI, students, alumni
-- `_data/projects.yml` — research cards
-- `_data/publications.yml` — papers
-- `_data/teaching.yml` — courses
-- `_data/opportunities.yml` — recruiting text
+1. Push changes to the `main` branch.
+2. Go to the GitHub repository `TANG-LAB-WHU/tanglab.github.io`.
+3. Open `Settings` -> `Pages`.
+4. Under `Build and deployment`, select `GitHub Actions`.
+5. Wait for the `Deploy Jekyll site to GitHub Pages` workflow to complete.
+6. Visit `https://tanglab.github.io`.
 
-News posts go in `_posts/`.
+If GitHub Pages does not automatically serve the repository at this domain, configure `tanglab.github.io` as the repository's custom domain in the same Pages settings panel.
 
-Images go in:
+## Information to Replace
 
-```text
-assets/img/people/
-assets/img/projects/
-assets/img/logos/
-```
+- Official professor full name.
+- Official department or school at Wuhan University.
+- Official lab logo.
+- Official office address and contact information.
+- Member photos and verified member biographies.
+- Real publications and DOI links.
+- Real courses and course links.
+- Real openings and application instructions.
+- Official custom domain if needed.
 
-## Custom domain option
+## Notes
 
-If WHU can provide a real domain such as:
-
-```text
-tanglab.whu.edu.cn
-```
-
-then add it in GitHub repository `Settings` → `Pages` → `Custom domain`, and configure DNS with WHU's domain administrator.
-
-Do not use `tanglab.whu.github.io` unless that is actually controlled by a GitHub account/domain owner. The normal organization GitHub Pages default is `ORGANIZATION.github.io`.
+Placeholder content is clearly marked in the website data and page copy. Replace placeholders before using the website as the lab's official public profile.

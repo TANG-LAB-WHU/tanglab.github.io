@@ -1,19 +1,13 @@
 title: "TANG LAB @ WHU"
-description: "Group website for TANG LAB at Wuhan University."
-url: "https://TANG-LAB-WHU.github.io"
+description: "AI-driven and simulation-informed research for sustainable materials, molecular systems, and circular resource technologies."
+url: "https://tanglab.github.io"
 baseurl: ""
 
-email: "your.email@whu.edu.cn"
+email: "itanggroup@gmail.com"
 github: "https://github.com/TANG-LAB-WHU"
-google_scholar: ""
 
 markdown: kramdown
 permalink: /news/:year/:month/:day/:title/
-
-collections:
-  projects:
-    output: true
-    permalink: /projects/:name/
 
 defaults:
   - scope:
@@ -21,9 +15,14 @@ defaults:
     values:
       layout: default
   - scope:
-      type: "projects"
+      path: "pages"
     values:
-      layout: project
+      layout: page
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
 
 exclude:
   - README.md

@@ -1,0 +1,41 @@
+---
+layout: page
+title: Projects
+subtitle: Public repositories and research software from TANG-LAB-WHU.
+permalink: /projects/
+---
+<p class="lead-narrow">These project summaries are based on the public TANG-LAB-WHU GitHub repositories and should be updated as official documentation, releases, and project pages become available.</p>
+
+{% assign categories = site.data.projects | map: "category" | uniq %}
+<div class="filter-bar" aria-label="Project category filters">
+  <button class="filter-button active" type="button" data-filter="all">All</button>
+  {% for category in categories %}
+    <button class="filter-button" type="button" data-filter="{{ category | slugify }}">{{ category }}</button>
+  {% endfor %}
+</div>
+
+<div class="project-grid">
+  {% for project in site.data.projects %}
+    <article id="{{ project.id }}" class="project-card project-card-wide" data-category="{{ project.category | slugify }}">
+      <img src="{{ project.image | relative_url }}" alt="{{ project.title }} project placeholder image">
+      <div class="project-card-body">
+        <div class="project-meta">
+          <span>{{ project.category }}</span>
+          <span>{{ project.language }}</span>
+          <span>{{ project.status }}</span>
+        </div>
+        <h2>{{ project.title }}</h2>
+        <p>{{ project.long_description }}</p>
+        <div class="tag-row" aria-label="Project tags">
+          {% for tag in project.tags %}
+            <span>{{ tag }}</span>
+          {% endfor %}
+        </div>
+        <div class="card-actions">
+          <a class="button small" href="{{ project.repo_url }}">GitHub Repository</a>
+          <a class="button secondary small" href="{{ project.repo_url }}#readme">Learn more</a>
+        </div>
+      </div>
+    </article>
+  {% endfor %}
+</div>

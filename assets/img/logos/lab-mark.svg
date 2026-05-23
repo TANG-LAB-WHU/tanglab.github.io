@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="Abstract molecular simulation and sustainability network placeholder">
+  <rect width="1200" height="720" fill="#f6f8fb"/>
+  <path d="M0 560c178-88 308-92 463-37 163 59 333 53 737-144v341H0z" fill="#f0fdfa"/>
+  <g stroke="#0f766e" stroke-width="6" opacity="0.55">
+    <path d="M236 324l154-96 173 78 180-128 178 86"/>
+    <path d="M390 228l28 202 145-124 83 154 97-282"/>
+  </g>
+  <g fill="#ffffff" stroke="#0f766e" stroke-width="7">
+    <circle cx="236" cy="324" r="34"/>
+    <circle cx="390" cy="228" r="42"/>
+    <circle cx="563" cy="306" r="38"/>
+    <circle cx="743" cy="178" r="44"/>
+    <circle cx="921" cy="264" r="36"/>
+    <circle cx="418" cy="430" r="32"/>
+    <circle cx="646" cy="460" r="34"/>
+  </g>
+  <g fill="#2563eb" opacity="0.18">
+    <circle cx="154" cy="158" r="72"/>
+    <circle cx="1026" cy="514" r="94"/>
+    <circle cx="844" cy="102" r="52"/>
+  </g>
+</svg>

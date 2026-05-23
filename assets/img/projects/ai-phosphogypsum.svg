@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-label="AI phosphogypsum upcycling placeholder">
+  <rect width="960" height="540" fill="#f6f8fb"/>
+  <rect x="104" y="112" width="310" height="300" rx="20" fill="#ffffff" stroke="#e5e9f0" stroke-width="8"/>
+  <path d="M154 344h210l-36-118-58 68-42-44z" fill="#0f766e" opacity="0.28"/>
+  <g stroke="#2563eb" stroke-width="7" stroke-linecap="round">
+    <path d="M526 170h168M526 238h242M526 306h190M526 374h126"/>
+  </g>
+  <g fill="#0f766e">
+    <circle cx="486" cy="170" r="16"/>
+    <circle cx="486" cy="238" r="16"/>
+    <circle cx="486" cy="306" r="16"/>
+    <circle cx="486" cy="374" r="16"/>
+  </g>
+  <path d="M686 112c62 38 96 90 100 158 5 83-37 142-119 178" fill="none" stroke="#0f766e" stroke-width="10" stroke-linecap="round" opacity="0.34"/>
+</svg>

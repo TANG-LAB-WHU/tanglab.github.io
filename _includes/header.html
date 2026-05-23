@@ -4,9 +4,11 @@
       <span class="brand-mark">T</span>
       <span>{{ site.data.site.group_name }}</span>
     </a>
-    <nav class="nav">
+    <nav class="nav" aria-label="Primary navigation">
       {% for item in site.data.navigation %}
-        <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        {% assign nav_title = item[0] %}
+        {% assign nav_url = item[1] %}
+        <a href="{{ nav_url | relative_url }}"{% if page.url == nav_url %} aria-current="page"{% endif %}>{{ nav_title }}</a>
       {% endfor %}
     </nav>
   </div>

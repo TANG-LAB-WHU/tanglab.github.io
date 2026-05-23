@@ -1,0 +1,21 @@
+<article class="person-card">
+  <img src="{{ person.image | relative_url }}" alt="{{ person.name }} profile placeholder">
+  <div>
+    <h3>{{ person.name }}</h3>
+    <p class="person-role">{{ person.role }}{% if person.affiliation %}, {{ person.affiliation }}{% endif %}</p>
+    {% if person.bio %}<p>{{ person.bio }}</p>{% endif %}
+    {% if person.research_interests %}
+      <div class="tag-row compact" aria-label="Research interests">
+        {% for interest in person.research_interests %}
+          <span>{{ interest }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+    <div class="link-row">
+      {% if person.email and person.email != "" %}<a href="mailto:{{ person.email }}">Email</a>{% endif %}
+      {% if person.website and person.website != "" %}<a href="{{ person.website }}">Website</a>{% endif %}
+      {% if person.google_scholar and person.google_scholar != "" %}<a href="{{ person.google_scholar }}">Google Scholar</a>{% endif %}
+      {% if person.github and person.github != "" %}<a href="{{ person.github }}">GitHub</a>{% endif %}
+    </div>
+  </div>
+</article>

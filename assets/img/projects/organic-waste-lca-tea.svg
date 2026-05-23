@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-label="Organic waste valorization LCA TEA placeholder">
+  <rect width="960" height="540" fill="#ffffff"/>
+  <rect x="92" y="94" width="776" height="352" rx="18" fill="#f6f8fb" stroke="#e5e9f0" stroke-width="8"/>
+  <path d="M240 330c-42-44-38-108 9-146 49-39 123-28 158 26 41-55 123-55 168-3 42 49 28 124-30 157" fill="none" stroke="#0f766e" stroke-width="10" stroke-linecap="round"/>
+  <path d="M608 182h120v120M728 182c-32 110-107 176-224 198" fill="none" stroke="#2563eb" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#ffffff" stroke="#0f766e" stroke-width="7">
+    <circle cx="240" cy="330" r="24"/>
+    <circle cx="407" cy="210" r="24"/>
+    <circle cx="545" cy="364" r="24"/>
+    <circle cx="728" cy="182" r="24"/>
+  </g>
+</svg>

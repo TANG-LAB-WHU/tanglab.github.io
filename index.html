@@ -3,27 +3,28 @@ layout: default
 title: Home
 ---
 <section class="hero">
-  <div class="container hero-grid">
-    <div>
-      <p class="eyebrow">{{ site.data.site.university }}</p>
-      <h1>{{ site.data.site.group_name }}</h1>
-      <p class="lead">{{ site.data.site.hero_summary }}</p>
-      <div class="hero-actions">
-        <a class="button" href="{{ site.data.site.cta_primary_url | relative_url }}">{{ site.data.site.cta_primary }}</a>
-        <a class="button secondary" href="{{ site.data.site.cta_secondary_url | relative_url }}">{{ site.data.site.cta_secondary }}</a>
-      </div>
-      <div class="keyword-row">
-        {% for keyword in site.data.site.research_keywords %}
-          <span>{{ keyword }}</span>
-        {% endfor %}
-      </div>
+  <div class="container hero-inner">
+    <p class="eyebrow">{{ site.data.site.university }}</p>
+    <h1>TANG LAB @ WHU</h1>
+    <p class="hero-subtitle">{{ site.data.site.tagline }}</p>
+    <p class="lead">{{ site.data.site.hero_summary }}</p>
+    <div class="hero-actions">
+      <a class="button" href="{{ '/research/' | relative_url }}">Explore Research</a>
+      <a class="button secondary" href="{{ '/projects/' | relative_url }}">View Projects</a>
+      <a class="button secondary" href="{{ '/join/' | relative_url }}">Join the Group</a>
     </div>
-    <aside class="hero-card">
-      <img src="{{ '/assets/img/people/profile-placeholder.svg' | relative_url }}" alt="Professor profile placeholder">
-      <h2>{{ site.data.site.professor_name }}</h2>
-      <p>{{ site.data.site.department }}<br>{{ site.data.site.university }}</p>
-      <p><a href="mailto:{{ site.data.site.email }}">{{ site.data.site.email }}</a></p>
-    </aside>
+    <div class="keyword-row" aria-label="Research keywords">
+      {% for keyword in site.data.site.research_keywords %}
+        <span>{{ keyword }}</span>
+      {% endfor %}
+    </div>
+    <div class="research-strip" aria-label="Research scope from molecular simulation to sustainability systems">
+      <span>Atomistic Simulation</span>
+      <span>Machine Learning</span>
+      <span>Molecular Dynamics</span>
+      <span>LCA / TEA</span>
+      <span>Decision Support</span>
+    </div>
   </div>
 </section>
 
@@ -31,20 +32,15 @@ title: Home
   <div class="container">
     <div class="section-heading">
       <p class="eyebrow">Research</p>
-      <h2>Current projects</h2>
+      <h2>Research Overview</h2>
+      <p>{{ site.data.site.research_vision }}</p>
     </div>
     <div class="card-grid three">
-      {% for project in site.data.projects %}
-      <article class="card">
-        <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
+      {% for card in site.data.site.home_research_cards %}
+      <article class="card text-card">
         <div class="card-body">
-          <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
-          <p>{{ project.summary }}</p>
-          <div class="tag-row">
-            {% for tag in project.tags %}
-              <span>{{ tag }}</span>
-            {% endfor %}
-          </div>
+          <h3>{{ card.title }}</h3>
+          <p>{{ card.description }}</p>
         </div>
       </article>
       {% endfor %}
@@ -55,25 +51,18 @@ title: Home
 <section class="section alt">
   <div class="container">
     <div class="section-heading">
-      <p class="eyebrow">Selected Work</p>
-      <h2>Recent publications</h2>
+      <p class="eyebrow">Projects</p>
+      <h2>Featured Projects</h2>
+      <p>Selected public repositories from TANG-LAB-WHU connect scientific software, AI workflows, molecular simulation, and sustainability assessment.</p>
     </div>
-    <div class="publication-list">
-      {% assign selected_pubs = site.data.publications | where: "selected", true %}
-      {% for pub in selected_pubs %}
-        <article class="publication">
-          <div class="pub-year">{{ pub.year }}</div>
-          <div>
-            <h3>{{ pub.title }}</h3>
-            <p>{{ pub.authors }}. <em>{{ pub.venue }}</em>.</p>
-            <div class="link-row">
-              {% if pub.links.paper and pub.links.paper != "" %}<a href="{{ pub.links.paper }}">Paper</a>{% endif %}
-              {% if pub.links.code and pub.links.code != "" %}<a href="{{ pub.links.code }}">Code</a>{% endif %}
-              {% if pub.links.project and pub.links.project != "" %}<a href="{{ pub.links.project }}">Project</a>{% endif %}
-            </div>
-          </div>
-        </article>
+    <div class="project-grid">
+      {% assign featured_projects = site.data.projects | where: "featured", true %}
+      {% for project in featured_projects limit:6 %}
+        {% include project-card.html project=project %}
       {% endfor %}
+    </div>
+    <div class="section-action">
+      <a class="button secondary" href="{{ '/projects/' | relative_url }}">View All Projects</a>
     </div>
   </div>
 </section>
@@ -92,6 +81,19 @@ title: Home
           <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
         </article>
       {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section callout-section">
+  <div class="container">
+    <div class="callout">
+      <div>
+        <p class="eyebrow">Join</p>
+        <h2>Interested in AI for Science, molecular simulation, or sustainable materials?</h2>
+        <p>We welcome motivated students and collaborators.</p>
+      </div>
+      <a class="button" href="{{ '/join/' | relative_url }}">Join Us</a>
     </div>
   </div>
 </section>

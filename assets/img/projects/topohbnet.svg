@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-label="Hydrogen bond network topology placeholder">
+  <rect width="960" height="540" fill="#ffffff"/>
+  <rect x="60" y="60" width="840" height="420" rx="18" fill="#f6f8fb" stroke="#e5e9f0" stroke-width="8"/>
+  <g stroke="#0f766e" stroke-width="6" opacity="0.7">
+    <path d="M210 272l126-96 132 80 138-112 150 148-122 86-166-122-132 112z"/>
+    <path d="M336 176v192M606 144l28 234M468 256l-258 16M468 256l288 36"/>
+  </g>
+  <g fill="#ffffff" stroke="#2563eb" stroke-width="8">
+    <circle cx="210" cy="272" r="34"/>
+    <circle cx="336" cy="176" r="38"/>
+    <circle cx="468" cy="256" r="36"/>
+    <circle cx="606" cy="144" r="42"/>
+    <circle cx="756" cy="292" r="34"/>
+    <circle cx="634" cy="378" r="32"/>
+    <circle cx="336" cy="368" r="30"/>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-label="HAP CO2 mineralization placeholder">
+  <rect width="960" height="540" fill="#f0fdfa"/>
+  <path d="M0 410c150-80 286-97 421-42 188 77 319 58 539-80v252H0z" fill="#ffffff"/>
+  <g stroke="#0f766e" stroke-width="8" stroke-linecap="round" opacity="0.76">
+    <path d="M196 288l112-76 120 76 135-118 150 82"/>
+    <path d="M308 212l42 158 78-82 92 124 43-242"/>
+  </g>
+  <g fill="#ffffff" stroke="#0f766e" stroke-width="8">
+    <circle cx="196" cy="288" r="34"/>
+    <circle cx="308" cy="212" r="42"/>
+    <circle cx="428" cy="288" r="36"/>
+    <circle cx="563" cy="170" r="44"/>
+    <circle cx="713" cy="252" r="36"/>
+    <circle cx="520" cy="412" r="30"/>
+  </g>
+  <g fill="#2563eb" opacity="0.22">
+    <circle cx="750" cy="122" r="24"/>
+    <circle cx="804" cy="142" r="16"/>
+    <circle cx="830" cy="96" r="20"/>
+  </g>
+</svg>

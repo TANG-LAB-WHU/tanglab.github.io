@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-label="Phosphorus nanofertilizer assessment placeholder">
+  <rect width="960" height="540" fill="#f6f8fb"/>
+  <path d="M120 406c130-106 237-132 320-80 88 55 182 37 282-54 36-33 74-55 118-66v334H120z" fill="#f0fdfa"/>
+  <g fill="none" stroke="#0f766e" stroke-width="9" stroke-linecap="round">
+    <path d="M278 362c16-78 54-137 114-178"/>
+    <path d="M394 184c-6 82 22 148 84 198"/>
+    <path d="M398 244c54-26 102-28 144-6"/>
+  </g>
+  <g fill="#ffffff" stroke="#2563eb" stroke-width="7">
+    <circle cx="394" cy="184" r="28"/>
+    <circle cx="398" cy="244" r="22"/>
+    <circle cx="542" cy="238" r="22"/>
+    <circle cx="478" cy="382" r="26"/>
+  </g>
+  <g fill="#0f766e" opacity="0.22">
+    <circle cx="666" cy="164" r="34"/>
+    <circle cx="724" cy="212" r="20"/>
+    <circle cx="620" cy="244" r="24"/>
+  </g>
+</svg>
