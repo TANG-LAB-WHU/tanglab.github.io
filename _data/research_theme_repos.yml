@@ -1,0 +1,28 @@
+# GitHub repos actively maintained under each Research theme.
+# Edit repo slugs here; links resolve to https://github.com/TANG-LAB-WHU/<slug>
+
+- theme_id: ai-for-sustainable-materials-and-co2-mineralization
+  repos:
+    - HAP_CO2mineralization
+
+- theme_id: phosphogypsum-upcycling-and-circular-resource-systems
+  repos:
+    - AI_Phosphogypsum
+    - oneLCA-TEA_Phosphogypsum
+
+- theme_id: molecular-dynamics-aimd-and-machine-learning-potentials
+  repos:
+    - omniMD
+
+- theme_id: sustainability-assessment-with-lca-tea-and-uncertainty
+  repos:
+    - Organic_waste_valorization_LCA-TEA
+    - PhosphorusNanofertilizer
+
+- theme_id: interpretable-ai-for-renewable-bioenergy-and-chemical-processes
+  repos:
+    - InterpretableDNN_PyrolysisModel
+
+- theme_id: molecular-network-topology-and-structure-analysis
+  repos:
+    - topoHBNet

@@ -1,23 +1,33 @@
 ---
 layout: page
 title: Research
-subtitle: From atomistic simulation to system-level sustainability assessment.
+subtitle: From atomistic simulation to system-level sustainability assessment and deployment.
 permalink: /research/
 ---
-<p class="lead-narrow">{{ site.data.site.research_vision }}</p>
-
-<div class="notice" style="background: var(--soft-teal); border-color: rgba(15, 118, 110, 0.25); color: var(--brand-dark); display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap; padding: 20px; margin-bottom: 36px; border-radius: 8px;">
-  <div>
-    <h3 style="margin: 0 0 4px 0; color: var(--brand-dark); font-size: 1.15rem;">Hugging Face Model & Dataset Hub</h3>
-    <p style="margin: 0; font-size: 0.95rem; color: var(--muted);">We host our pre-trained AI models, scientific datasets, and interactive machine learning demos on Hugging Face.</p>
+<div class="card-grid two hub-cards research-hub-layout">
+  <p class="research-vision">{{ site.data.site.research_vision }}</p>
+  <div class="hub-card">
+    <div>
+      <h3>GitHub Organization</h3>
+      <p>Open-source code, simulation workflows, and reproducible research repositories from TANG LAB.</p>
+    </div>
+    <a class="button small" href="{{ site.data.site.github }}" target="_blank" rel="noopener">Visit TANG-LAB-WHU</a>
   </div>
-  <a class="button small" href="{{ site.data.site.huggingface }}" target="_blank" rel="noopener" style="box-shadow: none;">Visit TANG-Research-Group</a>
+  <div class="hub-card">
+    <div>
+      <h3>Hugging Face Model &amp; Dataset Hub</h3>
+      <p>We host our pre-trained AI models, scientific datasets, and interactive machine learning demos on Hugging Face.</p>
+    </div>
+    <a class="button small" href="{{ site.data.site.huggingface }}" target="_blank" rel="noopener">Visit TANG-Research-Group</a>
+  </div>
 </div>
 
 <section id="ai-for-sustainable-materials-and-co2-mineralization" class="research-block">
   <p class="eyebrow">Theme 1</p>
-  <h2>Physics-intrinsic AI (PI-AI) for Sustainable Materials and CO₂ Mineralization</h2>
-  <p>TANG LAB studies how Physics-intrinsic Artificial Intelligence (PI-AI), molecular simulation, and data-driven workflows can accelerate the discovery and optimization of materials for carbon mineralization and environmental remediation. A key direction connects AIMD and machine-learning workflows to investigate artificially accelerated mineralization of CO₂ on hydroxyapatite material families.</p>
+  <h2>AI-driven Sustainable Materials for CO₂ Mineralization</h2>
+  <p class="research-block-body">TANG LAB studies how Physics-Intrinsic Artificial Intelligence (PI-AI), molecular simulation, and data-driven workflows can accelerate the discovery and optimization of materials for carbon mineralization and environmental remediation, linking interfacial structure, reaction environments, and CO₂ uptake behavior in a simulation-informed framework. This direction emphasizes physically grounded learning, interpretable models, and mechanism-aware materials design rather than empirical trial-and-error screening alone. Building on coupled AIMD and machine-learning interatomic-potential workflows, we examine artificially accelerated CO₂ mineralization on hydroxyapatite (HAP) material families, including defect-mediated interfacial transformation, local coordination change, and structure–property relationships relevant to carbon storage and functional materials. The HAP_CO2mineralization repository integrates these atomistic and learning tools to support reproducible analysis and downstream PI-AI modeling for sustainable CO₂ mineralization pathways.</p>
+  {% include research-repo-tags.html theme_id="ai-for-sustainable-materials-and-co2-mineralization" %}
+  {% comment %} Related project highlight (nsfc-young-32202605) — disabled
   {% assign related_project_ids = "nsfc-young-32202605" | split: "," %}
   {% assign has_related = false %}
   {% for project_id in related_project_ids %}
@@ -32,52 +42,29 @@ permalink: /research/
     {% endfor %}
   </div>
   {% endif %}
+  {% endcomment %}
 </section>
 
 <section id="phosphogypsum-upcycling-and-circular-resource-systems" class="research-block">
   <p class="eyebrow">Theme 2</p>
   <h2>Phosphogypsum Upcycling and Circular Resource Systems</h2>
-  <p>Phosphogypsum is a large-scale industrial byproduct and environmental challenge. The lab develops AI-empowered approaches for phosphogypsum upcycling, connecting materials modeling, process analysis, sustainability assessment, and decision support.</p>
-  {% assign related_project_ids = "" | split: "," %}
-  {% assign has_related = false %}
-  {% for project_id in related_project_ids %}
-    {% assign related = site.data.projects | where: "id", project_id | first %}
-    {% if related %}{% assign has_related = true %}{% endif %}
-  {% endfor %}
-  {% if has_related %}
-  <div class="related-projects">
-    {% for project_id in related_project_ids %}
-      {% assign related = site.data.projects | where: "id", project_id | first %}
-      {% if related %}<a href="{{ '/projects/' | append: '#' | append: related.id | relative_url }}">{{ related.title }}</a>{% endif %}
-    {% endfor %}
-  </div>
-  {% endif %}
+  <p class="research-block-body">Phosphogypsum is a large-scale industrial byproduct and environmental challenge around the world. The lab focuses on carbon-negative restructuring technologies that connect materials modeling, process chemistry, and circular-resource valorization in a coherent research pipeline, aiming for full atom economy and sustainable recycling of phosphogypsum rather than disposal-oriented treatment alone. We are developing an integrated carbon-negative restructuring innovation system based on a deconstruction–aggregation strategy that converts phosphogypsum into novel functional materials while recovering rare-earth resources embedded in the waste stream. This direction emphasizes integrated materials insight, process feasibility, and sustainability performance beyond isolated laboratory optimization. Building on AI-driven phosphogypsum transformation workflows, we study how composition, interfacial reaction processes, and processing routes influence product quality, resource recovery, and environmental burdens across upcycling scenarios. AI_Phosphogypsum and oneLCA-TEA_Phosphogypsum are being developed to couple process/materials modeling with uncertainty-aware LCA–TEA loops, helping translate phosphogypsum management options into evidence-based circular-economy decisions.</p>
+  {% include research-repo-tags.html theme_id="phosphogypsum-upcycling-and-circular-resource-systems" %}
 </section>
 
 <section id="molecular-dynamics-aimd-and-machine-learning-potentials" class="research-block">
   <p class="eyebrow">Theme 3</p>
   <h2>Molecular Dynamics, AIMD, and Machine-Learning Potentials</h2>
-  <p>The lab builds computational workflows that connect atomistic simulation, molecular dynamics, and machine-learning models. These methods support scientific understanding across molecular structures, interfaces, reactions, and material transformations.</p>
-  {% assign related_project_ids = "" | split: "," %}
-  {% assign has_related = false %}
-  {% for project_id in related_project_ids %}
-    {% assign related = site.data.projects | where: "id", project_id | first %}
-    {% if related %}{% assign has_related = true %}{% endif %}
-  {% endfor %}
-  {% if has_related %}
-  <div class="related-projects">
-    {% for project_id in related_project_ids %}
-      {% assign related = site.data.projects | where: "id", project_id | first %}
-      {% if related %}<a href="{{ '/projects/' | append: '#' | append: related.id | relative_url }}">{{ related.title }}</a>{% endif %}
-    {% endfor %}
-  </div>
-  {% endif %}
+  <p class="research-block-body">The lab builds computational workflows that connect atomistic simulation, ab initio molecular dynamics (AIMD), and large-scale classical molecular dynamics (MD), enabling consistent propagation of physics-based insight from electronically explicit, picosecond-to-nanosecond AIMD sampling to extended nanosecond-and-beyond trajectories at nanometer length scales. Machine-learning interatomic potentials (MLIPs) bridge these regimes by carrying first-principles accuracy from AIMD into force-field-scale MD that is otherwise inaccessible to direct electronic-structure dynamics alone. This direction emphasizes accuracy, transferability, and workflow interoperability across short-timescale AIMD, large-scale MD, and MLIP rather than disconnected one-off simulations alone. Building on next-generation molecular simulation infrastructure, we address interfacial processes, reaction environments, nanomaterial organization, and materials transformation problems where robust potentials and efficient sampling are both critical. omniMD is being developed as an omnipotent molecular dynamics platform that bridges dimensional and model-form dilemmas between AIMD and large-scale MD in unbiased interatomic modeling, helping unify high-fidelity training data, potential construction, and scalable MD execution for PI-AI and simulation-informed materials research.</p>
+  {% include research-repo-tags.html theme_id="molecular-dynamics-aimd-and-machine-learning-potentials" %}
 </section>
 
 <section id="sustainability-assessment-with-lca-tea-and-uncertainty" class="research-block">
   <p class="eyebrow">Theme 4</p>
   <h2>Sustainability Assessment with LCA, TEA, and Uncertainty</h2>
-  <p>The lab integrates life-cycle assessment, techno-economic analysis, uncertainty-aware modeling, and risk-aware commercialization analysis to evaluate environmental, economic, technical, investment, social, and policy dimensions of emerging technologies.</p>
+  <p class="research-block-body">The lab integrates life-cycle assessment, techno-economic analysis, uncertainty-aware modeling, and risk-aware commercialization analysis to evaluate environmental, economic, technical, investment, social, and policy dimensions of emerging technologies in a cross-scale decision framework. Where appropriate, we leverage open multimodal large language models on Hugging Face to parse heterogeneous evidence across these dimensions—reports, tables, figures, and unstructured text—and transform it into structured, machine-readable data for downstream modeling and decision support. This direction emphasizes transparent assumptions, ensemble-based uncertainty propagation, and interpretable trade-off mapping rather than single-point deterministic estimates alone. Building on integrated LCA–TEA workflows, we examine how process chains, resource flows, and deployment scenarios shape sustainability outcomes for organic-waste valorization, nanofertilizer commercialization, and other circular-technology pathways. Organic_waste_valorization_LCA-TEA and PhosphorusNanofertilizer support uncertainty-nudged LCA–TEA rescaling ensembles that hedge technical, environmental, investment, and policy risks, helping connect atomistic and process-level innovation to system-level sustainability deployment.</p>
+  {% include research-repo-tags.html theme_id="sustainability-assessment-with-lca-tea-and-uncertainty" %}
+  {% comment %} Related project highlight (nsfc-young-32202605) — disabled
   {% assign related_project_ids = "nsfc-young-32202605" | split: "," %}
   {% assign has_related = false %}
   {% for project_id in related_project_ids %}
@@ -92,49 +79,24 @@ permalink: /research/
     {% endfor %}
   </div>
   {% endif %}
+  {% endcomment %}
 </section>
 
 <section id="interpretable-ai-for-renewable-bioenergy-and-chemical-processes" class="research-block">
   <p class="eyebrow">Theme 5</p>
   <h2>Interpretable AI for Renewable Bioenergy and Chemical Processes</h2>
-  <p>The lab applies interpretable artificial intelligence and deep learning to model pyrolysis processes and renewable bioenergy feedstocks. This direction emphasizes predictive accuracy, scientific interpretability, and process-level insight.</p>
-  {% assign related_project_ids = "" | split: "," %}
-  {% assign has_related = false %}
-  {% for project_id in related_project_ids %}
-    {% assign related = site.data.projects | where: "id", project_id | first %}
-    {% if related %}{% assign has_related = true %}{% endif %}
-  {% endfor %}
-  {% if has_related %}
-  <div class="related-projects">
-    {% for project_id in related_project_ids %}
-      {% assign related = site.data.projects | where: "id", project_id | first %}
-      {% if related %}<a href="{{ '/projects/' | append: '#' | append: related.id | relative_url }}">{{ related.title }}</a>{% endif %}
-    {% endfor %}
-  </div>
-  {% endif %}
+  <p class="research-block-body">The lab applies interpretable artificial intelligence and deep learning to model pyrolysis processes and renewable bioenergy feedstocks, linking feedstock chemistry, operating conditions, and product yields in a transparent, data-driven framework. This direction emphasizes predictive accuracy, scientific interpretability, and process-level insight rather than black-box optimization alone. Building on interpretable deep-learning pyrolysis models, we study how key process variables and feedstock properties shape bio-oil, gas, and char outcomes across diverse biomass and waste-derived resources. A PyroBot is being developed as a reverse-design assistant that recommends pyrolysis recipes—such as temperature programs, residence times, and feedstock blends—starting from target product or performance goals, helping translate model insight into actionable process design for renewable bioenergy and circular biomass valorization.</p>
+  {% include research-repo-tags.html theme_id="interpretable-ai-for-renewable-bioenergy-and-chemical-processes" %}
 </section>
 
 <section id="molecular-network-topology-and-structure-analysis" class="research-block">
   <p class="eyebrow">Theme 6</p>
   <h2>Molecular Network Topology and Structure Analysis</h2>
-  <p>The lab develops topology-based analysis tools for hydrogen-bond networks and molecular systems. These tools help transform complex molecular structures into interpretable network representations.</p>
-  {% assign related_project_ids = "" | split: "," %}
-  {% assign has_related = false %}
-  {% for project_id in related_project_ids %}
-    {% assign related = site.data.projects | where: "id", project_id | first %}
-    {% if related %}{% assign has_related = true %}{% endif %}
-  {% endfor %}
-  {% if has_related %}
-  <div class="related-projects">
-    {% for project_id in related_project_ids %}
-      {% assign related = site.data.projects | where: "id", project_id | first %}
-      {% if related %}<a href="{{ '/projects/' | append: '#' | append: related.id | relative_url }}">{{ related.title }}</a>{% endif %}
-    {% endfor %}
-  </div>
-  {% endif %}
+  <p class="research-block-body">The lab develops topology-based analysis tools for hydrogen-bond networks and molecular systems, translating atomistic configurations from molecular dynamics and AIMD into graph-structured descriptors that are easier to compare, visualize, and interpret. This direction emphasizes connectivity patterns, cooperative interactions, and environment-sensitive network reorganization rather than isolated structural snapshots alone. Building on hydrogen-bond network topology workflows, we focus on fundamental physical-chemical processes in which hydrogen bond mechanics play essential roles—including interfacial reaction processes, nanomaterial self-assembly, mineralization, and catalysis—and examine how solvation shells, interfacial water, and hydrogen-bond percolation evolve in these settings. topoHBNet is being developed as an integrated analysis platform that maps complex molecular structures to interpretable network representations and topology-aware metrics, helping connect molecular-scale organization to mechanistic hypotheses and downstream modeling in PI-AI and simulation-informed materials research.</p>
+  {% include research-repo-tags.html theme_id="molecular-network-topology-and-structure-analysis" %}
 </section>
 
 <section class="research-block closing">
   <h2>From Atoms to Systems</h2>
-  <p>TANG LAB connects atomistic simulation, machine-learning models, and system-level sustainability assessment. This "atoms-to-systems" perspective allows the group to study not only how materials and molecular processes behave, but also how emerging technologies may perform environmentally, economically, and socially.</p>
+  <p class="research-block-body">TANG LAB connects atomistic simulation, machine-learning models, and system-level sustainability assessment. This "atoms-to-systems" perspective allows the group to study not only how materials and molecular processes behave, but also how emerging technologies may perform environmentally, economically, and socially.</p>
 </section>

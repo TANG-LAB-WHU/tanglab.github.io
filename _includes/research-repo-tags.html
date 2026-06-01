@@ -1,0 +1,9 @@
+{% assign theme = site.data.research_theme_repos | where: "theme_id", include.theme_id | first %}
+{% if theme and theme.repos.size > 0 %}
+<div class="repo-tag-row" aria-label="GitHub repositories for this research theme">
+  <span class="repo-tag-label">Working on</span>
+  {% for repo in theme.repos %}
+    <a class="repo-tag" href="https://github.com/TANG-LAB-WHU/{{ repo }}" target="_blank" rel="noopener noreferrer">{{ repo }}</a>
+  {% endfor %}
+</div>
+{% endif %}
