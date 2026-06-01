@@ -4,7 +4,7 @@ title: Contact
 subtitle: Contact information for TANG LAB @ WHU.
 permalink: /contact/
 ---
-<div class="card-grid two" style="margin-bottom: 30px;">
+<div class="card-grid three" style="margin-bottom: 30px;">
   <!-- Card 1: Office Address -->
   <article class="card text-card">
     <div class="card-body">
@@ -28,6 +28,26 @@ permalink: /contact/
       <p style="margin-bottom: 12px;"><strong>GitHub:</strong> <a href="{{ site.data.site.github }}" target="_blank" rel="noopener">TANG-LAB-WHU</a></p>
       <p style="margin-bottom: 12px;"><strong>Hugging Face:</strong> <a href="{{ site.data.site.huggingface }}" target="_blank" rel="noopener">TANG-Research-Group</a></p>
       <p style="margin-bottom: 0;"><strong>Official Website:</strong> <a href="{{ site.data.site.site_url }}">{{ site.data.site.site_url }}</a></p>
+    </div>
+  </article>
+
+  <!-- Card 3: Interactive Map -->
+  <article class="card" style="display: flex; flex-direction: column; overflow: hidden;">
+    <div class="card-body" style="padding: 0; display: flex; flex-direction: column; height: 100%; min-height: 320px;">
+      <div style="padding: 20px 20px 14px 20px;">
+        <p class="eyebrow" style="margin: 0 0 4px 0;">Interactive Map</p>
+        <h2 style="margin: 0; font-size: 1.18rem;">Campus Location</h2>
+      </div>
+      <div style="flex-grow: 1; border-top: 1px solid var(--line); position: relative; width: 100%; height: 100%;">
+        <iframe 
+          src="https://maps.google.com/maps?q=School%20of%20Resource%20and%20Environmental%20Sciences%20Wuhan%20University&t=&z=14&ie=UTF8&iwloc=&output=embed" 
+          width="100%" 
+          height="100%" 
+          style="border:0; position:absolute; top:0; left:0; width:100%; height:100%; display:block;" 
+          allowfullscreen="" 
+          loading="lazy">
+        </iframe>
+      </div>
     </div>
   </article>
 </div>
