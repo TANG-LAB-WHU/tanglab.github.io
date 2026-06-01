@@ -9,6 +9,7 @@ permalink: /publications/
 </div> -->
 
 {% assign grouped_pubs = site.data.publications | group_by: "year" | sort: "name" | reverse %}
+{% assign paper_index = site.data.publications.size %}
 <div class="publication-list" style="display: flex; flex-direction: column; gap: 24px;">
   {% for group in grouped_pubs %}
     <article class="card" style="padding: 28px; box-shadow: var(--shadow);">
@@ -19,7 +20,10 @@ permalink: /publications/
         {% for pub in group.items %}
           <div class="pub-item" style="{% unless forloop.last %}border-bottom: 1px dashed var(--line); padding-bottom: 24px;{% endunless %}">
             <p class="eyebrow" style="margin-bottom: 8px;">{{ pub.type | upcase }}</p>
-            <h3 style="font-size: 1.3rem; margin: 0 0 10px 0; line-height: 1.35; font-weight: 750; color: var(--ink);">{{ pub.title }}</h3>
+            <h3 style="font-size: 1.3rem; margin: 0 0 10px 0; line-height: 1.35; font-weight: 750; color: var(--ink);">
+              <span style="color: var(--brand); margin-right: 8px;">[{{ paper_index }}]</span>{{ pub.title }}
+            </h3>
+            {% assign paper_index = paper_index | minus: 1 %}
             <p style="margin: 0 0 10px 0; color: var(--muted); font-size: 1.02rem;">{{ pub.authors }}. <em>{{ pub.venue }}</em>.</p>
             {% if pub.abstract and pub.abstract != "" %}<p style="margin: 0 0 12px 0; font-size: 0.96rem; color: var(--muted); line-height: 1.6;">{{ pub.abstract }}</p>{% endif %}
             <div class="link-row" style="display: flex; gap: 14px;">
