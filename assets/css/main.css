@@ -340,6 +340,7 @@ p {
 .news-item,
 .research-block,
 .project-card,
+.hub-card,
 .notice,
 .contact-panel,
 .callout {
@@ -503,6 +504,49 @@ p {
   border-color: var(--brand);
 }
 
+.repo-tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  width: 100%;
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px dashed rgba(0, 0, 0, 0.08);
+}
+
+.repo-tag-label {
+  font-size: 0.78rem;
+  font-weight: 750;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-right: 4px;
+}
+
+.repo-tag {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid rgba(15, 118, 110, 0.28);
+  border-radius: 999px;
+  padding: 6px 12px;
+  background: #ffffff;
+  color: var(--brand-dark);
+  font-size: 0.84rem;
+  font-weight: 650;
+  font-family: ui-monospace, "Cascadia Code", "Segoe UI Mono", monospace;
+  text-decoration: none;
+  line-height: 1.2;
+  max-width: 100%;
+}
+
+.repo-tag:hover,
+.repo-tag:focus {
+  background: var(--soft-teal);
+  border-color: var(--brand);
+  text-decoration: none;
+}
+
 .content h2 {
   margin-top: 34px;
 }
@@ -520,8 +564,73 @@ p {
   margin: 0 0 20px;
 }
 
+.content .research-block h2,
+.research-block h2 {
+  max-width: none;
+  width: 100%;
+  margin-bottom: 14px;
+}
+
+.content .research-block .research-block-body,
+.research-block .research-block-body {
+  max-width: 100%;
+  width: 100%;
+  line-height: 1.55;
+  margin: 0;
+}
+
 .research-block.closing {
   background: var(--soft-teal);
+}
+
+.research-hub-layout {
+  margin-bottom: 36px;
+}
+
+.research-hub-layout .research-vision {
+  grid-column: 1 / -1;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  color: var(--muted);
+  font-size: 1.1rem;
+  line-height: 1.55;
+}
+
+.content .research-hub-layout .research-vision {
+  max-width: none;
+}
+
+.hub-cards:not(.research-hub-layout) {
+  margin-bottom: 36px;
+}
+
+.hub-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 20px;
+  background: var(--soft-teal);
+  border-color: rgba(15, 118, 110, 0.25);
+  color: var(--brand-dark);
+}
+
+.hub-card h3 {
+  margin: 0 0 4px;
+  color: var(--brand-dark);
+  font-size: 1.15rem;
+}
+
+.hub-card p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.hub-card .button {
+  align-self: flex-start;
+  box-shadow: none;
 }
 
 .notice {
@@ -603,10 +712,70 @@ p {
   color: #ffffff;
 }
 
-.footer-grid {
+.site-footer .footer-brand {
+  color: #ffffff;
+}
+
+.site-footer .footer-brand:hover {
+  color: #d8f5ef;
+}
+
+.site-footer .footer-grid {
   display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
-  gap: 28px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: 1fr;
+  align-items: stretch;
+  width: 100%;
+}
+
+.site-footer .footer-column {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 24px 32px;
+}
+
+.site-footer .footer-column--about {
+  padding-left: 0;
+}
+
+.site-footer .footer-column--contact {
+  padding-right: 0;
+  border-left: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+.footer-column .footer-brand {
+  margin: 0 0 12px;
+}
+
+.footer-column p {
+  margin: 0 0 12px;
+}
+
+.footer-column p:last-child {
+  margin-bottom: 0;
+}
+
+.footer-contact-title {
+  margin: 0 0 12px;
+  font-size: 1rem;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.footer-contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-contact-links a {
+  display: block;
+  width: 100%;
+  overflow-wrap: anywhere;
 }
 
 @media (max-width: 960px) {
@@ -674,9 +843,26 @@ p {
   .card-grid.two,
   .project-grid,
   .people-grid,
-  .footer-grid,
   .research-strip {
     grid-template-columns: 1fr;
+  }
+
+  .site-footer .footer-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .site-footer .footer-column {
+    min-height: 0;
+    height: auto;
+    padding: 0 0 20px;
+  }
+
+  .site-footer .footer-column--contact {
+    border-left: 0;
+    padding-top: 20px;
+    padding-bottom: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.14);
   }
 
   .project-card-wide {
