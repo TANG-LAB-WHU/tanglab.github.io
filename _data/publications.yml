@@ -1,38 +1,643 @@
-- title: "Example publication placeholder — replace with real citation."
-  authors: "Author Placeholder, Professor Tang"
-  venue: "Journal or Conference Placeholder"
+- title: Active‐Site Shifting on the Ni‐FeOx Interface Bridges Metallic and Oxidative
+    Catalysis for Efficient Methane Partial Oxidation
+  authors: Wen Liu, Siqi Tang, Wenqi Sang, Chen Fan, Xizhe Zhang, Weixin Xu, Shuangmei
+    Han, Jianguo Jiang, Sicong Tian, Lujia Han
+  venue: Angewandte Chemie
   year: 2026
-  type: "placeholder"
+  type: journal
   selected: true
   links:
-    paper: ""
-    doi: ""
-    code: ""
-    project: ""
-  abstract: "Placeholder entry for a future official publication related to AI for Science, molecular simulation, or sustainable materials. Replace with the complete citation, DOI, and links."
-
-- title: "Example publication placeholder — replace with real citation."
-  authors: "Student Placeholder, Collaborator Placeholder, Professor Tang"
-  venue: "Journal or Conference Placeholder"
+    paper: https://doi.org/10.1002/ange.202518088
+    doi: https://doi.org/10.1002/ange.202518088
+    code: ''
+    project: ''
+  abstract: ''
+- title: Active‐Site Shifting on the Ni‐FeOx Interface Bridges Metallic and Oxidative
+    Catalysis for Efficient Methane Partial Oxidation
+  authors: Wen Liu, Siqi Tang, Wenqi Sang, Chen Fan, Xizhe Zhang, Weixin Xu, Shuangmei
+    Han, Jianguo Jiang, Sicong Tian, Lujia Han
+  venue: Angewandte Chemie International Edition
+  year: 2026
+  type: journal
+  selected: true
+  links:
+    paper: https://doi.org/10.1002/anie.202518088
+    doi: https://doi.org/10.1002/anie.202518088
+    code: ''
+    project: ''
+  abstract: ''
+- title: Heat Capacity-Manipulated Balance in Phosphorus Bioavailability Enhancement
+    and Heavy Metal Stabilization during Sewage Sludge Copyrolysis
+  authors: Le Fang, Guangcai Tan, Weiwei Xuan, Jiaming Liang, Liping Li, Shaogang
+    Hu, Zhenshan Li, Siqi Tang
+  venue: ACS ES&T Engineering
   year: 2025
-  type: "placeholder"
+  type: journal
   selected: true
   links:
-    paper: ""
-    doi: ""
-    code: ""
-    project: ""
-  abstract: "Placeholder entry for a future official publication related to phosphogypsum upcycling, LCA/TEA, uncertainty-aware decision support, or circular resource systems."
-
-- title: "Example publication placeholder — replace with real citation."
-  authors: "Lab Member Placeholder, Professor Tang"
-  venue: "Software, Dataset, or Methods Venue Placeholder"
+    paper: https://doi.org/10.1021/acsestengg.4c00576
+    doi: https://doi.org/10.1021/acsestengg.4c00576
+    code: ''
+    project: ''
+  abstract: ''
+- title: Hydrothermally Stimulated Molecular Interfaces for Augmented Electron Delocalization
+    in Wet-Chemical Phosphorus Recovery from Incineration Ash of Sewage Sludge
+  authors: Jiaming Liang, Ouyang Li, Le Fang, Fulei Han, Yundan Chen, Siqi Tang, Zhenshan
+    Li
+  venue: Environmental Science & Technology
   year: 2024
-  type: "placeholder"
+  type: journal
+  selected: true
+  links:
+    paper: https://doi.org/10.1021/acs.est.4c03290
+    doi: https://doi.org/10.1021/acs.est.4c03290
+    code: ''
+    project: ''
+  abstract: ''
+- title: Exploration of Converting Food Waste into Value-Added Products via Insect
+    Pretreatment-Assisted Hydrothermal Catalysis
+  authors: Ouyang Li, Jiaming Liang, Yundan Chen, Siqi Tang, Zhenshan Li
+  venue: ACS Omega
+  year: 2023
+  type: journal
+  selected: true
+  links:
+    paper: https://doi.org/10.1021/acsomega.3c00762
+    doi: https://doi.org/10.1021/acsomega.3c00762
+    code: ''
+    project: ''
+  abstract: ''
+- title: Key element course-tracked copyrolysis of sewage sludge and biomass for resource
+    recovery and pollution control through kinetic and thermodynamic insights
+  authors: Siqi Tang, Guangcai Tan, Jiaming Liang, Ouyang Li, Weiwei Xuan, Zhenshan
+    Li
+  venue: Energy Conversion and Management
+  year: 2023
+  type: journal
   selected: false
   links:
-    paper: ""
-    doi: ""
-    code: ""
-    project: ""
-  abstract: "Placeholder entry for a future official software or methods publication. Replace this with the lab's verified citation record."
+    paper: https://doi.org/10.1016/j.enconman.2023.116830
+    doi: https://doi.org/10.1016/j.enconman.2023.116830
+    code: ''
+    project: ''
+  abstract: ''
+- title: Key element course-tracked copyrolysis of sewage sludge and biomass for resource
+    recovery and pollution control through kinetic and thermodynamic insights
+  authors: Tang, Siqi, Tan, Guangcai, Liang, Jiaming, Li, Ouyang, Xuan, Weiwei, Li,
+    Zhenshan
+  venue: Energy Conversion and Management
+  year: 2023
+  type: journal
+  selected: false
+  links:
+    paper: https://publons.com/wos-op/publon/56261894/
+    doi: https://doi.org/10.1016/J.ENCONMAN.2023.116830
+    code: ''
+    project: ''
+  abstract: ''
+- title: Morphology-Tailored Hydroxyapatite Nanocarrier for Rhizosphere-Targeted Phosphorus
+    Delivery
+  authors: Tang, Siqi, Liang, Jiaming, Li, Ouyang, Shao, Ningning, Jin, Yongsheng,
+    Ni, Jinren, Fei, Xunchang, Li, Zhenshan
+  venue: Small
+  year: 2023
+  type: journal
+  selected: false
+  links:
+    paper: https://publons.com/wos-op/publon/56109757/
+    doi: https://doi.org/10.1002/SMLL.202206954
+    code: ''
+    project: ''
+  abstract: ''
+- title: Morphology‐Tailored Hydroxyapatite Nanocarrier for Rhizosphere‐Targeted Phosphorus
+    Delivery
+  authors: Siqi Tang, Jiaming Liang, Ouyang Li, Ningning Shao, Yongsheng Jin, Jinren
+    Ni, Xunchang Fei, Zhenshan Li
+  venue: Small
+  year: 2023
+  type: journal
+  selected: false
+  links:
+    paper: https://doi.org/10.1002/smll.202206954
+    doi: https://doi.org/10.1002/smll.202206954
+    code: ''
+    project: ''
+  abstract: ''
+- title: Thermodynamics-Oriented Crystal Growth Enables Lignocellulose-Enticed Nanostructured
+    Hydroxyapatite with Boosted Phosphorus Fertilizer Utility
+  authors: Siqi Tang, Xuming Xu, Ningning Shao, Jiaming Liang, Weiwei Xuan, Ouyang
+    Li, Xunchang Fei, Yongsheng Jin, Zhenshan Li
+  venue: ACS Sustainable Chemistry & Engineering
+  year: 2023
+  type: journal
+  selected: false
+  links:
+    paper: https://doi.org/10.1021/acssuschemeng.3c05664
+    doi: https://doi.org/10.1021/acssuschemeng.3c05664
+    code: ''
+    project: ''
+  abstract: ''
+- title: WS<sub>2</sub>-cocatalyzed peroxymonosulfate activation via an enhanced Fe(III)/Fe(II)
+    cycle toward efficient organic pollutant degradation
+  authors: Chen, Y., Shao, Y., Li, O., Liang, J., Tang, S., Li, Z.
+  venue: Chemical Engineering Journal
+  year: 2022
+  type: journal
+  selected: false
+  links:
+    paper: http://www.scopus.com/inward/record.url?eid=2-s2.0-85127484448&partnerID=MN8TOARS
+    doi: https://doi.org/10.1016/j.cej.2022.135961
+    code: ''
+    project: ''
+  abstract: ''
+- title: WS<sub>2</sub>-cocatalyzed peroxymonosulfate activation via an enhanced Fe(III)/Fe(II)
+    cycle toward efficient organic pollutant degradation
+  authors: Chen, Yundan, Shao, Yan, Li, Ouyang, Liang, Jiaming, Tang, Siqi, Li, Zhenshan
+  venue: Chemical Engineering Journal
+  year: 2022
+  type: journal
+  selected: false
+  links:
+    paper: https://publons.com/wos-op/publon/49828220/
+    doi: https://doi.org/10.1016/J.CEJ.2022.135961
+    code: ''
+    project: ''
+  abstract: ''
+- title: Refractory Calcium Phosphate-Derived Phosphorus Fertilizer Based on Hydroxyapatite
+    Nanoparticles for Nutrient Delivery
+  authors: Tang, S., Fei, X.
+  venue: ACS Applied Nano Materials
+  year: 2021
+  type: journal
+  selected: false
+  links:
+    paper: http://www.scopus.com/inward/record.url?eid=2-s2.0-85100666326&partnerID=MN8TOARS
+    doi: https://doi.org/10.1021/acsanm.0c02921
+    code: ''
+    project: ''
+  abstract: ''
+- title: Refractory Calcium Phosphate-Derived Phosphorus Fertilizer Based on Hydroxyapatite
+    Nanoparticles for Nutrient Delivery
+  authors: Tang, Siqi, Fei, Xunchang
+  venue: ACS Applied Nano Materials
+  year: 2021
+  type: journal
+  selected: false
+  links:
+    paper: https://publons.com/wos-op/publon/35382148/
+    doi: https://doi.org/10.1021/ACSANM.0C02921
+    code: ''
+    project: ''
+  abstract: ''
+- title: Refractory Calcium Phosphate-Derived Phosphorus Fertilizer Based on Hydroxyapatite
+    Nanoparticles for Nutrient Delivery
+  authors: TANG LAB
+  venue: ACS Applied Nano Materials
+  year: 2021
+  type: journal
+  selected: false
+  links:
+    paper: http://dx.doi.org/10.1021/acsanm.0c02921
+    doi: https://doi.org/10.1021/acsanm.0c02921
+    code: ''
+    project: ''
+  abstract: ''
+- title: Defective analcime/geopolymer composite membrane derived from fly ash for
+    ultrafast and highly efficient filtration of organic pollutants
+  authors: Shao, N., Tang, S., Li, S., Chen, H., Zhang, Z.
+  venue: Journal of Hazardous Materials
+  year: 2020
+  type: journal
+  selected: false
+  links:
+    paper: http://www.scopus.com/inward/record.url?eid=2-s2.0-85075819263&partnerID=MN8TOARS
+    doi: https://doi.org/10.1016/j.jhazmat.2019.121736
+    code: ''
+    project: ''
+  abstract: ''
+- title: Defective analcime/geopolymer composite membrane derived from fly ash for
+    ultrafast and highly efficient filtration of organic pollutants
+  authors: Shao, Ningning, Tang, Siqi, Li, Shun, Chen, Hong, Zhang, Zuotai
+  venue: Journal of Hazardous Materials
+  year: 2020
+  type: journal
+  selected: false
+  links:
+    paper: https://publons.com/wos-op/publon/33084145/
+    doi: https://doi.org/10.1016/J.JHAZMAT.2019.121736
+    code: ''
+    project: ''
+  abstract: ''
+- title: Defective analcime/geopolymer composite membrane derived from fly ash for
+    ultrafast and highly efficient filtration of organic pollutants
+  authors: TANG LAB
+  venue: Journal of Hazardous Materials
+  year: 2020
+  type: journal
+  selected: false
+  links:
+    paper: http://dx.doi.org/10.1016/j.jhazmat.2019.121736
+    doi: https://doi.org/10.1016/j.jhazmat.2019.121736
+    code: ''
+    project: ''
+  abstract: ''
+- title: Efficient recovery of phosphorus in sewage sludge through hydroxylapatite
+    enhancement formation aided by calcium-based additives
+  authors: Chen, J., Tang, S., Yan, F., Zhang, Z.
+  venue: Water Research
+  year: 2020
+  type: journal
+  selected: false
+  links:
+    paper: http://www.scopus.com/inward/record.url?eid=2-s2.0-85078786679&partnerID=MN8TOARS
+    doi: https://doi.org/10.1016/j.watres.2019.115450
+    code: ''
+    project: ''
+  abstract: ''
+- title: Efficient recovery of phosphorus in sewage sludge through hydroxylapatite
+    enhancement formation aided by calcium-based additives
+  authors: TANG LAB
+  venue: Water Research
+  year: 2020
+  type: journal
+  selected: false
+  links:
+    paper: http://dx.doi.org/10.1016/j.watres.2019.115450
+    doi: https://doi.org/10.1016/j.watres.2019.115450
+    code: ''
+    project: ''
+  abstract: ''
+- title: Efficient recovery of phosphorus in sewage sludge through hydroxylapatite
+    enhancement formation aided by calcium-based additives
+  authors: Chen, Jingjing, Tang, Siqi, Yan, Feng, Zhang, Zuotai
+  venue: Water Research
+  year: 2020
+  type: journal
+  selected: false
+  links:
+    paper: https://publons.com/wos-op/publon/32398486/
+    doi: https://doi.org/10.1016/J.WATRES.2019.115450
+    code: ''
+    project: ''
+  abstract: ''
+- title: Amino-functionalized sewage sludge-derived biochar as sustainable efficient
+    adsorbent for Cu(II) removal
+  authors: Tang, S., Shao, N., Zheng, C., Yan, F., Zhang, Z.
+  venue: Waste Management
+  year: 2019
+  type: journal
+  selected: false
+  links:
+    paper: http://www.scopus.com/inward/record.url?eid=2-s2.0-85064498195&partnerID=MN8TOARS
+    doi: https://doi.org/10.1016/j.wasman.2019.04.042
+    code: ''
+    project: ''
+  abstract: ''
+- title: Amino-functionalized sewage sludge-derived biochar as sustainable efficient
+    adsorbent for Cu(II) removal
+  authors: Tang, Siqi, Shao, Ningning, Zheng, Chunmiao, Yan, Feng, Zhang, Zuotai
+  venue: Waste Management
+  year: 2019
+  type: journal
+  selected: false
+  links:
+    paper: https://publons.com/wos-op/publon/14106846/
+    doi: https://doi.org/10.1016/J.WASMAN.2019.04.042
+    code: ''
+    project: ''
+  abstract: ''
+- title: Amino-functionalized sewage sludge-derived biochar as sustainable efficient
+    adsorbent for Cu(II) removal
+  authors: TANG LAB
+  venue: Waste Management
+  year: 2019
+  type: journal
+  selected: false
+  links:
+    paper: http://dx.doi.org/10.1016/j.wasman.2019.04.042
+    doi: https://doi.org/10.1016/j.wasman.2019.04.042
+    code: ''
+    project: ''
+  abstract: ''
+- title: Alkali metal-driven release behaviors of volatiles during sewage sludge pyrolysis
+  authors: Tang, S., Tang, Y., Zheng, C., Zhang, Z.
+  venue: Journal of Cleaner Production
+  year: 2018
+  type: journal
+  selected: false
+  links:
+    paper: http://www.scopus.com/inward/record.url?eid=2-s2.0-85053198106&partnerID=MN8TOARS
+    doi: https://doi.org/10.1016/j.jclepro.2018.08.312
+    code: ''
+    project: ''
+  abstract: ''
+- title: Alkali metal-driven release behaviors of volatiles during sewage sludge pyrolysis
+  authors: Tang, Siqi, Tang, Yuanyuan, Zheng, Chunmiao, Zhang, Zuotai
+  venue: Journal of Cleaner Production
+  year: 2018
+  type: journal
+  selected: false
+  links:
+    paper: https://publons.com/wos-op/publon/16223943/
+    doi: https://doi.org/10.1016/J.JCLEPRO.2018.08.312
+    code: ''
+    project: ''
+  abstract: ''
+- title: Alkali metal-driven release behaviors of volatiles during sewage sludge pyrolysis
+  authors: TANG LAB
+  venue: Journal of Cleaner Production
+  year: 2018
+  type: journal
+  selected: false
+  links:
+    paper: http://dx.doi.org/10.1016/j.jclepro.2018.08.312
+    doi: https://doi.org/10.1016/j.jclepro.2018.08.312
+    code: ''
+    project: ''
+  abstract: ''
+- title: Characterization of PM10 surrounding a cement plant with integrated facilities
+    for co-processing of hazardous wastes
+  authors: Yang, Zhenzhou, Tang, Siqi, Zhang, Zuotai, Liu, Chongxuan, Ge, Xinlei
+  venue: Journal of Cleaner Production
+  year: 2018
+  type: journal
+  selected: false
+  links:
+    paper: https://publons.com/wos-op/publon/5409000/
+    doi: https://doi.org/10.1016/J.JCLEPRO.2018.03.178
+    code: ''
+    project: ''
+  abstract: ''
+- title: Characterization of PM10 surrounding a cement plant with integrated facilities
+    for co-processing of hazardous wastes
+  authors: TANG LAB
+  venue: Journal of Cleaner Production
+  year: 2018
+  type: journal
+  selected: false
+  links:
+    paper: http://dx.doi.org/10.1016/j.jclepro.2018.03.178
+    doi: https://doi.org/10.1016/j.jclepro.2018.03.178
+    code: ''
+    project: ''
+  abstract: ''
+- title: Characterization of PM<inf>10</inf> surrounding a cement plant with integrated
+    facilities for co-processing of hazardous wastes
+  authors: Yang, Z., Tang, S., Zhang, Z., Liu, C., Ge, X.
+  venue: Journal of Cleaner Production
+  year: 2018
+  type: journal
+  selected: false
+  links:
+    paper: http://www.scopus.com/inward/record.url?eid=2-s2.0-85047484111&partnerID=MN8TOARS
+    doi: https://doi.org/10.1016/j.jclepro.2018.03.178
+    code: ''
+    project: ''
+  abstract: ''
+- title: 'Effect of inherent minerals on sewage sludge pyrolysis: Product characteristics,
+    kinetics and thermodynamics'
+  authors: Tang, S., Zheng, C., Zhang, Z.
+  venue: Waste Management
+  year: 2018
+  type: journal
+  selected: false
+  links:
+    paper: http://www.scopus.com/inward/record.url?eid=2-s2.0-85053190632&partnerID=MN8TOARS
+    doi: https://doi.org/10.1016/j.wasman.2018.09.012
+    code: ''
+    project: ''
+  abstract: ''
+- title: 'Effect of inherent minerals on sewage sludge pyrolysis: Product characteristics,
+    kinetics and thermodynamics'
+  authors: Tang, Siqi, Zheng, Chunmiao, Zhang, Zuotai
+  venue: Waste Management
+  year: 2018
+  type: journal
+  selected: false
+  links:
+    paper: https://publons.com/wos-op/publon/16223936/
+    doi: https://doi.org/10.1016/J.WASMAN.2018.09.012
+    code: ''
+    project: ''
+  abstract: ''
+- title: 'Effect of inherent minerals on sewage sludge pyrolysis: Product characteristics,
+    kinetics and thermodynamics'
+  authors: TANG LAB
+  venue: Waste Management
+  year: 2018
+  type: journal
+  selected: false
+  links:
+    paper: http://dx.doi.org/10.1016/j.wasman.2018.09.012
+    doi: https://doi.org/10.1016/j.wasman.2018.09.012
+    code: ''
+    project: ''
+  abstract: ''
+- title: Hierarchically Structured Calcium Silicate Hydrate-Based Nanocomposites Derived
+    from Steel Slag for Highly Efficient Heavy Metal Removal from Wastewater
+  authors: Shao, N., Tang, S., Liu, Z., Li, L., Yan, F., Liu, F., Li, S., Zhang, Z.
+  venue: ACS Sustainable Chemistry and Engineering
+  year: 2018
+  type: journal
+  selected: false
+  links:
+    paper: http://www.scopus.com/inward/record.url?eid=2-s2.0-85053601754&partnerID=MN8TOARS
+    doi: https://doi.org/10.1021/acssuschemeng.8b03428
+    code: ''
+    project: ''
+  abstract: ''
+- title: Hierarchically Structured Calcium Silicate Hydrate-Based Nanocomposites Derived
+    from Steel Slag for Highly Efficient Heavy Metal Removal from Wastewater
+  authors: Shao, Ningning, Tang, Siqi, Liu, Ze, Li, Li, Yan, Feng, Liu, Fei, Li, Shun,
+    Zhang, Zuotai
+  venue: ACS Sustainable Chemistry & Engineering
+  year: 2018
+  type: journal
+  selected: false
+  links:
+    paper: https://publons.com/wos-op/publon/15441030/
+    doi: https://doi.org/10.1021/ACSSUSCHEMENG.8B03428
+    code: ''
+    project: ''
+  abstract: ''
+- title: Hierarchically Structured Calcium Silicate Hydrate-Based Nanocomposites Derived
+    from Steel Slag for Highly Efficient Heavy Metal Removal from Wastewater
+  authors: TANG LAB
+  venue: ACS Sustainable Chemistry & Engineering
+  year: 2018
+  type: journal
+  selected: false
+  links:
+    paper: http://dx.doi.org/10.1021/acssuschemeng.8b03428
+    doi: https://doi.org/10.1021/acssuschemeng.8b03428
+    code: ''
+    project: ''
+  abstract: ''
+- title: Novel Calcium Oxide-Enhancement Phosphorus Recycling Technique through Sewage
+    Sludge Pyrolysis
+  authors: Tang, S., Yan, F., Zheng, C., Zhang, Z.
+  venue: ACS Sustainable Chemistry and Engineering
+  year: 2018
+  type: journal
+  selected: false
+  links:
+    paper: http://www.scopus.com/inward/record.url?eid=2-s2.0-85048368326&partnerID=MN8TOARS
+    doi: https://doi.org/10.1021/acssuschemeng.8b01492
+    code: ''
+    project: ''
+  abstract: ''
+- title: Novel Calcium Oxide-Enhancement Phosphorus Recycling Technique through Sewage
+    Sludge Pyrolysis
+  authors: Tang, Siqi, Yan, Feng, Zheng, Chunmiao, Zhang, Zuotai
+  venue: ACS Sustainable Chemistry & Engineering
+  year: 2018
+  type: journal
+  selected: false
+  links:
+    paper: https://publons.com/wos-op/publon/15441027/
+    doi: https://doi.org/10.1021/ACSSUSCHEMENG.8B01492
+    code: ''
+    project: ''
+  abstract: ''
+- title: Novel Calcium Oxide-Enhancement Phosphorus Recycling Technique through Sewage
+    Sludge Pyrolysis
+  authors: TANG LAB
+  venue: ACS Sustainable Chemistry & Engineering
+  year: 2018
+  type: journal
+  selected: false
+  links:
+    paper: http://dx.doi.org/10.1021/acssuschemeng.8b01492
+    doi: https://doi.org/10.1021/acssuschemeng.8b01492
+    code: ''
+    project: ''
+  abstract: ''
+- title: Product characteristics and kinetics of sewage sludge pyrolysis driven by
+    alkaline earth metals
+  authors: TANG LAB
+  venue: Energy
+  year: 2018
+  type: journal
+  selected: false
+  links:
+    paper: http://dx.doi.org/10.1016/j.energy.2018.04.108
+    doi: https://doi.org/10.1016/j.energy.2018.04.108
+    code: ''
+    project: ''
+  abstract: ''
+- title: Product characteristics and kinetics of sewage sludge pyrolysis driven by
+    alkaline earth metals
+  authors: Tang, S., Zheng, C., Yan, F., Shao, N., Tang, Y., Zhang, Z.
+  venue: Energy
+  year: 2018
+  type: journal
+  selected: false
+  links:
+    paper: http://www.scopus.com/inward/record.url?eid=2-s2.0-85047421863&partnerID=MN8TOARS
+    doi: https://doi.org/10.1016/j.energy.2018.04.108
+    code: ''
+    project: ''
+  abstract: ''
+- title: Product characteristics and kinetics of sewage sludge pyrolysis driven by
+    alkaline earth metals
+  authors: Tang, Siqi, Zheng, Chunmiao, Yan, Feng, Shao, Ningning, Tang, Yuanyuan,
+    Zhang, Zuotai
+  venue: Energy
+  year: 2018
+  type: journal
+  selected: false
+  links:
+    paper: https://publons.com/wos-op/publon/1763315/
+    doi: https://doi.org/10.1016/J.ENERGY.2018.04.108
+    code: ''
+    project: ''
+  abstract: ''
+- title: Pyrolysis kinetics of sewage sludge and its biochar characteristics
+  authors: TANG LAB
+  venue: Process Safety and Environmental Protection
+  year: 2018
+  type: journal
+  selected: false
+  links:
+    paper: http://dx.doi.org/10.1016/j.psep.2017.10.014
+    doi: https://doi.org/10.1016/j.psep.2017.10.014
+    code: ''
+    project: ''
+  abstract: ''
+- title: Pyrolysis kinetics of sewage sludge and its biochar characteristics
+  authors: Xu, Q., Tang, S., Wang, J., Ko, J.H.
+  venue: Process Safety and Environmental Protection
+  year: 2018
+  type: journal
+  selected: false
+  links:
+    paper: http://www.scopus.com/inward/record.url?eid=2-s2.0-85035069988&partnerID=MN8TOARS
+    doi: https://doi.org/10.1016/j.psep.2017.10.014
+    code: ''
+    project: ''
+  abstract: ''
+- title: Pyrolysis kinetics of sewage sludge and its biochar characteristics
+  authors: Xu, Qiyong, Tang, Siqi, Wang, Jingchen, Ko, Jae Hac
+  venue: Process Safety and Environmental Protection
+  year: 2018
+  type: journal
+  selected: false
+  links:
+    paper: https://publons.com/wos-op/publon/19454876/
+    doi: https://doi.org/10.1016/J.PSEP.2017.10.014
+    code: ''
+    project: ''
+  abstract: ''
+- title: 'Effect of Calcium Hydroxide on the Pyrolysis Behavior of Sewage Sludge:
+    Reaction Characteristics and Kinetics'
+  authors: TANG LAB
+  venue: Energy & Fuels
+  year: 2017
+  type: journal
+  selected: false
+  links:
+    paper: http://dx.doi.org/10.1021/acs.energyfuels.6b03256
+    doi: https://doi.org/10.1021/acs.energyfuels.6b03256
+    code: ''
+    project: ''
+  abstract: ''
+- title: 'Effect of Calcium Hydroxide on the Pyrolysis Behavior of Sewage Sludge:
+    Reaction Characteristics and Kinetics'
+  authors: Tang, S., Tian, S., Zheng, C., Zhang, Z.
+  venue: Energy and Fuels
+  year: 2017
+  type: journal
+  selected: false
+  links:
+    paper: http://www.scopus.com/inward/record.url?eid=2-s2.0-85020689153&partnerID=MN8TOARS
+    doi: https://doi.org/10.1021/acs.energyfuels.6b03256
+    code: ''
+    project: ''
+  abstract: ''
+- title: 'Effect of Calcium Hydroxide on the Pyrolysis Behavior of Sewage Sludge:
+    Reaction Characteristics and Kinetics'
+  authors: Tang, Siqi, Tian, Sicong, Zheng, Chunmiao, Zhang, Zuotai
+  venue: Energy & Fuels
+  year: 2017
+  type: journal
+  selected: false
+  links:
+    paper: https://publons.com/wos-op/publon/16223958/
+    doi: https://doi.org/10.1021/ACS.ENERGYFUELS.6B03256
+    code: ''
+    project: ''
+  abstract: ''
+- title: Pore Structure Characteristics of Sludge Biochars during Pyrolysis with Various
+    Pyrolysis Temperatures and Holding Times
+  authors: Tang, S., Wang, J., Ko, J.
+  venue: Beijing Daxue Xuebao (Ziran Kexue Ban)/Acta Scientiarum Naturalium Universitatis
+    Pekinensis
+  year: 2017
+  type: journal
+  selected: false
+  links:
+    paper: http://www.scopus.com/inward/record.url?eid=2-s2.0-85031915551&partnerID=MN8TOARS
+    doi: https://doi.org/10.13209/j.0479-8023.2017.085
+    code: ''
+    project: ''
+  abstract: ''
