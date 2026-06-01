@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Projects
-subtitle: Public repositories and research software from TANG-LAB-WHU.
+subtitle: Sponsored research projects and funding grants.
 permalink: /projects/
 ---
-<p class="lead-narrow">These project summaries are based on the public TANG-LAB-WHU GitHub repositories and should be updated as official documentation, releases, and project pages become available.</p>
+<p class="lead-narrow">TANG LAB conducts cutting-edge research supported by key national and international funding agencies, addressing cross-disciplinary frontiers and critical challenges at the intersections of energy, environment, resources, agriculture, and chemical engineering.</p>
 
-<div class="notice" style="background: var(--soft-teal); border-color: rgba(15, 118, 110, 0.25); color: var(--brand-dark); display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap; padding: 20px; margin-bottom: 28px;">
+<div class="notice" style="background: var(--soft-teal); border-color: rgba(15, 118, 110, 0.25); color: var(--brand-dark); display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap; padding: 20px; margin-bottom: 36px; border-radius: 8px;">
   <div>
     <h3 style="margin: 0 0 4px 0; color: var(--brand-dark); font-size: 1.15rem;">Hugging Face Model & Dataset Hub</h3>
     <p style="margin: 0; font-size: 0.95rem; color: var(--muted);">We host our pre-trained AI models, scientific datasets, and interactive machine learning demos on Hugging Face.</p>
@@ -14,34 +14,29 @@ permalink: /projects/
   <a class="button small" href="{{ site.data.site.huggingface }}" target="_blank" rel="noopener" style="box-shadow: none;">Visit TANG-Research-Group</a>
 </div>
 
-{% assign categories = site.data.projects | map: "category" | uniq %}
-<div class="filter-bar" aria-label="Project category filters">
-  <button class="filter-button active" type="button" data-filter="all">All</button>
-  {% for category in categories %}
-    <button class="filter-button" type="button" data-filter="{{ category | slugify }}">{{ category }}</button>
-  {% endfor %}
-</div>
-
-<div class="project-grid">
+<div class="project-grid" style="display: flex; flex-direction: column; gap: 28px;">
   {% for project in site.data.projects %}
-    <article id="{{ project.id }}" class="project-card project-card-wide" data-category="{{ project.category | slugify }}">
-      <img src="{{ project.image | relative_url }}" alt="{{ project.title }} project placeholder image">
-      <div class="project-card-body">
-        <div class="project-meta">
-          <span>{{ project.category }}</span>
-          <span>{{ project.language }}</span>
-          <span>{{ project.status }}</span>
+    <article id="{{ project.id }}" class="project-card project-card-wide" data-category="{{ project.category | slugify }}" style="width: 100%; display: flex; flex-direction: row; gap: 28px; border: 1px solid rgba(0,0,0,0.06); padding: 24px; border-radius: 8px; background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.02);">
+      <img src="{{ project.image | relative_url }}" alt="{{ project.title }} project placeholder image" style="width: 180px; height: 180px; object-fit: contain; border-radius: 6px; background: var(--bg-alt); padding: 12px; border: 1px solid rgba(0,0,0,0.04);">
+      <div class="project-card-body" style="flex: 1; display: flex; flex-direction: column; justify-content: space-between;">
+        <div>
+          <div class="project-meta" style="display: flex; gap: 16px; font-size: 0.9rem; color: var(--muted); margin-bottom: 8px; flex-wrap: wrap;">
+            <span style="font-weight: 600; color: var(--brand);">{{ project.funder }}</span>
+            <span>•</span>
+            <span>Grant No. <strong>{{ project.grant_number }}</strong></span>
+            <span>•</span>
+            <span>{{ project.period }}</span>
+          </div>
+          <h2 style="margin: 0 0 12px 0; font-size: 1.4rem; line-height: 1.4; color: var(--text-dark);">{{ project.title }}</h2>
+          <p style="margin: 0 0 16px 0; font-size: 1rem; color: var(--text); line-height: 1.6;">{{ project.long_description }}</p>
         </div>
-        <h2>{{ project.title }}</h2>
-        <p>{{ project.long_description }}</p>
-        <div class="tag-row" aria-label="Project tags">
-          {% for tag in project.tags %}
-            <span>{{ tag }}</span>
-          {% endfor %}
-        </div>
-        <div class="card-actions">
-          <a class="button small" href="{{ project.repo_url }}">GitHub Repository</a>
-          <a class="button secondary small" href="{{ project.repo_url }}#readme">Learn more</a>
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; border-top: 1px dashed rgba(0,0,0,0.08); padding-top: 16px; margin-top: 8px;">
+          <div class="project-details" style="display: flex; gap: 24px; font-size: 0.95rem;">
+            <span>Funding: <strong style="color: var(--text-dark);">{{ project.funding }}</strong></span>
+            <span>Role: <strong style="color: var(--text-dark);">{{ project.role }}</strong></span>
+          </div>
+          <span class="badge highlight" style="background: var(--soft-teal); color: var(--brand-dark); padding: 6px 12px; border-radius: 4px; font-size: 0.9rem; font-weight: 600;">{{ project.status }}</span>
         </div>
       </div>
     </article>

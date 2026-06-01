@@ -2,8 +2,8 @@
   <img src="{{ project.image | relative_url }}" alt="{{ project.title }} project placeholder image">
   <div class="project-card-body">
     <div class="project-meta">
-      <span>{{ project.category }}</span>
-      <span>{{ project.language }}</span>
+      <span>{{ project.funder }}</span>
+      <span>{{ project.period }}</span>
     </div>
     <h3>{{ project.title }}</h3>
     <p>{{ project.short_description }}</p>
@@ -13,8 +13,8 @@
       {% endfor %}
     </div>
     <div class="card-actions">
-      <a class="button small" href="{{ project.repo_url }}">GitHub</a>
-      <a class="button secondary small" href="{{ '/projects/' | append: '#' | append: project.id | relative_url }}">Learn more</a>
+      <span class="badge highlight" style="background: var(--soft-teal); color: var(--brand-dark); padding: 4px 8px; border-radius: 4px; font-size: 0.85rem; font-weight: 500;">{{ project.status }}</span>
+      <a class="button secondary small" href="{{ '/projects/' | append: '#' | append: project.id | relative_url }}" style="margin-left: auto;">Learn more</a>
     </div>
   </div>
 </article>

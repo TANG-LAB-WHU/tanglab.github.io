@@ -10,78 +10,120 @@ permalink: /research/
   <p class="eyebrow">Theme 1</p>
   <h2>Physics-intrinsic AI (PI-AI) for Sustainable Materials and CO₂ Mineralization</h2>
   <p>TANG LAB studies how Physics-intrinsic Artificial Intelligence (PI-AI), molecular simulation, and data-driven workflows can accelerate the discovery and optimization of materials for carbon mineralization and environmental remediation. A key direction connects AIMD and machine-learning workflows to investigate artificially accelerated mineralization of CO₂ on hydroxyapatite material families.</p>
-  {% assign related_project_ids = "hap-co2mineralization" | split: "," %}
+  {% assign related_project_ids = "nsfc-young-32202605" | split: "," %}
+  {% assign has_related = false %}
+  {% for project_id in related_project_ids %}
+    {% assign related = site.data.projects | where: "id", project_id | first %}
+    {% if related %}{% assign has_related = true %}{% endif %}
+  {% endfor %}
+  {% if has_related %}
   <div class="related-projects">
     {% for project_id in related_project_ids %}
       {% assign related = site.data.projects | where: "id", project_id | first %}
       {% if related %}<a href="{{ '/projects/' | append: '#' | append: related.id | relative_url }}">{{ related.title }}</a>{% endif %}
     {% endfor %}
   </div>
+  {% endif %}
 </section>
 
 <section id="phosphogypsum-upcycling-and-circular-resource-systems" class="research-block">
   <p class="eyebrow">Theme 2</p>
   <h2>Phosphogypsum Upcycling and Circular Resource Systems</h2>
   <p>Phosphogypsum is a large-scale industrial byproduct and environmental challenge. The lab develops AI-empowered approaches for phosphogypsum upcycling, connecting materials modeling, process analysis, sustainability assessment, and decision support.</p>
-  {% assign related_project_ids = "ai-phosphogypsum,onelca-tea-phosphogypsum,phosphorus-nanofertilizer" | split: "," %}
+  {% assign related_project_ids = "" | split: "," %}
+  {% assign has_related = false %}
+  {% for project_id in related_project_ids %}
+    {% assign related = site.data.projects | where: "id", project_id | first %}
+    {% if related %}{% assign has_related = true %}{% endif %}
+  {% endfor %}
+  {% if has_related %}
   <div class="related-projects">
     {% for project_id in related_project_ids %}
       {% assign related = site.data.projects | where: "id", project_id | first %}
       {% if related %}<a href="{{ '/projects/' | append: '#' | append: related.id | relative_url }}">{{ related.title }}</a>{% endif %}
     {% endfor %}
   </div>
+  {% endif %}
 </section>
 
 <section id="molecular-dynamics-aimd-and-machine-learning-potentials" class="research-block">
   <p class="eyebrow">Theme 3</p>
   <h2>Molecular Dynamics, AIMD, and Machine-Learning Potentials</h2>
   <p>The lab builds computational workflows that connect atomistic simulation, molecular dynamics, and machine-learning models. These methods support scientific understanding across molecular structures, interfaces, reactions, and material transformations.</p>
-  {% assign related_project_ids = "hap-co2mineralization,omnimd" | split: "," %}
+  {% assign related_project_ids = "" | split: "," %}
+  {% assign has_related = false %}
+  {% for project_id in related_project_ids %}
+    {% assign related = site.data.projects | where: "id", project_id | first %}
+    {% if related %}{% assign has_related = true %}{% endif %}
+  {% endfor %}
+  {% if has_related %}
   <div class="related-projects">
     {% for project_id in related_project_ids %}
       {% assign related = site.data.projects | where: "id", project_id | first %}
       {% if related %}<a href="{{ '/projects/' | append: '#' | append: related.id | relative_url }}">{{ related.title }}</a>{% endif %}
     {% endfor %}
   </div>
+  {% endif %}
 </section>
 
 <section id="sustainability-assessment-with-lca-tea-and-uncertainty" class="research-block">
   <p class="eyebrow">Theme 4</p>
   <h2>Sustainability Assessment with LCA, TEA, and Uncertainty</h2>
   <p>The lab integrates life-cycle assessment, techno-economic analysis, uncertainty-aware modeling, and risk-aware commercialization analysis to evaluate environmental, economic, technical, investment, social, and policy dimensions of emerging technologies.</p>
-  {% assign related_project_ids = "onelca-tea-phosphogypsum,phosphorus-nanofertilizer,organic-waste-valorization" | split: "," %}
+  {% assign related_project_ids = "nsfc-young-32202605" | split: "," %}
+  {% assign has_related = false %}
+  {% for project_id in related_project_ids %}
+    {% assign related = site.data.projects | where: "id", project_id | first %}
+    {% if related %}{% assign has_related = true %}{% endif %}
+  {% endfor %}
+  {% if has_related %}
   <div class="related-projects">
     {% for project_id in related_project_ids %}
       {% assign related = site.data.projects | where: "id", project_id | first %}
       {% if related %}<a href="{{ '/projects/' | append: '#' | append: related.id | relative_url }}">{{ related.title }}</a>{% endif %}
     {% endfor %}
   </div>
+  {% endif %}
 </section>
 
 <section id="interpretable-ai-for-renewable-bioenergy-and-chemical-processes" class="research-block">
   <p class="eyebrow">Theme 5</p>
   <h2>Interpretable AI for Renewable Bioenergy and Chemical Processes</h2>
   <p>The lab applies interpretable artificial intelligence and deep learning to model pyrolysis processes and renewable bioenergy feedstocks. This direction emphasizes predictive accuracy, scientific interpretability, and process-level insight.</p>
-  {% assign related_project_ids = "interpretable-dnn-pyrolysis" | split: "," %}
+  {% assign related_project_ids = "" | split: "," %}
+  {% assign has_related = false %}
+  {% for project_id in related_project_ids %}
+    {% assign related = site.data.projects | where: "id", project_id | first %}
+    {% if related %}{% assign has_related = true %}{% endif %}
+  {% endfor %}
+  {% if has_related %}
   <div class="related-projects">
     {% for project_id in related_project_ids %}
       {% assign related = site.data.projects | where: "id", project_id | first %}
       {% if related %}<a href="{{ '/projects/' | append: '#' | append: related.id | relative_url }}">{{ related.title }}</a>{% endif %}
     {% endfor %}
   </div>
+  {% endif %}
 </section>
 
 <section id="molecular-network-topology-and-structure-analysis" class="research-block">
   <p class="eyebrow">Theme 6</p>
   <h2>Molecular Network Topology and Structure Analysis</h2>
   <p>The lab develops topology-based analysis tools for hydrogen-bond networks and molecular systems. These tools help transform complex molecular structures into interpretable network representations.</p>
-  {% assign related_project_ids = "topohbnet" | split: "," %}
+  {% assign related_project_ids = "" | split: "," %}
+  {% assign has_related = false %}
+  {% for project_id in related_project_ids %}
+    {% assign related = site.data.projects | where: "id", project_id | first %}
+    {% if related %}{% assign has_related = true %}{% endif %}
+  {% endfor %}
+  {% if has_related %}
   <div class="related-projects">
     {% for project_id in related_project_ids %}
       {% assign related = site.data.projects | where: "id", project_id | first %}
       {% if related %}<a href="{{ '/projects/' | append: '#' | append: related.id | relative_url }}">{{ related.title }}</a>{% endif %}
     {% endfor %}
   </div>
+  {% endif %}
 </section>
 
 <section class="research-block closing">
