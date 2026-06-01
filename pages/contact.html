@@ -4,15 +4,40 @@ title: Contact
 subtitle: Contact information for TANG LAB @ WHU.
 permalink: /contact/
 ---
-<div class="contact-panel">
-  <h2>TANG LAB @ WHU</h2>
-  <p>
-    Wuhan University<br>
-    Wuhan, Hubei, China
+<div class="card-grid two" style="margin-bottom: 30px;">
+  <!-- Card 1: Office Address -->
+  <article class="card text-card">
+    <div class="card-body">
+      <p class="eyebrow">Location</p>
+      <h2>Office & Mailing Address</h2>
+      <p style="line-height: 1.8;">
+        <strong>TANG LAB @ WHU</strong><br>
+        Wuhan University (Main Campus)<br>
+        [Insert School/Department Name]<br>
+        [Insert Office Room Number]<br>
+        Wuhan, Hubei, 430072, China
+      </p>
+    </div>
+  </article>
+
+  <!-- Card 2: Digital Platforms -->
+  <article class="card text-card">
+    <div class="card-body">
+      <p class="eyebrow">Academic Hubs</p>
+      <h2>Digital Platforms</h2>
+      <p style="margin-bottom: 12px;"><strong>Email:</strong> <a href="mailto:{{ site.data.site.email }}">{{ site.data.site.email }}</a></p>
+      <p style="margin-bottom: 12px;"><strong>GitHub:</strong> <a href="{{ site.data.site.github }}" target="_blank" rel="noopener">TANG-LAB-WHU</a></p>
+      <p style="margin-bottom: 12px;"><strong>Hugging Face:</strong> <a href="{{ site.data.site.huggingface }}" target="_blank" rel="noopener">TANG-Research-Group</a></p>
+      <p style="margin-bottom: 0;"><strong>Official Website:</strong> <a href="{{ site.data.site.site_url }}">{{ site.data.site.site_url }}</a></p>
+    </div>
+  </article>
+</div>
+
+<!-- Recruitment notice call-out banner -->
+<div class="notice" style="background: var(--soft-teal); border-color: rgba(15, 118, 110, 0.25); color: var(--brand-dark); padding: 20px;">
+  <h3 style="margin: 0 0 6px 0; color: var(--brand-dark); font-size: 1.1rem;">Prospective Students & Collaborators</h3>
+  <p style="margin: 0; font-size: 0.95rem; color: var(--muted); line-height: 1.6;">
+    If you are interested in joining our group as a graduate student, postdoc, or visiting scholar, please visit our <a href="{{ '/join/' | relative_url }}" style="font-weight: bold; text-decoration: underline;">Join the Group</a> page for active recruitment status and application guidelines.
   </p>
-  <p><strong>Email:</strong> <a href="mailto:{{ site.data.site.email }}">{{ site.data.site.email }}</a></p>
-  <p><strong>GitHub:</strong> <a href="{{ site.data.site.github }}">{{ site.data.site.github }}</a></p>
-  <p><strong>Hugging Face:</strong> <a href="{{ site.data.site.huggingface }}" target="_blank" rel="noopener">{{ site.data.site.huggingface }}</a></p>
-  <p><strong>Website:</strong> <a href="{{ site.data.site.site_url }}">{{ site.data.site.site_url }}</a></p>
 </div>
 
