@@ -2,7 +2,7 @@ principal_investigator:
   - name: "Dr. Siqi Tang"
     role: "Research Associate Professor"
     affiliation: "School of Resource and Environmental Sciences, Wuhan University"
-    image: "/assets/img/people/Tang_Image.jpg"
+    image: "/assets/img/people/profile-placeholder.svg"
     email: "siqit@outlook.com"
     website: ""
     google_scholar: "https://scholar.google.com/citations?user=3khMcpsAAAAJ"

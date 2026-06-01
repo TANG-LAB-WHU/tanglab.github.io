@@ -1,5 +1,6 @@
 - id: "nsfc-young-32202605"
   title: "Interfacial kinetics regulation of hydroxyapatite crystal structural defects fabricates emerging nanostructured phosphorus fertilizer and its phosphorus supply performance study"
+  title_zh: "界面动力学调控羟基磷酸钙晶体结构缺陷制备新型纳米磷肥及其供磷性能研究"
   funder: "National Natural Science Foundation of China (NSFC)"
   grant_number: "32202605"
   period: "2023.01 - 2024.12"
@@ -13,8 +14,8 @@
   tags:
     - "NSFC"
     - "Hydroxyapatite"
-    - "Nanofertilizer"
-    - "Interfacial Kinetics"
+    - "Nanofertilizers"
+    - "Interfacial Thermodynamics & Kinetics"
     - "Sustainable Agriculture"
   featured: true
   image: "/assets/img/projects/phosphorus-nanofertilizer.svg"
