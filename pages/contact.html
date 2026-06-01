@@ -65,7 +65,7 @@ permalink: /contact/
   <script>
     (function() {
       var googleIframeUrl = "https://maps.google.com/maps?q=School%20of%20Resource%20and%20Environmental%20Sciences%20Wuhan%20University&t=&z=14&ie=UTF8&iwloc=&output=embed";
-      var baiduIframeUrl = "https://api.map.baidu.com/marker?location=30.528489,114.360875&title=TANG%20LAB%20%40%20WHU&content=School%20of%20Resource%20and%20Environmental%20Sciences%2C%20Wuhan%20University&output=html&src=tanglab";
+      var fallbackIframeUrl = "https://www.openstreetmap.org/export/embed.html?bbox=114.354875%2C30.524489%2C114.366875%2C30.532489&layer=mapnik&marker=30.528489%2C114.360875";
       
       var container = document.getElementById('map-container');
       var isMapLoaded = false;
@@ -87,13 +87,13 @@ permalink: /contact/
       };
       
       img.onerror = function() {
-        injectMap(baiduIframeUrl, 'Baidu Maps');
+        injectMap(fallbackIframeUrl, 'OpenStreetMap');
       };
       
-      // Fallback to Baidu Maps if connection test is slow (1.5 seconds)
+      // Fallback to OpenStreetMap if connection test is slow (1.5 seconds)
       setTimeout(function() {
         if (!isMapLoaded) {
-          injectMap(baiduIframeUrl, 'Baidu Maps (Timeout Fallback)');
+          injectMap(fallbackIframeUrl, 'OpenStreetMap (Timeout Fallback)');
         }
       }, 1500);
     })();
