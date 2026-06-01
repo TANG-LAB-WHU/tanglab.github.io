@@ -3,3 +3,17 @@ _site/
 .sass-cache/
 .bundle/
 vendor/
+
+# Security and Privacy: Personal PDF resumes containing sensitive contact info
+_data/*.pdf
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Temp and log files
+*.log
