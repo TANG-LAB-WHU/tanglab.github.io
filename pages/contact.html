@@ -24,7 +24,9 @@ permalink: /contact/
     <div class="card-body">
       <p class="eyebrow">Academic Hubs</p>
       <h2>Digital Platforms</h2>
+      {% if site.data.site.email and site.data.site.email != "" %}
       <p style="margin-bottom: 12px;"><strong>Email:</strong> <a href="mailto:{{ site.data.site.email }}">{{ site.data.site.email }}</a></p>
+      {% endif %}
       <p style="margin-bottom: 12px;"><strong>GitHub:</strong> <a href="{{ site.data.site.github }}" target="_blank" rel="noopener">TANG-LAB-WHU</a></p>
       <p style="margin-bottom: 12px;"><strong>Hugging Face:</strong> <a href="{{ site.data.site.huggingface }}" target="_blank" rel="noopener">TANG-Research-Group</a></p>
       <p style="margin-bottom: 0;"><strong>Official Website:</strong> <a href="{{ site.data.site.site_url }}">{{ site.data.site.site_url }}</a></p>

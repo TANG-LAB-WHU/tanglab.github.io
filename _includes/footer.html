@@ -1,18 +1,22 @@
 <footer class="site-footer">
-  <div class="container footer-grid">
-    <div>
-      <a class="footer-brand" href="{{ '/' | relative_url }}">{{ site.data.site.group_name }}</a>
-      <p>{{ site.data.site.tagline }}</p>
-      <p>{{ site.data.site.university }}<br>{{ site.data.site.location }}</p>
-    </div>
-    <div>
-      <strong>Contact</strong>
-      <p>
-        <a href="mailto:{{ site.data.site.email }}">{{ site.data.site.email }}</a><br>
-        <a href="{{ site.data.site.github }}">GitHub: TANG-LAB-WHU</a><br>
-        <a href="{{ site.data.site.huggingface }}" target="_blank" rel="noopener">Hugging Face: TANG-Research-Group</a><br>
-        <a href="{{ site.data.site.site_url }}">{{ site.data.site.site_url }}</a>
-      </p>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-column footer-column--about">
+        <a class="footer-brand" href="{{ '/' | relative_url }}">{{ site.data.site.group_name }}</a>
+        <p>{{ site.data.site.tagline }}</p>
+        <p>{{ site.data.site.university }}<br>{{ site.data.site.location }}</p>
+      </div>
+      <div class="footer-column footer-column--contact">
+        <p class="footer-contact-title">Contact</p>
+        <div class="footer-contact-links">
+          {% if site.data.site.email and site.data.site.email != "" %}
+          <a href="mailto:{{ site.data.site.email }}">{{ site.data.site.email }}</a>
+          {% endif %}
+          <a href="{{ site.data.site.github }}">GitHub: TANG-LAB-WHU</a>
+          <a href="{{ site.data.site.huggingface }}" target="_blank" rel="noopener">Hugging Face: TANG-Research-Group</a>
+          <a href="{{ site.data.site.site_url }}">Official website</a>
+        </div>
+      </div>
     </div>
   </div>
 </footer>
