@@ -15,6 +15,7 @@ GEM
     ffi (1.17.4)
     ffi (1.17.4-aarch64-linux-gnu)
     ffi (1.17.4-arm64-darwin)
+    ffi (1.17.4-x64-mingw-ucrt)
     ffi (1.17.4-x86_64-linux-gnu)
     forwardable-extended (2.6.0)
     google-protobuf (4.35.0)
@@ -24,6 +25,9 @@ GEM
       bigdecimal
       rake (~> 13.3)
     google-protobuf (4.35.0-arm64-darwin)
+      bigdecimal
+      rake (~> 13.3)
+    google-protobuf (4.35.0-x64-mingw-ucrt)
       bigdecimal
       rake (~> 13.3)
     google-protobuf (4.35.0-x86_64-linux-gnu)
@@ -84,6 +88,8 @@ GEM
       google-protobuf (~> 4.31)
     sass-embedded (1.100.0-arm64-darwin)
       google-protobuf (~> 4.31)
+    sass-embedded (1.100.0-x64-mingw-ucrt)
+      google-protobuf (~> 4.31)
     sass-embedded (1.100.0-x86_64-linux-gnu)
       google-protobuf (~> 4.31)
     terminal-table (3.0.2)
@@ -95,6 +101,7 @@ PLATFORMS
   aarch64-linux
   arm64-darwin-20
   ruby
+  x64-mingw-ucrt
   x86_64-linux
 
 DEPENDENCIES
