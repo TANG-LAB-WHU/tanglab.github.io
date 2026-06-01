@@ -1,19 +1,19 @@
 principal_investigator:
-  - name: "Professor Tang"
-    role: "Principal Investigator"
-    affiliation: "Wuhan University"
+  - name: "Dr. Siqi Tang"
+    role: "Research Associate Professor"
+    affiliation: "School of Resources and Environmental Sciences, Wuhan University"
     image: "/assets/img/people/profile-placeholder.svg"
-    email: "itanggroup@gmail.com"
+    email: "siqit@outlook.com"
     website: ""
-    google_scholar: ""
+    google_scholar: "https://scholar.google.com/citations?user=3khMcpsAAAAJ"
     github: ""
-    research_interests:
-      - "AI for Science"
-      - "Molecular simulation"
-      - "Sustainable materials"
-      - "Waste valorization"
-      - "Environmental decision-making"
-    bio: "Professor Tang leads TANG LAB at Wuhan University. The group works at the intersection of artificial intelligence, molecular simulation, sustainable materials, waste valorization, and environmental decision-making. Replace this paragraph with the professor's official biography, research interests, and selected honors."
+    # research_interests:
+    #   - "AI for Science"
+    #   - "Molecular simulation"
+    #   - "Sustainable materials"
+    #   - "Waste valorization"
+    #   - "Environmental decision-making"
+    bio: "Dr. Siqi Tang is a tenured Research Associate Professor at the School of Resources and Environmental Sciences, Wuhan University, joining in March 2026. He received his Ph.D. in Mechanics (Energy and Resources Engineering) and M.S. in Environmental Engineering from Peking University. Dr. Tang has accumulated rich research experience through postdoctoral and researcher appointments at the University of Illinois Urbana-Champaign (UIUC), Peking University, and Nanyang Technological University (NTU). His research is situated at the forefront of AI-driven environmental chemistry (AI4EC) and sustainable engineering, leveraging machine learning-accelerated molecular dynamics (MLIP-AIMD), generative deep learning, and advanced materials design. He has authored over 20 papers in leading journals such as Angewandte Chemie, ES&T, Water Research, and Small. He is the PI of an NSFC Young Scientists Fund project and is a recipient of the prestigious Tang Xiaoyan Environmental Science Innovation Award."
 
 # research_staff:
 #   - name: "Research Staff Placeholder"
