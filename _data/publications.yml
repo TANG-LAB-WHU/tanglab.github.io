@@ -5,7 +5,7 @@
   type: journal
   selected: true
   links:
-    paper: https://doi.org/10.1002/anie.202518088
+    # paper: https://doi.org/10.1002/anie.202518088
     doi: https://doi.org/10.1002/anie.202518088
     code: ''
     project: ''
@@ -18,7 +18,7 @@
   type: journal
   selected: true
   links:
-    paper: https://doi.org/10.1021/acsestengg.4c00576
+    # paper: https://doi.org/10.1021/acsestengg.4c00576
     doi: https://doi.org/10.1021/acsestengg.4c00576
     code: ''
     project: ''
@@ -31,7 +31,7 @@
   type: journal
   selected: true
   links:
-    paper: https://doi.org/10.1021/acs.est.4c03290
+    # paper: https://doi.org/10.1021/acs.est.4c03290
     doi: https://doi.org/10.1021/acs.est.4c03290
     code: ''
     project: ''
@@ -44,7 +44,7 @@
   type: journal
   selected: false
   links:
-    paper: https://doi.org/10.1021/acssuschemeng.3c05664
+    # paper: https://doi.org/10.1021/acssuschemeng.3c05664
     doi: https://doi.org/10.1021/acssuschemeng.3c05664
     code: ''
     project: ''
@@ -57,7 +57,7 @@
   type: journal
   selected: false
   links:
-    paper: https://doi.org/10.1016/j.rser.2023.113474
+    # paper: https://doi.org/10.1016/j.rser.2023.113474
     doi: https://doi.org/10.1016/j.rser.2023.113474
     code: ''
     project: ''
@@ -70,7 +70,7 @@
   type: journal
   selected: true
   links:
-    paper: https://doi.org/10.1016/j.enconman.2023.116830
+    # paper: https://doi.org/10.1016/j.enconman.2023.116830
     doi: https://doi.org/10.1016/j.enconman.2023.116830
     code: ''
     project: ''
@@ -83,7 +83,7 @@
   type: journal
   selected: false
   links:
-    paper: https://doi.org/10.1002/smll.202206954
+    # paper: https://doi.org/10.1002/smll.202206954
     doi: https://doi.org/10.1002/smll.202206954
     code: ''
     project: ''
@@ -96,7 +96,7 @@
   type: journal
   selected: true
   links:
-    paper: https://doi.org/10.1021/acsomega.3c00762
+    # paper: https://doi.org/10.1021/acsomega.3c00762
     doi: https://doi.org/10.1021/acsomega.3c00762
     code: ''
     project: ''
@@ -109,7 +109,7 @@
   type: journal
   selected: false
   links:
-    paper: https://doi.org/10.1016/j.cej.2022.135961
+    # paper: https://doi.org/10.1016/j.cej.2022.135961
     doi: https://doi.org/10.1016/j.cej.2022.135961
     code: ''
     project: ''
@@ -122,7 +122,7 @@
   type: journal
   selected: false
   links:
-    paper: https://doi.org/10.1021/acsanm.0c02921
+    # paper: https://doi.org/10.1021/acsanm.0c02921
     doi: https://doi.org/10.1021/acsanm.0c02921
     code: ''
     project: ''
@@ -135,7 +135,7 @@
   type: journal
   selected: false
   links:
-    paper: https://doi.org/10.1016/j.watres.2019.115450
+    # paper: https://doi.org/10.1016/j.watres.2019.115450
     doi: https://doi.org/10.1016/j.watres.2019.115450
     code: ''
     project: ''
@@ -148,7 +148,7 @@
   type: journal
   selected: false
   links:
-    paper: https://doi.org/10.1016/j.jhazmat.2019.121736
+    # paper: https://doi.org/10.1016/j.jhazmat.2019.121736
     doi: https://doi.org/10.1016/j.jhazmat.2019.121736
     code: ''
     project: ''
@@ -161,7 +161,7 @@
   type: journal
   selected: false
   links:
-    paper: https://doi.org/10.1016/j.wasman.2019.04.042
+    # paper: https://doi.org/10.1016/j.wasman.2019.04.042
     doi: https://doi.org/10.1016/j.wasman.2019.04.042
     code: ''
     project: ''
@@ -174,7 +174,7 @@
   type: journal
   selected: false
   links:
-    paper: https://doi.org/10.1016/j.jclepro.2018.08.312
+    # paper: https://doi.org/10.1016/j.jclepro.2018.08.312
     doi: https://doi.org/10.1016/j.jclepro.2018.08.312
     code: ''
     project: ''
@@ -187,7 +187,7 @@
   type: journal
   selected: false
   links:
-    paper: https://doi.org/10.1016/j.wasman.2018.09.012
+    # paper: https://doi.org/10.1016/j.wasman.2018.09.012
     doi: https://doi.org/10.1016/j.wasman.2018.09.012
     code: ''
     project: ''
@@ -200,7 +200,7 @@
   type: journal
   selected: false
   links:
-    paper: https://doi.org/10.1021/acssuschemeng.8b03428
+    # paper: https://doi.org/10.1021/acssuschemeng.8b03428
     doi: https://doi.org/10.1021/acssuschemeng.8b03428
     code: ''
     project: ''
@@ -213,7 +213,7 @@
   type: journal
   selected: false
   links:
-    paper: https://doi.org/10.1021/acssuschemeng.8b01492
+    # paper: https://doi.org/10.1021/acssuschemeng.8b01492
     doi: https://doi.org/10.1021/acssuschemeng.8b01492
     code: ''
     project: ''
@@ -226,7 +226,7 @@
   type: journal
   selected: false
   links:
-    paper: https://doi.org/10.1016/j.energy.2018.04.108
+    # paper: https://doi.org/10.1016/j.energy.2018.04.108
     doi: https://doi.org/10.1016/j.energy.2018.04.108
     code: ''
     project: ''
@@ -239,7 +239,7 @@
   type: journal
   selected: false
   links:
-    paper: https://doi.org/10.1016/j.jclepro.2018.03.178
+    # paper: https://doi.org/10.1016/j.jclepro.2018.03.178
     doi: https://doi.org/10.1016/j.jclepro.2018.03.178
     code: ''
     project: ''
@@ -252,7 +252,7 @@
   type: journal
   selected: false
   links:
-    paper: https://doi.org/10.1016/j.psep.2017.10.014
+    # paper: https://doi.org/10.1016/j.psep.2017.10.014
     doi: https://doi.org/10.1016/j.psep.2017.10.014
     code: ''
     project: ''
@@ -265,7 +265,7 @@
   type: journal
   selected: false
   links:
-    paper: https://doi.org/10.1021/acs.energyfuels.6b03256
+    # paper: https://doi.org/10.1021/acs.energyfuels.6b03256
     doi: https://doi.org/10.1021/acs.energyfuels.6b03256
     code: ''
     project: ''
