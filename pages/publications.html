@@ -8,9 +8,29 @@ permalink: /publications/
   Publication data shown here should be replaced with the lab's official publication list.
 </div> -->
 
-{% assign pubs_by_year = site.data.publications | sort: "year" | reverse %}
-<div class="publication-list">
-{% for pub in pubs_by_year %}
-  {% include publication-item.html pub=pub %}
-{% endfor %}
+{% assign grouped_pubs = site.data.publications | group_by: "year" | sort: "name" | reverse %}
+<div class="publication-list" style="display: flex; flex-direction: column; gap: 24px;">
+  {% for group in grouped_pubs %}
+    <article class="card" style="padding: 28px; box-shadow: var(--shadow);">
+      <div class="pub-year" style="font-size: 1.8rem; font-weight: 850; color: var(--brand); border-bottom: 2px solid var(--line); padding-bottom: 8px; margin-bottom: 24px;">
+        {{ group.name }}
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 28px;">
+        {% for pub in group.items %}
+          <div class="pub-item" style="{% unless forloop.last %}border-bottom: 1px dashed var(--line); padding-bottom: 24px;{% endunless %}">
+            <p class="eyebrow" style="margin-bottom: 8px;">{{ pub.type | upcase }}</p>
+            <h3 style="font-size: 1.3rem; margin: 0 0 10px 0; line-height: 1.35; font-weight: 750; color: var(--ink);">{{ pub.title }}</h3>
+            <p style="margin: 0 0 10px 0; color: var(--muted); font-size: 1.02rem;">{{ pub.authors }}. <em>{{ pub.venue }}</em>.</p>
+            {% if pub.abstract and pub.abstract != "" %}<p style="margin: 0 0 12px 0; font-size: 0.96rem; color: var(--muted); line-height: 1.6;">{{ pub.abstract }}</p>{% endif %}
+            <div class="link-row" style="display: flex; gap: 14px;">
+              {% if pub.links.paper and pub.links.paper != "" %}<a class="button secondary small" href="{{ pub.links.paper }}" target="_blank" rel="noopener" style="min-height: 32px; padding: 4px 10px; font-size: 0.85rem; box-shadow: none;">Paper</a>{% endif %}
+              {% if pub.links.doi and pub.links.doi != "" %}<a class="button secondary small" href="{{ pub.links.doi }}" target="_blank" rel="noopener" style="min-height: 32px; padding: 4px 10px; font-size: 0.85rem; box-shadow: none;">DOI</a>{% endif %}
+              {% if pub.links.code and pub.links.code != "" %}<a class="button secondary small" href="{{ pub.links.code }}" target="_blank" rel="noopener" style="min-height: 32px; padding: 4px 10px; font-size: 0.85rem; box-shadow: none;">Code</a>{% endif %}
+              {% if pub.links.project and pub.links.project != "" %}<a class="button secondary small" href="{{ pub.links.project }}" target="_blank" rel="noopener" style="min-height: 32px; padding: 4px 10px; font-size: 0.85rem; box-shadow: none;">Project</a>{% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </article>
+  {% endfor %}
 </div>

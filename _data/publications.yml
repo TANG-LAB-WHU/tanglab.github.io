@@ -1,7 +1,7 @@
 - title: Active‐Site Shifting on the Ni‐FeOx Interface Bridges Metallic and Oxidative
     Catalysis for Efficient Methane Partial Oxidation
-  authors: Wen Liu, Siqi Tang, Wenqi Sang, Chen Fan, Xizhe Zhang, Weixin Xu, Shuangmei
-    Han, Jianguo Jiang, Sicong Tian, Lujia Han
+  authors: Wen Liu, <strong>Siqi Tang</strong>, Wenqi Sang, Chen Fan, Xizhe Zhang,
+    Weixin Xu, Shuangmei Han, Jianguo Jiang, Sicong Tian*, Lujia Han
   venue: Angewandte Chemie
   year: 2026
   type: journal
@@ -15,7 +15,7 @@
 - title: Heat Capacity-Manipulated Balance in Phosphorus Bioavailability Enhancement
     and Heavy Metal Stabilization during Sewage Sludge Copyrolysis
   authors: Le Fang, Guangcai Tan, Weiwei Xuan, Jiaming Liang, Liping Li, Shaogang
-    Hu, Zhenshan Li, Siqi Tang
+    Hu, Zhenshan Li*, and <strong>Siqi Tang</strong>*
   venue: ACS ES&T Engineering
   year: 2025
   type: journal
@@ -28,8 +28,8 @@
   abstract: ''
 - title: Hydrothermally Stimulated Molecular Interfaces for Augmented Electron Delocalization
     in Wet-Chemical Phosphorus Recovery from Incineration Ash of Sewage Sludge
-  authors: Jiaming Liang, Ouyang Li, Le Fang, Fulei Han, Yundan Chen, Siqi Tang, Zhenshan
-    Li
+  authors: Jiaming Liang, Ouyang Li, Le Fang, Fulei Han, Yundan Chen, <strong>Siqi
+    Tang</strong>*, and Zhenshan Li*
   venue: Environmental Science & Technology
   year: 2024
   type: journal
@@ -42,7 +42,8 @@
   abstract: ''
 - title: Exploration of Converting Food Waste into Value-Added Products via Insect
     Pretreatment-Assisted Hydrothermal Catalysis
-  authors: Ouyang Li, Jiaming Liang, Yundan Chen, Siqi Tang, Zhenshan Li
+  authors: Ouyang Li, Jiaming Liang, Yundan Chen, <strong>Siqi Tang</strong>*, and
+    Zhenshan Li*
   venue: ACS Omega
   year: 2023
   type: journal
@@ -55,8 +56,8 @@
   abstract: ''
 - title: Key element course-tracked copyrolysis of sewage sludge and biomass for resource
     recovery and pollution control through kinetic and thermodynamic insights
-  authors: Siqi Tang, Guangcai Tan, Jiaming Liang, Ouyang Li, Weiwei Xuan, Zhenshan
-    Li
+  authors: <strong>Siqi Tang</strong>*, Guangcai Tan, Jiaming Liang, Ouyang Li, Weiwei
+    Xuan, and Zhenshan Li*
   venue: Energy Conversion and Management
   year: 2023
   type: journal
@@ -69,8 +70,8 @@
   abstract: ''
 - title: Morphology-Tailored Hydroxyapatite Nanocarrier for Rhizosphere-Targeted Phosphorus
     Delivery
-  authors: Tang, Siqi, Liang, Jiaming, Li, Ouyang, Shao, Ningning, Jin, Yongsheng,
-    Ni, Jinren, Fei, Xunchang, Li, Zhenshan
+  authors: <strong>Siqi Tang</strong>, Jiaming Liang, Ouyang Li, Ningning Shao, Yongsheng
+    Jin, Jinren Ni, Xunchang Fei*, and Zhenshan Li*
   venue: Small
   year: 2023
   type: journal
@@ -83,8 +84,8 @@
   abstract: ''
 - title: Thermodynamics-Oriented Crystal Growth Enables Lignocellulose-Enticed Nanostructured
     Hydroxyapatite with Boosted Phosphorus Fertilizer Utility
-  authors: Siqi Tang, Xuming Xu, Ningning Shao, Jiaming Liang, Weiwei Xuan, Ouyang
-    Li, Xunchang Fei, Yongsheng Jin, Zhenshan Li
+  authors: <strong>Siqi Tang</strong>, Xuming Xu, Ningning Shao, Jiaming Liang, Weiwei
+    Xuan, Ouyang Li, Xunchang Fei, Yongsheng Jin*, and Zhenshan Li*
   venue: ACS Sustainable Chemistry & Engineering
   year: 2023
   type: journal
@@ -97,7 +98,8 @@
   abstract: ''
 - title: WS<sub>2</sub>-cocatalyzed peroxymonosulfate activation via an enhanced Fe(III)/Fe(II)
     cycle toward efficient organic pollutant degradation
-  authors: Chen, Y., Shao, Y., Li, O., Liang, J., Tang, S., Li, Z.
+  authors: Yundan Chen, Yan Shao, Ouyang Li, Jiaming Liang, <strong>Siqi Tang</strong>*,
+    and Zhenshan Li*
   venue: Chemical Engineering Journal
   year: 2022
   type: journal
@@ -110,7 +112,7 @@
   abstract: ''
 - title: Refractory Calcium Phosphate-Derived Phosphorus Fertilizer Based on Hydroxyapatite
     Nanoparticles for Nutrient Delivery
-  authors: Tang, S., Fei, X.
+  authors: <strong>Siqi Tang</strong>, and Xunchang Fei*
   venue: ACS Applied Nano Materials
   year: 2021
   type: journal
@@ -123,7 +125,8 @@
   abstract: ''
 - title: Defective analcime/geopolymer composite membrane derived from fly ash for
     ultrafast and highly efficient filtration of organic pollutants
-  authors: Shao, N., Tang, S., Li, S., Chen, H., Zhang, Z.
+  authors: Ningning Shao, <strong>Siqi Tang</strong>, Shun Li, Hong Chen, and Zuotai
+    Zhang*
   venue: Journal of Hazardous Materials
   year: 2020
   type: journal
@@ -136,7 +139,7 @@
   abstract: ''
 - title: Efficient recovery of phosphorus in sewage sludge through hydroxylapatite
     enhancement formation aided by calcium-based additives
-  authors: Chen, J., Tang, S., Yan, F., Zhang, Z.
+  authors: Jingjing Chen, <strong>Siqi Tang</strong>, Feng Yan, and Zuotai Zhang*
   venue: Water Research
   year: 2020
   type: journal
@@ -149,7 +152,8 @@
   abstract: ''
 - title: Amino-functionalized sewage sludge-derived biochar as sustainable efficient
     adsorbent for Cu(II) removal
-  authors: Tang, S., Shao, N., Zheng, C., Yan, F., Zhang, Z.
+  authors: <strong>Siqi Tang</strong>, Ningning Shao, Chunmiao Zheng, Feng Yan, and
+    Zuotai Zhang*
   venue: Waste Management
   year: 2019
   type: journal
@@ -161,7 +165,7 @@
     project: ''
   abstract: ''
 - title: Alkali metal-driven release behaviors of volatiles during sewage sludge pyrolysis
-  authors: Tang, S., Tang, Y., Zheng, C., Zhang, Z.
+  authors: <strong>Siqi Tang</strong>, Yuanyuan Tang, Chunmiao Zheng, and Zuotai Zhang*
   venue: Journal of Cleaner Production
   year: 2018
   type: journal
@@ -174,7 +178,8 @@
   abstract: ''
 - title: Characterization of PM10 surrounding a cement plant with integrated facilities
     for co-processing of hazardous wastes
-  authors: Yang, Zhenzhou, Tang, Siqi, Zhang, Zuotai, Liu, Chongxuan, Ge, Xinlei
+  authors: Zhenzhou Yang, <strong>Siqi Tang</strong>, Zuotai Zhang*, Chongxuan Liu,
+    and Xinlei Gai
   venue: Journal of Cleaner Production
   year: 2018
   type: journal
@@ -187,7 +192,7 @@
   abstract: ''
 - title: 'Effect of inherent minerals on sewage sludge pyrolysis: Product characteristics,
     kinetics and thermodynamics'
-  authors: Tang, S., Zheng, C., Zhang, Z.
+  authors: <strong>Siqi Tang</strong>, Chunmiao Zheng, and Zuotai Zhang*
   venue: Waste Management
   year: 2018
   type: journal
@@ -200,7 +205,8 @@
   abstract: ''
 - title: Hierarchically Structured Calcium Silicate Hydrate-Based Nanocomposites Derived
     from Steel Slag for Highly Efficient Heavy Metal Removal from Wastewater
-  authors: Shao, N., Tang, S., Liu, Z., Li, L., Yan, F., Liu, F., Li, S., Zhang, Z.
+  authors: Ningning Shao, <strong>Siqi Tang</strong>, Ze Liu, Li Li, Feng Yan, Fei
+    Liu, Shun Li, and Zuotai Zhang*
   venue: ACS Sustainable Chemistry and Engineering
   year: 2018
   type: journal
@@ -213,7 +219,7 @@
   abstract: ''
 - title: Novel Calcium Oxide-Enhancement Phosphorus Recycling Technique through Sewage
     Sludge Pyrolysis
-  authors: Tang, S., Yan, F., Zheng, C., Zhang, Z.
+  authors: <strong>Siqi Tang</strong>, Feng Yan, Chunmiao Zheng, and Zuotai Zhang*
   venue: ACS Sustainable Chemistry and Engineering
   year: 2018
   type: journal
@@ -226,7 +232,8 @@
   abstract: ''
 - title: Product characteristics and kinetics of sewage sludge pyrolysis driven by
     alkaline earth metals
-  authors: TANG LAB
+  authors: <strong>Siqi Tang</strong>, Chunmiao Zheng, Feng Yan, Ningning Shao, Yuanyuan
+    Tang, and Zuotai Zhang*
   venue: Energy
   year: 2018
   type: journal
@@ -238,7 +245,7 @@
     project: ''
   abstract: ''
 - title: Pyrolysis kinetics of sewage sludge and its biochar characteristics
-  authors: TANG LAB
+  authors: Qiyong Xu, <strong>Siqi Tang</strong>, Jingchen Wang, and JaeHac Ko*
   venue: Process Safety and Environmental Protection
   year: 2018
   type: journal
@@ -251,7 +258,7 @@
   abstract: ''
 - title: 'Effect of Calcium Hydroxide on the Pyrolysis Behavior of Sewage Sludge:
     Reaction Characteristics and Kinetics'
-  authors: TANG LAB
+  authors: <strong>Siqi Tang</strong>, Sicong Tian, Chunmiao Zheng, and Zuotai Zhang*
   venue: Energy & Fuels
   year: 2017
   type: journal
@@ -262,17 +269,3 @@
     code: ''
     project: ''
   abstract: ''
-# - title: Pore Structure Characteristics of Sludge Biochars during Pyrolysis with Various
-#     Pyrolysis Temperatures and Holding Times
-#   authors: Tang, S., Wang, J., Ko, J.
-#   venue: Beijing Daxue Xuebao (Ziran Kexue Ban)/Acta Scientiarum Naturalium Universitatis
-#     Pekinensis
-#   year: 2017
-#   type: journal
-#   selected: false
-#   links:
-#     paper: http://www.scopus.com/inward/record.url?eid=2-s2.0-85031915551&partnerID=MN8TOARS
-#     doi: https://doi.org/10.13209/j.0479-8023.2017.085
-#     code: ''
-#     project: ''
-#   abstract: ''
