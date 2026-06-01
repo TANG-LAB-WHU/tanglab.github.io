@@ -20,9 +20,9 @@ permalink: /publications/
         {% for pub in group.items %}
           <div class="pub-item" style="{% unless forloop.last %}border-bottom: 1px dashed var(--line); padding-bottom: 24px;{% endunless %}">
             <p class="eyebrow" style="margin-bottom: 8px;">{{ pub.type | upcase }}</p>
-            <h3 style="font-size: 1.3rem; margin: 0 0 10px 0; line-height: 1.4; font-weight: 750; color: var(--ink); display: flex; flex-wrap: wrap; align-items: center; gap: 8px;">
-              <span><span style="color: var(--brand); margin-right: 8px;">[{{ paper_index }}]</span>{{ pub.title }}</span>
-              <span style="display: inline-flex; gap: 6px; align-items: center; margin-left: 4px; vertical-align: middle;">
+            <h3 style="font-size: 1.3rem; margin: 0 0 10px 0; line-height: 1.4; font-weight: 750; color: var(--ink); display: block;">
+              <span style="color: var(--brand); margin-right: 8px;">[{{ paper_index }}]</span>{{ pub.title }}
+              <span style="display: inline-flex; gap: 6px; align-items: center; margin-left: 6px; vertical-align: middle;">
                 {% if pub.links.paper and pub.links.paper != "" %}
                   <a href="{{ pub.links.paper }}" target="_blank" rel="noopener" style="
                     font-size: 0.72rem;
