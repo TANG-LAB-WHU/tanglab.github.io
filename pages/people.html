@@ -12,10 +12,13 @@ permalink: /people/
 {% assign labels = "Principal Investigator,Research Staff,PhD Students,Master's Students,Undergraduate Researchers,Visiting Students,Alumni" | split: "," %}
 
 {% for group in groups %}
-  <h2>{{ labels[forloop.index0] }}</h2>
-  <div class="people-grid">
-    {% for person in site.data.people[group] %}
-      {% include person-card.html person=person %}
-    {% endfor %}
-  </div>
+  {% assign group_members = site.data.people[group] %}
+  {% if group_members and group_members.size > 0 %}
+    <h2>{{ labels[forloop.index0] }}</h2>
+    <div class="people-grid">
+      {% for person in group_members %}
+        {% include person-card.html person=person %}
+      {% endfor %}
+    </div>
+  {% endif %}
 {% endfor %}
