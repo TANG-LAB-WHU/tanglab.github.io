@@ -6,19 +6,20 @@ email: "itanggroup@gmail.com"
 github: "https://github.com/TANG-LAB-WHU"
 huggingface: "https://huggingface.co/TANG-Research-Group"
 site_url: "https://tang-lab-whu.github.io/tanglab.github.io"
-tagline: "AI for sustainable materials, molecular simulation, and circular resource systems."
+tagline: "Physics-intrinsic AI (PI-AI) for circular resource and sustainable engineering science."
 hero_summary: >
-  TANG LAB at Wuhan University develops AI-driven, simulation-informed, and sustainability-aware
-  methods for materials discovery, waste valorization, molecular systems, and environmental
-  decision-making. Our work connects atomistic simulation, machine learning, molecular dynamics,
-  LCA/TEA, and interpretable modeling to accelerate real-world solutions for carbon mineralization,
-  phosphogypsum upcycling, renewable bioenergy, and circular-economy technologies.
+  TANG LAB at Wuhan University leverages Physics-intrinsic Artificial Intelligence (PI-AI) to advance
+  circular resource and sustainable engineering science. Our work connects atomistic simulation, machine
+  learning, molecular dynamics, LCA/TEA, and interpretable modeling to accelerate real-world solutions for
+  carbon mineralization, phosphogypsum upcycling, renewable bioenergy, and circular-economy technologies.
 research_vision: >
   From atoms to systems, TANG LAB connects molecular-scale simulation with system-level
   sustainability assessment. We study how materials and molecular processes behave, how
   machine-learning models can accelerate discovery, and how emerging technologies may perform
   environmentally, economically, and socially.
 research_keywords:
+  - "Physics-intrinsic AI (PI-AI)"
+  - "Circular Resource Science"
   - "AI for Science"
   - "AIMD"
   - "Molecular Dynamics"

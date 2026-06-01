@@ -2,8 +2,8 @@
   title: "HAP_CO2mineralization"
   repo: "HAP_CO2mineralization"
   repo_url: "https://github.com/TANG-LAB-WHU/HAP_CO2mineralization"
-  short_description: "AI-accelerated CO₂ mineralization on hydroxyapatite material families using AIMD and machine-learning workflows."
-  long_description: "This project frames a workflow that combines ab initio molecular dynamics, molecular simulation, and machine learning to study artificially accelerated CO₂ mineralization on HAP material families."
+  short_description: "Physics-intrinsic AI (PI-AI) accelerated CO₂ mineralization on hydroxyapatite material families using AIMD and machine-learning workflows."
+  long_description: "This project frames a workflow that combines ab initio molecular dynamics, molecular simulation, and Physics-intrinsic AI (PI-AI) to study artificially accelerated CO₂ mineralization on HAP material families."
   category: "AI for Sustainable Materials"
   language: "Python"
   tags:
@@ -21,8 +21,8 @@
   title: "AI_Phosphogypsum"
   repo: "AI_Phosphogypsum"
   repo_url: "https://github.com/TANG-LAB-WHU/AI_Phosphogypsum"
-  short_description: "AI-enabled phosphogypsum upcycling for sustainable waste management and circular resource recovery."
-  long_description: "This project focuses on AI-empowered upcycling of phosphogypsum, connecting waste management, materials thinking, and circular resource systems."
+  short_description: "Physics-intrinsic AI (PI-AI) enabled phosphogypsum upcycling for sustainable waste management and circular resource recovery."
+  long_description: "This project focuses on Physics-intrinsic AI (PI-AI) empowered upcycling of phosphogypsum, connecting waste management, materials thinking, and circular resource systems."
   category: "AI for Environmental Upcycling"
   language: "Python"
   tags:

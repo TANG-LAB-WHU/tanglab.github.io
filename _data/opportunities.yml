@@ -1,7 +1,7 @@
 intro: >
-  TANG LAB welcomes motivated students and collaborators interested in AI for Science,
-  molecular simulation, sustainable materials, circular resource systems, and environmental
-  decision-making. Students with backgrounds in chemistry, materials science, environmental
+  TANG LAB welcomes motivated students and collaborators interested in Physics-intrinsic AI (PI-AI),
+  circular resource and sustainable engineering science, molecular simulation, sustainable materials, and
+  environmental decision-making. Students with backgrounds in chemistry, materials science, environmental
   engineering, computer science, data science, applied mathematics, or related fields are
   encouraged to reach out.
 sections:
@@ -10,7 +10,7 @@ sections:
     description: >
       Prospective PhD students should apply through the relevant Wuhan University graduate
       program and mention their interest in TANG LAB in their application materials. Applicants
-      with experience in molecular simulation, AI/ML, scientific computing, sustainability
+      with experience in molecular simulation, Physics-intrinsic AI (PI-AI), scientific computing, sustainability
       assessment, or environmental systems are especially encouraged to connect their background
       to specific lab projects.
   - title: "Master's Students"
