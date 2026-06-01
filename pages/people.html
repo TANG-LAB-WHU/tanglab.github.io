@@ -15,7 +15,7 @@ permalink: /people/
   {% assign group_members = site.data.people[group] %}
   {% if group_members and group_members.size > 0 %}
     <h2>{{ labels[forloop.index0] }}</h2>
-    <div class="people-grid">
+    <div class="people-grid {% if group == 'principal_investigator' %}pi-grid{% endif %}">
       {% for person in group_members %}
         {% include person-card.html person=person %}
       {% endfor %}

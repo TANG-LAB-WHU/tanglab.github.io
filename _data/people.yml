@@ -1,7 +1,7 @@
 principal_investigator:
   - name: "Dr. Siqi Tang"
     role: "Research Associate Professor"
-    affiliation: "School of Resources and Environmental Sciences, Wuhan University"
+    affiliation: "School of Resource and Environmental Sciences, Wuhan University"
     image: "/assets/img/people/profile-placeholder.svg"
     email: "siqit@outlook.com"
     website: ""
@@ -13,7 +13,7 @@ principal_investigator:
     #   - "Sustainable materials"
     #   - "Waste valorization"
     #   - "Environmental decision-making"
-    bio: "Dr. Siqi Tang is a tenured Research Associate Professor at the School of Resources and Environmental Sciences, Wuhan University, joining in March 2026. He received his Ph.D. in Mechanics (Energy and Resources Engineering) and M.S. in Environmental Engineering from Peking University. Dr. Tang has accumulated rich research experience through postdoctoral and researcher appointments at the University of Illinois Urbana-Champaign (UIUC), Peking University, and Nanyang Technological University (NTU). His research is situated at the forefront of AI-driven environmental chemistry (AI4EC) and sustainable engineering, leveraging machine learning-accelerated molecular dynamics (MLIP-AIMD), generative deep learning, and advanced materials design. He has authored over 20 papers in leading journals such as Angewandte Chemie, ES&T, Water Research, and Small. He is the PI of an NSFC Young Scientists Fund project and is a recipient of the prestigious Tang Xiaoyan Environmental Science Innovation Award."
+    bio: "Dr. Siqi Tang is a tenured Research Associate Professor at the School of Resource and Environmental Sciences, Wuhan University, joining in March 2026. He received his Ph.D. in Mechanics (Energy and Resources Engineering) and M.S. in Environmental Engineering from Peking University, and his B.S. in Environmental Engineering from Northwest Normal University. Dr. Tang has accumulated rich research experience through postdoctoral and researcher appointments at the University of Illinois Urbana-Champaign (UIUC), Peking University, and Nanyang Technological University (NTU). His research is situated at the forefront of AI-driven environmental chemistry (AI4EC) and sustainable engineering, leveraging machine learning-accelerated molecular dynamics (MLIP-AIMD), generative deep learning, and advanced materials design. He has authored over 20 papers in leading journals such as Angewandte Chemie, ES&T, Water Research, and Small. He is the PI of an NSFC Young Scientists Fund project and is a recipient of the prestigious Tang Xiaoyan Environmental Science Innovation Award."
 
 # research_staff:
 #   - name: "Research Staff Placeholder"

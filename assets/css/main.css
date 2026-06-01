@@ -425,6 +425,10 @@ p {
   margin: 18px 0 42px;
 }
 
+.pi-grid {
+  grid-template-columns: 1fr;
+}
+
 .person-card {
   display: grid;
   grid-template-columns: 112px 1fr;
