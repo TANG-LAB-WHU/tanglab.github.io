@@ -15,19 +15,19 @@ principal_investigator:
       - "Environmental decision-making"
     bio: "Professor Tang leads TANG LAB at Wuhan University. The group works at the intersection of artificial intelligence, molecular simulation, sustainable materials, waste valorization, and environmental decision-making. Replace this paragraph with the professor's official biography, research interests, and selected honors."
 
-research_staff:
-  - name: "Research Staff Placeholder"
-    role: "Research Staff"
-    affiliation: "Wuhan University"
-    image: "/assets/img/people/profile-placeholder.svg"
-    email: ""
-    website: ""
-    google_scholar: ""
-    github: ""
-    research_interests:
-      - "Scientific computing"
-      - "Sustainability assessment"
-    bio: "Placeholder profile. Replace with an official staff biography or remove this entry."
+# research_staff:
+#   - name: "Research Staff Placeholder"
+#     role: "Research Staff"
+#     affiliation: "Wuhan University"
+#     image: "/assets/img/people/profile-placeholder.svg"
+#     email: ""
+#     website: ""
+#     google_scholar: ""
+#     github: ""
+#     research_interests:
+#       - "Scientific computing"
+#       - "Sustainability assessment"
+#     bio: "Placeholder profile. Replace with an official staff biography or remove this entry."
 
 phd_students:
   - name: "PhD Student Placeholder"
