@@ -387,6 +387,10 @@ p {
   color: var(--muted);
 }
 
+.project-card .card-actions {
+  margin-top: 18px;
+}
+
 .project-card-wide {
   grid-column: span 3;
   display: grid;
