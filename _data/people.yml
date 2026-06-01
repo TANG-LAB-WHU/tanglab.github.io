@@ -87,16 +87,16 @@ visiting_students:
       - "Environmental systems"
     bio: "Placeholder profile. Replace with official visiting student information or remove this entry."
 
-alumni:
-  - name: "Alumni Placeholder"
-    role: "Alumni"
-    affiliation: "TANG LAB @ WHU"
-    image: "/assets/img/people/profile-placeholder.svg"
-    email: ""
-    website: ""
-    google_scholar: ""
-    github: ""
-    research_interests:
-      - "Research area placeholder"
-    bio: "Placeholder alumni entry. Replace with verified alumni information or remove this entry."
-    now: "Current position placeholder"
+# alumni:
+#   - name: "Alumni Placeholder"
+#     role: "Alumni"
+#     affiliation: "TANG LAB @ WHU"
+#     image: "/assets/img/people/profile-placeholder.svg"
+#     email: ""
+#     website: ""
+#     google_scholar: ""
+#     github: ""
+#     research_interests:
+#       - "Research area placeholder"
+#     bio: "Placeholder alumni entry. Replace with verified alumni information or remove this entry."
+#     now: "Current position placeholder"
