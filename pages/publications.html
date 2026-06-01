@@ -20,18 +20,70 @@ permalink: /publications/
         {% for pub in group.items %}
           <div class="pub-item" style="{% unless forloop.last %}border-bottom: 1px dashed var(--line); padding-bottom: 24px;{% endunless %}">
             <p class="eyebrow" style="margin-bottom: 8px;">{{ pub.type | upcase }}</p>
-            <h3 style="font-size: 1.3rem; margin: 0 0 10px 0; line-height: 1.35; font-weight: 750; color: var(--ink);">
-              <span style="color: var(--brand); margin-right: 8px;">[{{ paper_index }}]</span>{{ pub.title }}
+            <h3 style="font-size: 1.3rem; margin: 0 0 10px 0; line-height: 1.4; font-weight: 750; color: var(--ink); display: flex; flex-wrap: wrap; align-items: center; gap: 8px;">
+              <span><span style="color: var(--brand); margin-right: 8px;">[{{ paper_index }}]</span>{{ pub.title }}</span>
+              <span style="display: inline-flex; gap: 6px; align-items: center; margin-left: 4px; vertical-align: middle;">
+                {% if pub.links.paper and pub.links.paper != "" %}
+                  <a href="{{ pub.links.paper }}" target="_blank" rel="noopener" style="
+                    font-size: 0.72rem;
+                    font-weight: 750;
+                    color: var(--brand);
+                    background: rgba(15, 118, 110, 0.08);
+                    border: 1px solid rgba(15, 118, 110, 0.25);
+                    padding: 2px 8px;
+                    border-radius: 4px;
+                    text-decoration: none;
+                    line-height: 1.2;
+                    transition: all 0.2s ease;
+                  " onmouseover="this.style.background='var(--brand)'; this.style.color='#fff';" onmouseout="this.style.background='rgba(15, 118, 110, 0.08)'; this.style.color='var(--brand)';">Paper</a>
+                {% endif %}
+                {% if pub.links.doi and pub.links.doi != "" %}
+                  <a href="{{ pub.links.doi }}" target="_blank" rel="noopener" style="
+                    font-size: 0.72rem;
+                    font-weight: 750;
+                    color: var(--brand);
+                    background: rgba(15, 118, 110, 0.08);
+                    border: 1px solid rgba(15, 118, 110, 0.25);
+                    padding: 2px 8px;
+                    border-radius: 4px;
+                    text-decoration: none;
+                    line-height: 1.2;
+                    transition: all 0.2s ease;
+                  " onmouseover="this.style.background='var(--brand)'; this.style.color='#fff';" onmouseout="this.style.background='rgba(15, 118, 110, 0.08)'; this.style.color='var(--brand)';">DOI</a>
+                {% endif %}
+                {% if pub.links.code and pub.links.code != "" %}
+                  <a href="{{ pub.links.code }}" target="_blank" rel="noopener" style="
+                    font-size: 0.72rem;
+                    font-weight: 750;
+                    color: #2563eb;
+                    background: rgba(37, 99, 235, 0.08);
+                    border: 1px solid rgba(37, 99, 235, 0.25);
+                    padding: 2px 8px;
+                    border-radius: 4px;
+                    text-decoration: none;
+                    line-height: 1.2;
+                    transition: all 0.2s ease;
+                  " onmouseover="this.style.background='#2563eb'; this.style.color='#fff';" onmouseout="this.style.background='rgba(37, 99, 235, 0.08)'; this.style.color='#2563eb';">Code</a>
+                {% endif %}
+                {% if pub.links.project and pub.links.project != "" %}
+                  <a href="{{ pub.links.project }}" target="_blank" rel="noopener" style="
+                    font-size: 0.72rem;
+                    font-weight: 750;
+                    color: #7c3aed;
+                    background: rgba(124, 58, 237, 0.08);
+                    border: 1px solid rgba(124, 58, 237, 0.25);
+                    padding: 2px 8px;
+                    border-radius: 4px;
+                    text-decoration: none;
+                    line-height: 1.2;
+                    transition: all 0.2s ease;
+                  " onmouseover="this.style.background='#7c3aed'; this.style.color='#fff';" onmouseout="this.style.background='rgba(124, 58, 237, 0.08)'; this.style.color='#7c3aed';">Project</a>
+                {% endif %}
+              </span>
             </h3>
             {% assign paper_index = paper_index | minus: 1 %}
             <p style="margin: 0 0 10px 0; color: var(--muted); font-size: 1.02rem;">{{ pub.authors }}. <em>{{ pub.venue }}</em>.</p>
             {% if pub.abstract and pub.abstract != "" %}<p style="margin: 0 0 12px 0; font-size: 0.96rem; color: var(--muted); line-height: 1.6;">{{ pub.abstract }}</p>{% endif %}
-            <div class="link-row" style="display: flex; gap: 14px;">
-              {% if pub.links.paper and pub.links.paper != "" %}<a class="button secondary small" href="{{ pub.links.paper }}" target="_blank" rel="noopener" style="min-height: 32px; padding: 4px 10px; font-size: 0.85rem; box-shadow: none;">Paper</a>{% endif %}
-              {% if pub.links.doi and pub.links.doi != "" %}<a class="button secondary small" href="{{ pub.links.doi }}" target="_blank" rel="noopener" style="min-height: 32px; padding: 4px 10px; font-size: 0.85rem; box-shadow: none;">DOI</a>{% endif %}
-              {% if pub.links.code and pub.links.code != "" %}<a class="button secondary small" href="{{ pub.links.code }}" target="_blank" rel="noopener" style="min-height: 32px; padding: 4px 10px; font-size: 0.85rem; box-shadow: none;">Code</a>{% endif %}
-              {% if pub.links.project and pub.links.project != "" %}<a class="button secondary small" href="{{ pub.links.project }}" target="_blank" rel="noopener" style="min-height: 32px; padding: 4px 10px; font-size: 0.85rem; box-shadow: none;">Project</a>{% endif %}
-            </div>
           </div>
         {% endfor %}
       </div>
