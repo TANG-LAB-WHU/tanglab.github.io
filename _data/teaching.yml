@@ -1,5 +1,5 @@
-- code: "ENV 301"
-  title: "Environmental Planning and Management (环境规划与管理)"
+# Course code TBD — add when confirmed, e.g. code: "ENV 301"
+- title: "Environmental Planning and Management (环境规划与管理)"
   term: "Fall 2026"
   url: ""
   description: "A compulsory core course for undergraduate students in the Department of Environmental Sciences at School of Resource and Environmental Sciences, Wuhan University. Taught bilingually, the curriculum is divided into theoretical lecture and practical training. The theoretical part is based on self-compiled lecture notes, while the practical component utilizes Python programming for AI hands-on training, enabling students to understand the highly efficient integration of modern AI technologies with environmental planning and management."

@@ -10,13 +10,16 @@ permalink: /teaching/
 
 <div class="card-grid two">
 {% for course in site.data.teaching %}
+  {% unless course.title and course.title != "" %}{% continue %}{% endunless %}
   <article class="card text-card">
     <div class="card-body">
-      <p class="eyebrow">{{ course.term }}</p>
-      <h2>{{ course.code }}: {{ course.title }}</h2>
-      <p>{{ course.description }}</p>
+      {% if course.term and course.term != "" %}<p class="eyebrow">{{ course.term }}</p>{% endif %}
+      <h2>{% if course.code and course.code != "" %}{{ course.code }}: {% endif %}{{ course.title }}</h2>
+      {% if course.description and course.description != "" %}<p>{{ course.description }}</p>{% endif %}
       {% if course.url and course.url != "" %}<a href="{{ course.url }}">Course page</a>{% endif %}
     </div>
   </article>
+{% else %}
+  <p class="muted">Course listings will be posted here once schedules are finalized.</p>
 {% endfor %}
 </div>
