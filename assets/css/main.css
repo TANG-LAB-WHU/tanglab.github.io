@@ -173,11 +173,18 @@ p {
 }
 
 .lead,
-.lead-narrow,
 .section-heading p {
   color: var(--muted);
   font-size: 1.1rem;
   max-width: 860px;
+}
+
+.content .lead-narrow,
+.lead-narrow {
+  color: var(--muted);
+  font-size: 1.1rem;
+  max-width: 100%;
+  margin-bottom: 24px;
 }
 
 .lead {
@@ -290,6 +297,10 @@ p {
 .section,
 .page-hero {
   padding: 72px 0;
+}
+
+.page-hero + .section {
+  padding-top: 32px;
 }
 
 .page-hero {
@@ -692,6 +703,7 @@ p {
 
 .contact-panel {
   background: var(--soft);
+  margin-top: clamp(32px, 5vw, 48px);
 }
 
 .site-footer {

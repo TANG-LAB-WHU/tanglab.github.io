@@ -8,32 +8,43 @@ sections:
   - title: "Prospective PhD Students"
     status: "Admissions pathway"
     description: >
-      Prospective PhD students should apply through the relevant Wuhan University graduate
-      program and mention their interest in TANG LAB in their application materials. Applicants
-      with experience in molecular simulation, Physics-Intrinsic AI (PI-AI), scientific computing, sustainability
-      assessment, or environmental systems are especially encouraged to connect their background
-      to specific lab projects.
+      Prospective PhD students should proactively contact Dr. Tang in advance to inquire about
+      available enrollment quotas. When reaching out, applicants must explicitly articulate how
+      their personal research interests align with the lab's directions.
+      Candidates with experience in molecular simulation, physics-informed machine learning, scientific computing,
+      sustainability assessment, materials innovation engineering, interfacial mechanics, or environmental systems
+      are especially encouraged to connect their background to specific lab projects. <strong>We particularly
+      welcome applicants with a solid foundation in mathematics and physics, alongside strong programming skills.
+      Furthermore, we highly value individuals who are proactive with strong execution skills, articulate in
+      communication and presentation, committed to cultivating independent problem-solving abilities, and
+      resilient with an optimistic mindset</strong>.
   - title: "Master's Students"
     status: "Research fit encouraged"
     description: >
       Master's students interested in sustained research projects are welcome to contact the lab.
       Strong fits include students interested in AIMD/MD workflows, AI for materials, LCA/TEA,
-      interpretable modeling, or circular-economy technologies.
+      interpretable modeling, or circular-economy technologies. We focus on training and improving
+      applicants' overall capabilities, with particular emphasis on cultivating the ability to identify
+      and solve problems, communication and expression skills (including academic presentations),
+      and personal mindset resilience. <strong>Applicants must have a clear goal for joining the group and
+      explicitly state which specific project in the lab they wish to engage with when reaching out</strong>.
   - title: "Undergraduate Researchers"
     status: "Consistent commitment"
     description: >
       Undergraduate students can contribute to literature review, data analysis, visualization,
       software development, and reproducible research workflows. Students should be ready to
-      commit consistent time and learn research tools.
+      commit consistent time and learn research tools. <strong>Undergraduates can engage in graduate-level research training, and are encouraged and mentored to apply for the NSFC Basic Research Program for Young Students (Undergraduate)</strong>.
   - title: "Visiting Students and Collaborators"
     status: "Collaboration welcome"
     description: >
-      The lab welcomes collaborations across materials science, chemistry, environmental
-      engineering, sustainability analysis, AI, and scientific computing.
+      The lab welcomes visiting students, scholars, and research collaborations across Physics-Intrinsic AI (PI-AI),
+      molecular simulation (AIMD/MD/MLIPs), sustainability assessment (LCA/TEA), circular resource chemistry, and
+      bioenergy modeling. We are particularly open to joint efforts in open-source scientific software, model development,
+      and integrating computational tools with experimental chemistry/engineering.
 contact:
   title: "How to Contact Us"
   description: >
-    Please include your CV, transcript if relevant, a short description of your research interests,
-    and one specific TANG LAB project or repository that connects to your background.
+    Please include your CV, transcript if relevant, a short description of your research interests (one page),
+    and one specific TANG LAB project or repository that connects to your background and interests.
   button_text: "Welcome to reach out to Dr. Tang"
   email: "sqitang@whu.edu.cn"
