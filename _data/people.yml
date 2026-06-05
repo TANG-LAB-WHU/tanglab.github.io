@@ -2,11 +2,11 @@ principal_investigator:
   - name: "Dr. Siqi Tang"
     role: "Research Associate Professor"
     affiliation: "School of Resource and Environmental Sciences, Wuhan University"
-    image: "/assets/img/people/profile-placeholder.svg"
+    image: "/assets/img/people/PI-SIQITANG.jpg"
     email: "sqitang@whu.edu.cn"
     website: ""
     google_scholar: "https://scholar.google.com/citations?user=3khMcpsAAAAJ"
-    github: ""
+    github: "https://github.com/ResearchGeekSQ"
     # research_interests:
     #   - "AI for Science"
     #   - "Molecular simulation"
@@ -14,23 +14,10 @@ principal_investigator:
     #   - "Waste valorization"
     bio: "Dr. Siqi Tang is a tenured Research Associate Professor at the School of Resource and Environmental Sciences, Wuhan University, joining in March 2026. He received his Ph.D. in Mechanics (Energy and Resources Engineering) and M.S. in Environmental Engineering from Peking University, and his B.S. in Environmental Engineering from Northwest Normal University. Dr. Tang has accumulated rich research experience through postdoctoral and researcher appointments at the University of Illinois Urbana-Champaign (UIUC), Peking University, and Nanyang Technological University (NTU). His research focuses on Physics-Intrinsic Artificial Intelligence (PI-AI) to advance circular resource and sustainable engineering science, leveraging machine learning-accelerated molecular dynamics (MLIP-AIMD), generative deep learning, and advanced materials design. He is the PI of an NSFC Young Scientists Fund project, and has been recognized as an Outstanding Doctoral Graduate of Peking University as well as a recipient of the prestigious Tang Xiaoyan Environmental Science Innovation Award."
 
-# research_staff:
-#   - name: "Research Staff Placeholder"
-#     role: "Research Staff"
-#     affiliation: "Wuhan University"
-#     image: "/assets/img/people/profile-placeholder.svg"
-#     email: ""
-#     website: ""
-#     google_scholar: ""
-#     github: ""
-#     research_interests:
-#       - "Scientific computing"
-#       - "Sustainability assessment"
-#     bio: "Placeholder profile. Replace with an official staff biography or remove this entry."
-
-phd_students:
-  - name: "PhD Student Placeholder"
-    role: "PhD Student"
+research_staff:
+  - name: "Postdoc Placeholder"
+    last_name: "Placeholder"
+    role: "Postdoctoral Researcher"
     affiliation: "Wuhan University"
     image: "/assets/img/people/profile-placeholder.svg"
     email: ""
@@ -38,13 +25,30 @@ phd_students:
     google_scholar: ""
     github: ""
     research_interests:
-      - "AIMD"
-      - "Machine learning"
-      - "CO₂ mineralization"
-    bio: "Placeholder profile. Replace with the student's official research interests and profile details."
+      - "Scientific computing"
+      - "Sustainability assessment"
+    bio: "Placeholder profile. Replace with an official postdoctoral biography or remove this entry."
+
+phd_students:
+  - name: "Yi Li"
+    last_name: "Li"
+    role: "PhD Student"
+    affiliation: "Peking University"
+    image: "/assets/img/people/PhD_YILI.jpg"
+    email: "2501112425@stu.pku.edu.cn"
+    website: ""
+    google_scholar: ""
+    github: "https://github.com/lyly0227"
+    research_interests:
+      - "MLIP-AIMD"
+      - "Phosphogypsum utilization"
+      - "LCA/TEA"
+      - "CO₂ capture"
+    bio: "I am a first-year Ph.D. student (Fall 2025) in the College of Environmental Sciences and Engineering at Peking University, co-advised by Prof. Zhenshan Li (Peking University) and Prof. Siqi Tang (Wuhan University). I received my Bachelor's degree from the College of Civil Engineering at Hefei University of Technology, and my Master's degree from the School of Civil Engineering at Shandong University. My current research leverages machine learning, ab initio molecular dynamics (AIMD), and theoretical computations to accelerate experimental research, aiming to discover breakthrough technologies for the high-value utilization and resource recycling of phosphogypsum."
 
 masters_students:
   - name: "Master's Student Placeholder"
+    last_name: "Placeholder"
     role: "Master's Student"
     affiliation: "Wuhan University"
     image: "/assets/img/people/profile-placeholder.svg"
@@ -60,6 +64,7 @@ masters_students:
 
 undergraduate_researchers:
   - name: "Undergraduate Researcher Placeholder"
+    last_name: "Placeholder"
     role: "Undergraduate Researcher"
     affiliation: "Wuhan University"
     image: "/assets/img/people/profile-placeholder.svg"
@@ -75,6 +80,7 @@ undergraduate_researchers:
 
 visiting_students:
   - name: "Visiting Scholar/Student Placeholder"
+    last_name: "Placeholder"
     role: "Visiting Scholar/Student"
     affiliation: "Institution Placeholder"
     image: "/assets/img/people/profile-placeholder.svg"
