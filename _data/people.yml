@@ -74,8 +74,8 @@ undergraduate_researchers:
     bio: "Placeholder profile. Replace with the student's official research interests and profile details."
 
 visiting_students:
-  - name: "Visiting Student Placeholder"
-    role: "Visiting Student"
+  - name: "Visiting Scholar/Student Placeholder"
+    role: "Visiting Scholar/Student"
     affiliation: "Institution Placeholder"
     image: "/assets/img/people/profile-placeholder.svg"
     email: ""

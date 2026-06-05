@@ -9,7 +9,7 @@ permalink: /people/
 </div> -->
 
 {% assign groups = "principal_investigator,research_staff,phd_students,masters_students,undergraduate_researchers,visiting_students,alumni" | split: "," %}
-{% assign labels = "Principal Investigator,Research Staff,PhD Students,Master's Students,Undergraduate Researchers,Visiting Students,Alumni" | split: "," %}
+{% assign labels = "Principal Investigator,Research Staff,PhD Students,Master's Students,Undergraduate Researchers,Visiting Scholars/Students,Alumni" | split: "," %}
 
 {% for group in groups %}
   {% assign group_members = site.data.people[group] %}
