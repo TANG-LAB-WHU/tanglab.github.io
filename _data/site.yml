@@ -9,14 +9,20 @@ site_url: "https://tang-lab-whu.github.io/tanglab.github.io"
 tagline: "Physics-Intrinsic AI (PI-AI) for circular resource and sustainable engineering science"
 hero_summary: >
   TANG LAB at Wuhan University leverages Physics-Intrinsic Artificial Intelligence (PI-AI) to advance
-  circular resource and sustainable engineering science. Our work connects atomistic simulation, machine
-  learning, molecular dynamics, LCA/TEA, and interpretable modeling to accelerate real-world solutions for
-  carbon mineralization, phosphogypsum upcycling, renewable bioenergy, and circular-economy technologies.
+  circular resource and sustainable engineering science. To address the pressing environmental, technological,
+  and governance-cost challenges facing global sustainable development, our research thrives on deep vertical
+  and horizontal cross-disciplinary integration. We seamlessly connect atomistic simulation, machine intelligence,
+  and dynamic stochastic LCA/TEA to quantify and mitigate uncertainties in sustainable engineering, thereby accelerating real-world
+  solutions for carbon mineralization, phosphogypsum upcycling, renewable bioenergy, and broader circular-economy
+  technologies.
 research_vision: >
   From atoms to systems, TANG LAB connects molecular-scale simulation with system-level
-  sustainability assessment. We study how materials and molecular processes behave, how
+  sustainability engineering design and deployment. We study how materials and molecular processes behave, how
   machine-learning models can accelerate discovery, and how emerging technologies may perform
-  environmentally, economically, and socially.
+  environmentally, economically, and socially. We deeply integrate cutting-edge artificial intelligence with
+  theoretical computations of material interactions to accelerate the efficiency and quality of experimental
+  research, constructing a novel, transparent PI-AI framework to investigate both the macroscopic and microscopic
+  realms of matter.
 research_keywords:
   - "Physics-Intrinsic AI (PI-AI)"
   - "Circular Resource Science"
@@ -26,20 +32,20 @@ research_keywords:
   - "Machine Learning Interatomic Potentials"
   - "CO₂ Mineralization"
   - "Phosphogypsum Upcycling"
-  - "LCA / TEA"
+  - "Dynamic Stochastic LCA/TEA"
   - "Circular Economy"
   - "Interpretable DNN"
   - "Sustainable Materials"
 home_research_cards:
   - title: "AI-Accelerated CO₂ Mineralization"
-    description: "We combine AIMD, machine learning, and materials modeling to study artificially accelerated CO₂ mineralization on HAP material families."
+    description: "We combine AIMD, Physics-Intrinsic AI, and materials modeling to uncover artificially accelerated CO₂ mineralization mechanisms and discover novel artificial microstructures within complex material families."
   - title: "Phosphogypsum Upcycling"
-    description: "We develop AI-enabled approaches for converting phosphogypsum from a global waste challenge into opportunities for circular resource systems."
-  - title: "Molecular Dynamics and Interatomic Potentials"
-    description: "We build simulation workflows and molecular-dynamics tools that connect atomistic insights with scalable predictive modeling."
-  - title: "LCA/TEA and Decision Support"
-    description: "We integrate life-cycle assessment, techno-economic analysis, uncertainty, and risk modeling for sustainability-oriented technology decisions."
+    description: "We pioneer AI-enabled sustainable engineering approaches to convert phosphogypsum from a global waste challenge into high-value circular resource systems."
+  - title: "MLIPs and Atomistic Simulation"
+    description: "We construct advanced molecular dynamics workflows and machine learning interatomic potentials (MLIPs) that bridge microscopic atomistic insights with scalable predictive modeling."
+  - title: "Dynamic Stochastic LCA/TEA"
+    description: "We deploy dynamic stochastic life-cycle and techno-economic modeling to rigorously quantify and mitigate uncertainties for robust, sustainability-oriented technology decisions."
   - title: "Interpretable AI for Bioenergy"
-    description: "We apply interpretable deep learning to pyrolysis processes and renewable bioenergy feedstock optimization."
+    description: "We apply transparent, interpretable deep neural networks to decode complex pyrolysis processes and optimize renewable bioenergy feedstock utilization."
   - title: "Molecular Network Topology"
-    description: "We develop topology-based methods and tools for analyzing hydrogen-bond networks and molecular structures."
+    description: "We develop topology-based analytical methods to decode complex hydrogen-bond networks and matter interactions at the fundamental molecular level."
