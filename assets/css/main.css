@@ -172,11 +172,16 @@ p {
   margin: 0 0 18px;
 }
 
-.lead,
+.lead {
+  color: var(--muted);
+  font-size: 1.1rem;
+  max-width: 100%;
+}
+
 .section-heading p {
   color: var(--muted);
   font-size: 1.1rem;
-  max-width: 860px;
+  max-width: 100%;
 }
 
 .content .lead-narrow,
