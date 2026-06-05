@@ -1,8 +1,8 @@
 <header class="site-header">
   <div class="container nav-wrap">
     <a class="brand" href="{{ '/' | relative_url }}">
-      <span class="brand-mark">T</span>
-      <span>{{ site.data.site.group_name }}</span>
+      <img class="brand-logo" src="{{ '/assets/img/logos/Tang_Lab_logo.jpg' | relative_url }}" alt="Lab Logo">
+      <span class="brand-text">{{ site.data.site.group_name }}</span>
     </a>
     <nav class="nav" aria-label="Primary navigation">
       {% for item in site.data.navigation %}
