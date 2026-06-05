@@ -341,6 +341,10 @@ p {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.card-grid.two .full-width {
+  grid-column: 1 / -1;
+}
+
 .project-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -377,6 +381,10 @@ p {
 .card-body,
 .project-card-body {
   padding: 20px;
+}
+
+.content .card p {
+  max-width: 100%;
 }
 
 .text-card {
@@ -651,6 +659,10 @@ p {
   border-color: #f4d28d;
 }
 
+.content .notice p {
+  max-width: 100%;
+}
+
 .filter-bar {
   display: flex;
   flex-wrap: wrap;
@@ -704,6 +716,10 @@ p {
 .contact-panel {
   background: var(--soft);
   margin-top: clamp(32px, 5vw, 48px);
+}
+
+.content .contact-panel p {
+  max-width: 100%;
 }
 
 .site-footer {

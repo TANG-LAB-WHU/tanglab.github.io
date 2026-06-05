@@ -41,10 +41,16 @@ sections:
       molecular simulation (AIMD/MD/MLIPs), sustainability assessment (LCA/TEA), circular resource chemistry, and
       bioenergy modeling. We are particularly open to joint efforts in open-source scientific software, model development,
       and integrating computational tools with experimental chemistry/engineering.
+  - title: "Postdoctoral Research Associate"
+    status: "Positions Available"
+    full_width: true
+    description: >
+      We are actively seeking highly motivated Postdoctoral Research Associates to lead projects in Physics-Intrinsic AI, molecular simulation, or sustainable materials engineering. Ideal candidates should possess a strong publication record, deep expertise in their respective fields, and the ability to mentor junior lab members. We offer a highly collaborative environment, competitive compensation, and robust support for career development and independent grant applications. <strong>Outstanding candidates are highly encouraged to apply for the Wuhan University Hongyi Postdoctoral Program first; if awarded, the lab's compensation package will be stacked cumulatively. Postdoctoral openings are dynamically published based on the lab's project funding availability, so please stay tuned for updates.</strong>
 contact:
   title: "How to Contact Us"
   description: >
     Please include your CV, transcript if relevant, a short description of your research interests (one page),
-    and one specific TANG LAB project or repository that connects to your background and interests.
+    and one specific TANG LAB project or repository that connects to your background and interests. <strong>For
+    postdoctoral applicants, please particularly highlight your systematic research achievements and core academic vision.</strong>
   button_text: "Welcome to reach out to Dr. Tang"
   email: "sqitang@whu.edu.cn"

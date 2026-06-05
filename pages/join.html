@@ -8,7 +8,7 @@ permalink: /join/
 
 <div class="card-grid two">
 {% for item in site.data.opportunities.sections %}
-  <article class="card text-card">
+  <article class="card text-card{% if item.full_width %} full-width{% endif %}">
     <div class="card-body">
       <p class="eyebrow">{{ item.status }}</p>
       <h2>{{ item.title }}</h2>
