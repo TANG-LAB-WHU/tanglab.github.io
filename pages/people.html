@@ -23,7 +23,7 @@ permalink: /people/
 {% if site.data.people.phd_students %}{% assign team = team | concat: site.data.people.phd_students %}{% endif %}
 {% if site.data.people.masters_students %}{% assign team = team | concat: site.data.people.masters_students %}{% endif %}
 {% if site.data.people.undergraduate_researchers %}{% assign team = team | concat: site.data.people.undergraduate_researchers %}{% endif %}
-{% if site.data.people.visiting_students %}{% assign team = team | concat: site.data.people.visiting_students %}{% endif %}
+{% if site.data.people.visiting_scholars %}{% assign team = team | concat: site.data.people.visiting_scholars %}{% endif %}
 
 {% if team.size > 0 %}
   {% assign team_sorted = team | sort: "last_name" %}
