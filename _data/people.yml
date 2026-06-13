@@ -93,6 +93,19 @@ visiting_scholars:
       - "Phosphorus adsorption"
       - "Molecular dynamics"
     bio: "Dr. Liang received both his Bachelor's and Ph.D. degrees in Environmental Engineering from Huazhong University of Science and Technology and Peking University, respectively. He is currently a research fellow at the CCTEG Coal Mining Research Institute, focusing on the research and development of coal grouting materials."
+  - name: "Sheng(Shawn) Zhang"
+    last_name: "Zhang"
+    role: "Visiting Scholar"
+    affiliation: "University of Chicago"
+    image: "/assets/img/people/VisitingScholar_ShawnZhang.png"
+    email: "shawnz@uchicago.edu"
+    research_interests: 
+      - "AI4Sci" 
+      - "Molecular dynamics"
+      - "Phosphorus adsorption"
+      - "Scientific HPC" 
+      - "Computational materials and environmental systems"
+    bio: "Sheng (Shawn) Zhang is an incoming graduate student in Data Science at the University of Chicago. His research interests include AI4Sci, data driven modeling, molecular dynamics simulation, and scientific computing. He is interested in applying machine learning and computational methods to interdisciplinary problems in materials, modeling and energy related systems."
 
 # alumni:
 #   - name: "Alumni Placeholder"
