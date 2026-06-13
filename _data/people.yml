@@ -46,37 +46,6 @@ phd_students:
       - "CO₂ capture"
     bio: "I am a first-year Ph.D. student (Fall 2025) in the College of Environmental Sciences and Engineering at Peking University, co-advised by Prof. Zhenshan Li (Peking University) and Prof. Siqi Tang (Wuhan University). I received my Bachelor's degree from the College of Civil Engineering at Hefei University of Technology, and my Master's degree from the School of Civil Engineering at Shandong University. My current research leverages machine learning, ab initio molecular dynamics (AIMD), and theoretical computations to accelerate experimental research, aiming to discover breakthrough technologies for the high-value utilization and resource recycling of phosphogypsum, a pressing global challenge."
 
-masters_students:
-  - name: "Master's Student Placeholder"
-    last_name: "Placeholder"
-    role: "Master's Student"
-    affiliation: "Wuhan University"
-    image: "/assets/img/people/profile-placeholder.svg"
-    email: ""
-    website: ""
-    google_scholar: ""
-    github: ""
-    research_interests:
-      - "Phosphogypsum upcycling"
-      - "LCA / TEA"
-      - "Circular economy"
-    bio: "Placeholder profile. Replace with the student's official research interests and profile details."
-
-undergraduate_researchers:
-  - name: "Undergraduate Researcher Placeholder"
-    last_name: "Placeholder"
-    role: "Undergraduate Researcher"
-    affiliation: "Wuhan University"
-    image: "/assets/img/people/profile-placeholder.svg"
-    email: ""
-    website: ""
-    google_scholar: ""
-    github: ""
-    research_interests:
-      - "Data analysis"
-      - "Visualization"
-      - "Reproducible workflows"
-    bio: "Placeholder profile. Replace with the student's official research interests and profile details."
 
 visiting_scholars:
   - name: "Dr. Jiaming Liang"
@@ -106,6 +75,41 @@ visiting_scholars:
       - "Scientific HPC" 
       - "Computational materials and environmental systems"
     bio: "Sheng (Shawn) Zhang is an incoming graduate student in Data Science at the University of Chicago. His research interests include AI4Sci, data driven modeling, molecular dynamics simulation, and scientific computing. He is interested in applying machine learning and computational methods to interdisciplinary problems in materials, modeling and energy related systems."
+
+
+# masters_students:
+#   - name: "Master's Student Placeholder"
+#     last_name: "Placeholder"
+#     role: "Master's Student"
+#     affiliation: "Wuhan University"
+#     image: "/assets/img/people/profile-placeholder.svg"
+#     email: ""
+#     website: ""
+#     google_scholar: ""
+#     github: ""
+#     research_interests:
+#       - "Phosphogypsum upcycling"
+#       - "LCA / TEA"
+#       - "Circular economy"
+#     bio: "Placeholder profile. Replace with the student's official research interests and profile details."
+
+# undergraduate_researchers:
+#   - name: "Undergraduate Researcher Placeholder"
+#     last_name: "Placeholder"
+#     role: "Undergraduate Researcher"
+#     affiliation: "Wuhan University"
+#     image: "/assets/img/people/profile-placeholder.svg"
+#     email: ""
+#     website: ""
+#     google_scholar: ""
+#     github: ""
+#     research_interests:
+#       - "Data analysis"
+#       - "Visualization"
+#       - "Reproducible workflows"
+#     bio: "Placeholder profile. Replace with the student's official research interests and profile details."
+
+##
 
 # alumni:
 #   - name: "Alumni Placeholder"
