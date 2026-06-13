@@ -14,20 +14,6 @@ principal_investigator:
     #   - "Waste valorization"
     bio: "Dr. Siqi Tang is a tenured Research Associate Professor at the School of Resource and Environmental Sciences, Wuhan University, joining in March 2026. He received his Ph.D. in Mechanics (Energy and Resources Engineering) and M.S. in Environmental Engineering from Peking University, and his B.S. in Environmental Engineering from Northwest Normal University. Dr. Tang has accumulated rich research experience through postdoctoral and researcher appointments at the University of Illinois Urbana-Champaign (UIUC), Peking University, and Nanyang Technological University (NTU). His research focuses on Physics-Intrinsic Artificial Intelligence (PI-AI) to advance circular resource and sustainable engineering science, leveraging machine learning-accelerated molecular dynamics (MLIP-AIMD), generative deep learning, and advanced materials design. He is the PI of an NSFC Young Scientists Fund project, and has been recognized as an Outstanding Doctoral Graduate of Peking University as well as a recipient of the prestigious Tang Xiaoyan Environmental Science Innovation Award."
 
-research_staff:
-  - name: "Postdoc Placeholder"
-    last_name: "Placeholder"
-    role: "Postdoctoral Researcher"
-    affiliation: "Wuhan University"
-    image: "/assets/img/people/profile-placeholder.svg"
-    email: ""
-    website: ""
-    google_scholar: ""
-    github: ""
-    research_interests:
-      - "Scientific computing"
-      - "Sustainability assessment"
-    bio: "Placeholder profile. Replace with an official postdoctoral biography or remove this entry."
 
 phd_students:
   - name: "Yi Li"
@@ -75,6 +61,22 @@ visiting_scholars:
       - "Scientific HPC" 
       - "Computational materials and environmental systems"
     bio: "Sheng (Shawn) Zhang is an incoming graduate student in Data Science at the University of Chicago. His research interests include AI4Sci, data driven modeling, molecular dynamics simulation, and scientific computing. He is interested in applying machine learning and computational methods to interdisciplinary problems in materials, modeling and energy related systems."
+
+
+# research_staff:
+#   - name: "Postdoc Placeholder"
+#     last_name: "Placeholder"
+#     role: "Postdoctoral Researcher"
+#     affiliation: "Wuhan University"
+#     image: "/assets/img/people/profile-placeholder.svg"
+#     email: ""
+#     website: ""
+#     google_scholar: ""
+#     github: ""
+#     research_interests:
+#       - "Scientific computing"
+#       - "Sustainability assessment"
+#     bio: "Placeholder profile. Replace with an official postdoctoral biography or remove this entry."
 
 
 # masters_students:
