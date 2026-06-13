@@ -54,6 +54,9 @@ visiting_scholars:
     affiliation: "University of Chicago"
     image: "/assets/img/people/VisitingScholar_ShawnZhang.png"
     email: "shawnz@uchicago.edu"
+    website: ""
+    google_scholar: ""
+    github: "https://github.com/ShawnZ1438"
     research_interests: 
       - "AI4Sci" 
       - "Molecular dynamics"
