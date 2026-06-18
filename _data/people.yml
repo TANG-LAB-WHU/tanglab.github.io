@@ -98,21 +98,21 @@ visiting_scholars:
 #       - "Circular economy"
 #     bio: "Placeholder profile. Replace with the student's official research interests and profile details."
 
-# undergraduate_researchers:
-#   - name: "Undergraduate Researcher Placeholder"
-#     last_name: "Placeholder"
-#     role: "Undergraduate Researcher"
-#     affiliation: "Wuhan University"
-#     image: "/assets/img/people/profile-placeholder.svg"
-#     email: ""
-#     website: ""
-#     google_scholar: ""
-#     github: ""
-#     research_interests:
-#       - "Data analysis"
-#       - "Visualization"
-#       - "Reproducible workflows"
-#     bio: "Placeholder profile. Replace with the student's official research interests and profile details."
+undergraduate_researchers:
+  - name: "Zhihong Tang"
+    last_name: "Tang"
+    role: "Undergraduate Researcher"
+    affiliation: "Wuhan University"
+    image: "/assets/img/people/UndergraduateResearcher_ZHIHONGTANG.jpg"
+    email: "1534298203@qq.com"
+    website: ""
+    google_scholar: ""
+    github: "https://github.com/tangzh1216"
+    research_interests:
+      - "AI for Science"
+      - "Algorithm design"
+      - "Scientific computing"
+    bio: "Zhihong Tang is a first-year undergraduate student majoring in Electronic Information at Wuhan University. His primary interests lie in computer science and music. Currently, he is undergoing targeted undergraduate training in the Tang Lab, focusing on coding, algorithm design, and AI for Science, tailored to his background in Electronic Information."
 
 ##
 
