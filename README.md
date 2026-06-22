@@ -10,12 +10,13 @@ https://tang-lab-whu.github.io/tanglab.github.io
 
 ### Research Vision
 TANG LAB leverages **Physics-Intrinsic Artificial Intelligence (PI-AI)** to advance circular resource and sustainable engineering science. Our research thrives on deep vertical and horizontal cross-disciplinary integration to address pressing environmental, technological, and governance-cost challenges. We seamlessly connect atomistic simulation, machine intelligence, and dynamic stochastic LCA/TEA to quantify and mitigate uncertainties in sustainable engineering, accelerating real-world solutions for:
-- AI-Accelerated CO₂ Mineralization
-- Phosphogypsum Upcycling
-- MLIPs and Atomistic Simulation
-- Dynamic Stochastic LCA/TEA
-- Interpretable AI for Bioenergy
-- Molecular Network Topology
+- Theme 1: MLIP-Driven Super Phosphorus Fertilizer Manufacturing
+- Theme 2: AI-Accelerated CO₂ Mineralization
+- Theme 3: Phosphogypsum Upcycling
+- Theme 4: MLIPs and Atomistic Simulation
+- Theme 5: Dynamic Stochastic LCA/TEA
+- Theme 6: Interpretable AI for Bioenergy
+- Theme 7: Molecular Network Topology
 
 ## Local Preview
 
