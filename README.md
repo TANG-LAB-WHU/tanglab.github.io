@@ -1,4 +1,4 @@
-# TANG LAB @ WHU Website
+# TANG LAB@WHU Website
 
 ## Overview
 
