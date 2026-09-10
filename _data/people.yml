@@ -18,6 +18,7 @@ principal_investigator:
 phd_students:
   - name: "Yi Li"
     last_name: "Li"
+    order: 1
     role: "PhD Student"
     affiliation: "Peking University"
     image: "/assets/img/people/PhD_YILI.jpg"
@@ -36,6 +37,7 @@ phd_students:
 visiting_scholars:
   - name: "Dr. Jiaming Liang"
     last_name: "Liang"
+    order: 2
     role: "Visiting Scholar"
     affiliation: "CCTEG Coal Mining Research Institute"
     image: "/assets/img/people/VisitingScholar_JIAMINGLIANG.jpg"
@@ -50,6 +52,7 @@ visiting_scholars:
     bio: "Dr. Jiaming Liang received both his Bachelor's and Ph.D. degrees in Environmental Engineering from Huazhong University of Science and Technology and Peking University, respectively. He is currently a research fellow at the CCTEG Coal Mining Research Institute, focusing on the research and development of coal grouting materials."
   - name: "Sheng(Shawn) Zhang"
     last_name: "Zhang"
+    order: 4
     role: "Visiting Scholar"
     affiliation: "University of Chicago"
     image: "/assets/img/people/VisitingScholar_ShawnZhang.png"
@@ -63,7 +66,7 @@ visiting_scholars:
       - "Phosphorus adsorption"
       - "Scientific HPC" 
       - "Computational materials and environmental systems"
-    bio: "Sheng (Shawn) Zhang is an incoming graduate student in Data Science at the University of Chicago. His research interests include AI4Sci, data driven modeling, molecular dynamics simulation, and scientific computing. He is interested in applying machine learning and computational methods to interdisciplinary problems in materials, modeling and energy related systems."
+    bio: "Sheng (Shawn) Zhang is a Master's student (Fall 2026) in Data Science at the University of Chicago. His research interests include AI4Sci, data driven modeling, molecular dynamics simulation, and scientific computing. He is interested in applying machine learning and computational methods to interdisciplinary problems in materials, modeling and energy related systems."
 
 
 # research_staff:
@@ -82,25 +85,28 @@ visiting_scholars:
 #     bio: "Placeholder profile. Replace with an official postdoctoral biography or remove this entry."
 
 
-# masters_students:
-#   - name: "Master's Student Placeholder"
-#     last_name: "Placeholder"
-#     role: "Master's Student"
-#     affiliation: "Wuhan University"
-#     image: "/assets/img/people/profile-placeholder.svg"
-#     email: ""
-#     website: ""
-#     google_scholar: ""
-#     github: ""
-#     research_interests:
-#       - "Phosphogypsum upcycling"
-#       - "LCA / TEA"
-#       - "Circular economy"
-#     bio: "Placeholder profile. Replace with the student's official research interests and profile details."
+masters_students:
+  - name: "Jiajun Jiang"
+    last_name: "Jiang"
+    order: 5
+    role: "Master's Student"
+    affiliation: "Wuhan University"
+    image: "/assets/img/people/MasterStudent_JIAJUNJIANG.jpg"
+    email: "19558782413@163.com"
+    website: ""
+    google_scholar: ""
+    github: "https://github.com/jiajun777896"
+    research_interests:
+      - "MLIP-AIMD"
+      - "Fischer-Tropsch synthesis (FTS)"
+      - "Carbon-derived products"
+      - "AI for Science"
+    bio: "Jiajun Jiang is a first-year Master's student (Fall 2026) in the School of Resource and Environmental Sciences at Wuhan University, co-advised by Profs Jinjun Li and Siqi Tang. He received his Bachelor's degree in Artificial Intelligence from Qufu Normal University. Embracing a new paradigm of theoretical computation followed by experimental validation, his research focuses on developing scalable yet trustable MLIP-AIMD for chain length regulation of carbon-derived products during Fischer-Tropsch synthesis (FTS), as well as advancing cross-disciplinary applications of AI in environmental systems."
 
 undergraduate_researchers:
   - name: "Zhihong Tang"
     last_name: "Tang"
+    order: 3
     role: "Undergraduate Researcher"
     affiliation: "Wuhan University"
     image: "/assets/img/people/UndergraduateResearcher_ZHIHONGTANG.jpg"
@@ -112,7 +118,7 @@ undergraduate_researchers:
       - "AI for Science"
       - "Algorithm design"
       - "Scientific computing"
-    bio: "Zhihong Tang is a first-year undergraduate student majoring in Electronic Information at Wuhan University. His primary interests lie in computer science and music. Currently, he is undergoing targeted undergraduate training in the Tang Lab, focusing on coding, algorithm design, and AI for Science, tailored to his background in Electronic Information."
+    bio: "Zhihong Tang is an undergraduate student (Fall 2025) majoring in Electronic Information at Wuhan University. His primary interests lie in computer science and music. Currently, he is undergoing targeted undergraduate training in the Tang Lab, focusing on coding, algorithm design, and AI for Science, tailored to his background in Electronic Information."
 
 ##
 
