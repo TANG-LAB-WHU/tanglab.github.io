@@ -11,7 +11,7 @@ undergraduate:
     term: "Fall 2026 (2026–2027 Semester 1)"
     level: "Undergraduate Core (Required)"
     department: "Department of Environmental Sciences, School of Resource and Environmental Sciences, WHU"
-    credits: "2.5 Credits · 44 Hours (32 Lecture + 12 Practice)"
+    credits: "3.0 Credits · 56 Hours"
     language: "Bilingual (English & Chinese)"
     description: >
       A required core course for undergraduate students in Environmental Science at Wuhan University.
@@ -77,28 +77,3 @@ graduate:
       - "Instructor-developed lecture notes: Smart Environmental Chemical Engineering and AI-Driven Micro-Interfacial Analysis."
       - "Selected references: Perry's Chemical Engineers' Handbook; McCabe et al., Unit Operations of Chemical Engineering; Chen et al., Theory and Practice of Molecular Simulation; Wang et al., Life-Cycle Assessment Theory and Methods."
     note: "Enrolled students collaborate through the private course repository (AI-EnvironChemEng_Coursework-2026fall) following strict reproducibility, quantitative verification, and AI-assistance disclosure standards."
-
-  - title: "Solid Waste Testing and Characterization Technology"
-    title_zh: "固体废物检测技术"
-    term: "Course Development · Pilot Graduate Syllabus"
-    level: "Graduate Elective · Environmental Science & Engineering"
-    department: "School of Resource and Environmental Sciences, WHU"
-    credits: "Graduate Characterization & Data Analytics Module"
-    language: "Chinese"
-    status: "pilot"
-    description: >
-      A graduate-level characterization and data-analytics syllabus bridging modern instrumental
-      testing of complex industrial and municipal solid wastes (such as phosphogypsum and municipal
-      sludge) with AI-assisted spectral data mining and automated Python analytical workflows.
-    modules:
-      - name: "Instrumental Characterization Fundamentals"
-        detail: "Analytical principles, sample preparation, and spectral interpretation across XRD, XPS, FTIR, thermal analysis, electron microscopy (SEM/TEM), chromatography, and mass spectrometry."
-      - name: "AI-Enabled Spectral Data Mining"
-        detail: "Machine learning workflows for automated spectral denoising, baseline correction, multi-peak deconvolution, and high-dimensional feature extraction."
-      - name: "Automated Python Data Analytics"
-        detail: "Hands-on AI4Science scripting for batch dataset ingestion, cleaning, multidimensional visualization, and reproducible characterization pipelines."
-    tools:
-      - "XRD / XPS / FTIR"
-      - "Thermal Analysis & SEM/TEM"
-      - "Spectral ML"
-      - "Python Automation"
