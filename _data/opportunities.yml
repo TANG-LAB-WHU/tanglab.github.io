@@ -45,7 +45,22 @@ sections:
     status: "Positions Available"
     full_width: true
     description: >
-      We are actively seeking highly motivated Postdoctoral Research Associates to lead projects in Physics-Intrinsic AI, molecular simulation, or sustainable materials engineering. Ideal candidates should possess a strong publication record, deep expertise in their respective fields, and the ability to mentor junior lab members. We offer a highly collaborative environment, competitive compensation, and robust support for career development and independent grant applications. <strong>Outstanding candidates are highly encouraged to apply for the Wuhan University Hongyi Postdoctoral Program first; if awarded, the lab's compensation package will be stacked cumulatively. Postdoctoral openings are dynamically published based on the lab's project funding availability, so please stay tuned for updates.</strong>
+      The Joint Research Group of Profs. Jinjun Li &amp; Siqi Tang is actively recruiting multiple full-time Postdoctoral Researchers across five AI4Science thematic areas: innovative phosphogypsum valorization, anti-coking/poison-resistant Fischer-Tropsch synthesis catalysts, MLIP-AIMD &amp; AI Agents for CCUS materials, scalable MLIP-AIMD for advanced activated carbon &amp; VOCs resource recovery, and uncertainty quantification-driven sustainable engineering design. Competitive annual packages range from <strong>200,000 to 580,000 RMB/year (pre-tax)</strong> with comprehensive WHU benefits and HPC/experimental platform support. <strong>Outstanding candidates are encouraged to apply for the Wuhan University Hongyi Postdoctoral Program or National Postdoctoral Program for Innovative Talents.</strong>
+    actions:
+      - label: "View Full Announcement (EN)"
+        url: "/join/postdoc/"
+        style: "primary"
+      - label: "查看中文招聘公告"
+        url: "/join/postdoc/?lang=zh"
+        style: "secondary"
+      - label: "PDF (EN)"
+        url: "/assets/files/WHU_Li_Tang_Postdoc_Recruitment_EN.pdf"
+        style: "secondary"
+        external: true
+      - label: "中文 PDF"
+        url: "/assets/files/WHU_Li_Tang_Postdoc_Recruitment_CN.pdf"
+        style: "secondary"
+        external: true
 contact:
   title: "How to Contact Us"
   description: >
