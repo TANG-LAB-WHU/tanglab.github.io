@@ -1,3 +1,16 @@
+- title: "Valorization of alkali-rich red mud into iron-enriched Fischer–Tropsch catalyst via acetic acid etching"
+  authors: "Xi Cui, Yaqian Liu, Xinyi Liu, Fangda Wei, Feng Wu, Zhixiong You, <strong>Siqi Tang*</strong>, and Jinjun Li*"
+  venue: "Journal of the Energy Institute, 2027, 130, 102788"
+  year: 2027
+  type: journal
+  selected: true
+  links:
+    # paper: https://doi.org/10.1016/j.joei.2026.102788
+    doi: https://doi.org/10.1016/j.joei.2026.102788
+    code: ""
+    project: ""
+  abstract: ""
+
 - title: "Active-site shifting on the Ni-FeOx interface bridges metallic and oxidative catalysis for efficient methane partial oxidation"
   authors: "Wen Liu, <strong>Siqi Tang</strong>, Wenqi Sang, Chen Fan, Xizhe Zhang, Weixin Xu, Shuangmei Han, Jianguo Jiang, Sicong Tian*, Lujia Han"
   venue: "Angew Chem Int Ed, 2026, 65(8): e18088"
