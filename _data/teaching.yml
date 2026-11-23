@@ -1,10 +1,104 @@
-# Course code TBD — add when confirmed, e.g. code: "ENV 301"
-- title: "Environmental Planning and Management (环境规划与管理)"
-  term: "Fall 2026"
-  url: ""
-  description: "This is a required core course for undergraduate students in the Department of Environmental Sciences at the School of Resource and Environmental Sciences, Wuhan University. Taught bilingually, the curriculum is divided into theoretical lectures and practical sessions. The theoretical component is based on instructor-developed materials, while the practical component features hands-on AI training using Python, enabling students to understand the effective integration of modern AI technologies into environmental planning and management."
-# - code: "COURSE 002"
-#   title: "Course Title Placeholder"
-#   term: "Fall 2025"
-#   url: ""
-#   description: "Replace with an official course description."
+intro: >
+  TANG LAB integrates Physics-Intrinsic AI (PI-AI), quantitative environmental systems modeling,
+  and reproducible scientific computing into undergraduate and graduate education at the
+  School of Resource and Environmental Sciences, Wuhan University. Our courses bridge foundational
+  theory with hands-on Python programming, open-source modeling toolchains, and collaborative
+  GitHub workflows.
+
+undergraduate:
+  - title: "Environmental Planning and Management"
+    title_zh: "环境规划与管理"
+    term: "Fall 2026 (2026–2027 Semester 1)"
+    level: "Undergraduate Core (Required)"
+    department: "Department of Environmental Sciences, School of Resource and Environmental Sciences, WHU"
+    credits: "2.5 Credits · 44 Hours (32 Lecture + 12 Practice)"
+    language: "Bilingual (English & Chinese)"
+    description: >
+      A required core course for undergraduate students in Environmental Science at Wuhan University.
+      Moving beyond qualitative policy overviews, the curriculum combines bilingual theoretical lectures
+      with interactive Python/AI practical sessions and team-based GitHub workflows to cultivate
+      quantitative systems thinking and evidence-based environmental decision-making.
+    modules:
+      - name: "Module A — Regulatory & Planning Foundations"
+        detail: "Environmental planning theory and seven-step procedures, environmental capacity & total-load control, China's Ecological Environment Code (生态环境法典), \"Three Lines & One List\" zoning control, EIA, and discharge permitting."
+      - name: "Module B — Quantitative Systems Modeling"
+        detail: "Static and dynamic Material Flow Analysis (MFA/dMFA), Heijungs matrix-algebra Life-Cycle Assessment (LCA) in Brightway 2.5, Techno-Economic Analysis (TEA: CAPEX/OPEX, DCF, LCOE/LCOM) with US DOE TECHTEST 1.0, and Monte Carlo uncertainty analysis."
+      - name: "Module C — AI-Driven Optimization & Top-Journal Replication"
+        detail: "Coupled MFA–LCA–TEA Pareto optimization, LLM-assisted scientific programming (Vibe Coding), industrial cases (PET recycling, Power-to-Methanol, EV lithium-ion battery recycling), and full computational replications of 2026 studies in Nature Sustainability (electrolytic hydrogen water constraints) and PNAS (global anthropogenic phosphorus cycle)."
+    tools:
+      - "Python & Jupyter"
+      - "Brightway 2.5"
+      - "US DOE TECHTEST 1.0"
+      - "MFA / dMFA"
+      - "LCA–TEA"
+      - "GitHub PR Workflow"
+    textbooks:
+      - "Guo, H., Shang, J., Zhang, T., & Liu, Y., Environmental Planning (3rd Ed.), Higher Education Press, 2021."
+      - "William W. Hsieh, Introduction to Environmental Data Science (1st Ed.), Cambridge University Press, 2023."
+      - "Instructor-developed bilingual lecture notes and reproducible Python starter packages."
+    actions:
+      - label: "Coursework Repository (GitHub)"
+        url: "https://github.com/whu-course-EnvironPlanManag/LCA_Practice_Coursework-2026fall"
+        style: "primary"
+        external: true
+
+graduate:
+  - code: "2026205007"
+    title: "Smart Environmental Chemical Engineering"
+    title_zh: "智慧环境化工"
+    term: "Fall 2026 (2026–2027 Semester 1)"
+    level: "Graduate Elective · Outstanding Engineer Doctoral Program"
+    department: "School of Resource and Environmental Sciences, WHU"
+    credits: "2.0 Credits · 32 Hours (16 Lecture + 6 Lab + 6 Discussion + 4 Seminar)"
+    language: "Chinese (with English scientific terminology & Python/AI workshops)"
+    description: >
+      Aligned with Wuhan University's Outstanding Engineer professional doctorate program in
+      Resources and Environment (also open to graduate students and senior undergraduates). Adopting a
+      project-driven, university–industry collaborative pedagogy, the course bridges transport phenomena,
+      chemical thermodynamics, AI-accelerated atomistic simulation, and LCA–TEA systems modeling for
+      complex environmental chemical engineering problems.
+    modules:
+      - name: "Module 1 — Transport Phenomena, Thermodynamics & Process Diagnostics"
+        detail: "Heat, mass, and momentum transfer with chemical reactions (\"three transports and one reaction\"), exergy loss, multiscale fluctuations, and operational bottlenecks in heterogeneous waste-treatment processes."
+      - name: "Module 2 — AI4Science, MLIPs & Atomistic Simulation"
+        detail: "First-principles and AI-driven molecular dynamics, Machine Learning Interatomic Potentials (MLIPs), and micro-interfacial analysis for smart environmental materials (e.g., hydroxyapatite nanocarriers for heavy-metal capture)."
+      - name: "Module 3 — Industry Case Studies & Systems Assessment"
+        detail: "Coupled LCA–TEA modeling and sensitivity analysis grounded in frontline engineering cases, including phosphogypsum wet purification & multi-element separation and low-carbon precision pyrolysis of high-moisture municipal sludge."
+      - name: "Module 4 — Hands-On Digital Workshop & Three-Track Capstone"
+        detail: "Interactive Python/Jupyter workshops (interfacial binding energy, physics-guided ODE pyrolysis kinetics, LCA–TEA sensitivity) and a flexible three-track capstone: (1) Top-Journal Computational Replication, (2) AI4Science Critical Review, or (3) Geospatial AI & Environmental Spatiotemporal Modeling."
+    tools:
+      - "MLIPs & Molecular Dynamics"
+      - "Python & Jupyter Workshop"
+      - "Physics-Guided Modeling"
+      - "LCA–TEA"
+      - "GeoAI"
+      - "Reproducible Research"
+    textbooks:
+      - "Instructor-developed lecture notes: Smart Environmental Chemical Engineering and AI-Driven Micro-Interfacial Analysis."
+      - "Selected references: Perry's Chemical Engineers' Handbook; McCabe et al., Unit Operations of Chemical Engineering; Chen et al., Theory and Practice of Molecular Simulation; Wang et al., Life-Cycle Assessment Theory and Methods."
+    note: "Enrolled students collaborate through the private course repository (AI-EnvironChemEng_Coursework-2026fall) following strict reproducibility, quantitative verification, and AI-assistance disclosure standards."
+
+  - title: "Solid Waste Testing and Characterization Technology"
+    title_zh: "固体废物检测技术"
+    term: "Course Development · Pilot Graduate Syllabus"
+    level: "Graduate Elective · Environmental Science & Engineering"
+    department: "School of Resource and Environmental Sciences, WHU"
+    credits: "Graduate Characterization & Data Analytics Module"
+    language: "Chinese"
+    status: "pilot"
+    description: >
+      A graduate-level characterization and data-analytics syllabus bridging modern instrumental
+      testing of complex industrial and municipal solid wastes (such as phosphogypsum and municipal
+      sludge) with AI-assisted spectral data mining and automated Python analytical workflows.
+    modules:
+      - name: "Instrumental Characterization Fundamentals"
+        detail: "Analytical principles, sample preparation, and spectral interpretation across XRD, XPS, FTIR, thermal analysis, electron microscopy (SEM/TEM), chromatography, and mass spectrometry."
+      - name: "AI-Enabled Spectral Data Mining"
+        detail: "Machine learning workflows for automated spectral denoising, baseline correction, multi-peak deconvolution, and high-dimensional feature extraction."
+      - name: "Automated Python Data Analytics"
+        detail: "Hands-on AI4Science scripting for batch dataset ingestion, cleaning, multidimensional visualization, and reproducible characterization pipelines."
+    tools:
+      - "XRD / XPS / FTIR"
+      - "Thermal Analysis & SEM/TEM"
+      - "Spectral ML"
+      - "Python Automation"

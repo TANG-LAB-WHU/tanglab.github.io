@@ -67,11 +67,11 @@ button:focus-visible {
 }
 
 .nav-wrap {
-  min-height: 72px;
+  min-height: 78px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 22px;
+  gap: 28px;
 }
 
 .brand,
@@ -81,6 +81,12 @@ button:focus-visible {
   gap: 10px;
   color: var(--ink);
   font-weight: 800;
+}
+
+.brand {
+  flex-shrink: 0;
+  white-space: nowrap;
+  font-size: 1.125rem;
 }
 
 .brand:hover,
@@ -99,21 +105,45 @@ button:focus-visible {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 16px;
-  flex-wrap: wrap;
+  gap: 26px;
+  flex-wrap: nowrap;
 }
 
 .nav a {
+  position: relative;
   color: var(--ink);
-  font-size: 0.95rem;
+  font-size: 1.08rem;
   font-weight: 650;
-  padding: 6px 0;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  padding: 8px 2px;
+  white-space: nowrap;
+  transition: color 0.18s ease;
+}
+
+.nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--brand);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.18s ease;
 }
 
 .nav a[aria-current="page"],
 .nav a:hover {
   color: var(--brand);
   text-decoration: none;
+}
+
+.nav a[aria-current="page"]::after,
+.nav a:hover::after {
+  transform: scaleX(1);
 }
 
 .hero {
@@ -1086,6 +1116,162 @@ p {
   font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Inter, system-ui, sans-serif;
 }
 
+/* Teaching Page */
+.teaching-section {
+  margin-bottom: 42px;
+}
+
+.teaching-section:last-child {
+  margin-bottom: 0;
+}
+
+.teaching-section-head {
+  margin-bottom: 18px;
+}
+
+.content .teaching-section-head h2 {
+  margin: 0;
+}
+
+.course-list {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 24px;
+}
+
+.course-card {
+  min-width: 0;
+  overflow-wrap: break-word;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--brand);
+  border-radius: var(--radius);
+  padding: 26px 28px;
+  box-shadow: var(--shadow);
+}
+
+.course-card--pilot {
+  border-left-color: #64748b;
+}
+
+.course-meta {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+
+.course-meta span {
+  border-radius: 6px;
+  background: var(--soft-teal);
+  color: var(--brand-dark);
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.course-card--pilot .course-meta span:first-child {
+  background: var(--soft);
+  color: var(--muted);
+}
+
+.course-card h3 {
+  margin: 0 0 6px;
+  font-size: 1.4rem;
+  line-height: 1.3;
+  color: var(--ink);
+}
+
+.course-title-zh {
+  margin: 0 0 6px !important;
+  font-size: 1.12rem;
+  font-weight: 700;
+  color: var(--brand-dark);
+  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Inter, system-ui, sans-serif;
+}
+
+.course-dept {
+  margin: 0 0 14px !important;
+  font-size: 0.92rem;
+  color: var(--muted);
+}
+
+.content .course-card p {
+  max-width: 100%;
+}
+
+.course-desc {
+  margin: 0 0 18px;
+  color: var(--ink);
+  line-height: 1.65;
+}
+
+.course-block {
+  margin-bottom: 16px;
+}
+
+.course-block h4 {
+  margin: 0 0 8px;
+  font-size: 0.9rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--brand);
+}
+
+.course-modules,
+.course-refs {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--ink);
+}
+
+.course-modules li,
+.course-refs li {
+  margin-bottom: 7px;
+  line-height: 1.6;
+}
+
+.course-refs li {
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
+.course-note {
+  margin: 0 0 16px;
+  padding: 12px 14px;
+  border-radius: 6px;
+  background: var(--soft);
+  border: 1px solid var(--line);
+  font-size: 0.92rem;
+  color: var(--muted);
+}
+
+.course-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 14px;
+  padding-top: 16px;
+  margin-top: 16px;
+  border-top: 1px dashed rgba(0, 0, 0, 0.09);
+}
+
+@media (max-width: 1140px) {
+  .nav-wrap {
+    gap: 18px;
+  }
+
+  .nav {
+    gap: clamp(14px, 1.8vw, 22px);
+  }
+
+  .nav a {
+    font-size: clamp(0.95rem, 0.72rem + 0.34vw, 1.04rem);
+  }
+}
+
 @media (max-width: 960px) {
   .postdoc-facts {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1093,6 +1279,25 @@ p {
 
   .postdoc-pi-grid {
     grid-template-columns: 1fr;
+  }
+
+  .nav-wrap {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 14px 0;
+    gap: 12px;
+  }
+
+  .nav {
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 8px 20px;
+  }
+
+  .nav a {
+    font-size: 1rem;
+    padding: 6px 0;
   }
 }
 
@@ -1151,15 +1356,20 @@ p {
     width: min(100% - 28px, 1120px);
   }
 
-  .nav-wrap {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 14px 0;
+  .nav {
+    gap: 8px 16px;
   }
 
-  .nav {
-    justify-content: flex-start;
-    gap: 10px 14px;
+  .nav a {
+    font-size: 0.96rem;
+  }
+
+  .course-card {
+    padding: 20px 18px;
+  }
+
+  .course-card h3 {
+    font-size: 1.22rem;
   }
 
   .hero,
@@ -1262,5 +1472,12 @@ p {
 
   .button {
     width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nav a,
+  .nav a::after {
+    transition: none;
   }
 }

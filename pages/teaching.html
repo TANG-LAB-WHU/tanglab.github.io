@@ -1,25 +1,169 @@
 ---
 layout: page
 title: Teaching
-subtitle: Current and recent courses.
+subtitle: Undergraduate and graduate courses in environmental systems modeling, AI for Science, and sustainable engineering.
 permalink: /teaching/
 ---
-<!-- <div class="notice">
-  Teaching information should be updated with official course titles, terms, and links.
-</div> -->
+{% if site.data.teaching.intro %}
+<p class="lead-narrow">{{ site.data.teaching.intro }}</p>
+{% endif %}
 
-<div class="card-grid two">
-{% for course in site.data.teaching %}
-  {% unless course.title and course.title != "" %}{% continue %}{% endunless %}
-  <article class="card text-card">
-    <div class="card-body">
-      {% if course.term and course.term != "" %}<p class="eyebrow">{{ course.term }}</p>{% endif %}
-      <h2>{% if course.code and course.code != "" %}{{ course.code }}: {% endif %}{{ course.title }}</h2>
-      {% if course.description and course.description != "" %}<p>{{ course.description }}</p>{% endif %}
-      {% if course.url and course.url != "" %}<a href="{{ course.url }}">Course page</a>{% endif %}
-    </div>
-  </article>
-{% else %}
-  <p class="muted">Course listings will be posted here once schedules are finalized.</p>
-{% endfor %}
-</div>
+{% if site.data.teaching.undergraduate and site.data.teaching.undergraduate.size > 0 %}
+<section class="teaching-section" aria-labelledby="undergraduate-courses">
+  <div class="teaching-section-head">
+    <p class="eyebrow">Undergraduate Education</p>
+    <h2 id="undergraduate-courses">Undergraduate Courses</h2>
+  </div>
+
+  <div class="course-list">
+  {% for course in site.data.teaching.undergraduate %}
+    <article class="course-card{% if course.status == 'pilot' %} course-card--pilot{% endif %}">
+      <div class="course-meta">
+        {% if course.term %}<span>{{ course.term }}</span>{% endif %}
+        {% if course.level %}<span>{{ course.level }}</span>{% endif %}
+        {% if course.code %}<span>Course Code: {{ course.code }}</span>{% endif %}
+        {% if course.credits %}<span>{{ course.credits }}</span>{% endif %}
+        {% if course.language %}<span>{{ course.language }}</span>{% endif %}
+      </div>
+
+      <h3>{% if course.code %}{{ course.code }}: {% endif %}{{ course.title }}</h3>
+      {% if course.title_zh %}
+        <p class="course-title-zh">{{ course.title_zh }}</p>
+      {% endif %}
+      {% if course.department %}
+        <p class="course-dept">{{ course.department }}</p>
+      {% endif %}
+
+      {% if course.description %}
+        <p class="course-desc">{{ course.description }}</p>
+      {% endif %}
+
+      {% if course.modules and course.modules.size > 0 %}
+      <div class="course-block">
+        <h4>Curriculum &amp; Core Modules</h4>
+        <ul class="course-modules">
+          {% for mod in course.modules %}
+          <li><strong>{{ mod.name }}:</strong> {{ mod.detail }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
+      {% if course.textbooks and course.textbooks.size > 0 %}
+      <div class="course-block">
+        <h4>Textbooks &amp; Materials</h4>
+        <ul class="course-refs">
+          {% for ref in course.textbooks %}
+          <li>{{ ref }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
+      {% if course.note %}
+        <p class="course-note">{{ course.note }}</p>
+      {% endif %}
+
+      {% if course.tools or course.actions %}
+      <div class="course-footer">
+        {% if course.tools and course.tools.size > 0 %}
+        <div class="tag-row" aria-label="Course tools and methods">
+          {% for tool in course.tools %}
+            <span>{{ tool }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+        {% if course.actions and course.actions.size > 0 %}
+        <div class="card-actions">
+          {% for action in course.actions %}
+            <a class="button small{% if action.style == 'secondary' %} secondary{% endif %}" href="{{ action.url }}"{% if action.external %} target="_blank" rel="noopener"{% endif %}>{{ action.label }}</a>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      {% endif %}
+    </article>
+  {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{% if site.data.teaching.graduate and site.data.teaching.graduate.size > 0 %}
+<section class="teaching-section" aria-labelledby="graduate-courses">
+  <div class="teaching-section-head">
+    <p class="eyebrow">Graduate Education</p>
+    <h2 id="graduate-courses">Graduate Courses</h2>
+  </div>
+
+  <div class="course-list">
+  {% for course in site.data.teaching.graduate %}
+    <article class="course-card{% if course.status == 'pilot' %} course-card--pilot{% endif %}">
+      <div class="course-meta">
+        {% if course.term %}<span>{{ course.term }}</span>{% endif %}
+        {% if course.level %}<span>{{ course.level }}</span>{% endif %}
+        {% if course.code %}<span>Course Code: {{ course.code }}</span>{% endif %}
+        {% if course.credits %}<span>{{ course.credits }}</span>{% endif %}
+        {% if course.language %}<span>{{ course.language }}</span>{% endif %}
+      </div>
+
+      <h3>{% if course.code %}{{ course.code }}: {% endif %}{{ course.title }}</h3>
+      {% if course.title_zh %}
+        <p class="course-title-zh">{{ course.title_zh }}</p>
+      {% endif %}
+      {% if course.department %}
+        <p class="course-dept">{{ course.department }}</p>
+      {% endif %}
+
+      {% if course.description %}
+        <p class="course-desc">{{ course.description }}</p>
+      {% endif %}
+
+      {% if course.modules and course.modules.size > 0 %}
+      <div class="course-block">
+        <h4>Curriculum &amp; Core Modules</h4>
+        <ul class="course-modules">
+          {% for mod in course.modules %}
+          <li><strong>{{ mod.name }}:</strong> {{ mod.detail }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
+      {% if course.textbooks and course.textbooks.size > 0 %}
+      <div class="course-block">
+        <h4>Textbooks &amp; Materials</h4>
+        <ul class="course-refs">
+          {% for ref in course.textbooks %}
+          <li>{{ ref }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
+      {% if course.note %}
+        <p class="course-note">{{ course.note }}</p>
+      {% endif %}
+
+      {% if course.tools or course.actions %}
+      <div class="course-footer">
+        {% if course.tools and course.tools.size > 0 %}
+        <div class="tag-row" aria-label="Course tools and methods">
+          {% for tool in course.tools %}
+            <span>{{ tool }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+        {% if course.actions and course.actions.size > 0 %}
+        <div class="card-actions">
+          {% for action in course.actions %}
+            <a class="button small{% if action.style == 'secondary' %} secondary{% endif %}" href="{{ action.url }}"{% if action.external %} target="_blank" rel="noopener"{% endif %}>{{ action.label }}</a>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+      {% endif %}
+    </article>
+  {% endfor %}
+  </div>
+</section>
+{% endif %}
